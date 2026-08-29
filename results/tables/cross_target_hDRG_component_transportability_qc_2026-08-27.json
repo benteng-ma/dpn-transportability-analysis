@@ -1,0 +1,172 @@
+{
+  "analysis_date": "2026-08-27",
+  "random_seed": 20260827,
+  "matched_null_iterations": 10000,
+  "analysis_role": "post_JCI_explanatory_not_independent_confirmation",
+  "source_audit": {
+    "signature_file_sha256": "10c7e07c7865a53623c08c5030186f80618895c00555868a9b37fb96b6ff69c7",
+    "source_signature_counts": {
+      "early_allcell_diabetes_vs_control": 656,
+      "late_allcell_DPN_vs_diabetes": 3173,
+      "late_neuron_DPN_vs_diabetes": 744,
+      "severity_neuron_modhigh_vs_low_nageotte": 509,
+      "xenium_DPN_vs_control": 60
+    },
+    "asserted_component_counts": {
+      "late_shared_concordant_neuronal_core": {
+        "all": 196,
+        "up": 77,
+        "down": 119
+      },
+      "late_allcell_residual": {
+        "all": 2951,
+        "up": 1339,
+        "down": 1612
+      },
+      "late_neuron_residual": {
+        "all": 522,
+        "up": 215,
+        "down": 307
+      },
+      "late_directionally_opposed_overlap": {
+        "all": 26,
+        "up": 0,
+        "down": 0
+      },
+      "severity_neuron_shared_concordant_core": {
+        "all": 137,
+        "up": 104,
+        "down": 33
+      },
+      "severity_neuron_residual": {
+        "all": 348,
+        "up": 230,
+        "down": 118
+      },
+      "severity_directionally_opposed_overlap": {
+        "all": 24,
+        "up": 0,
+        "down": 0
+      }
+    }
+  },
+  "independent_human_hDRG_audit": {
+    "all_gene_rows_deposited": 42897,
+    "de_rows_resolved_to_human_gene_id": 28979,
+    "de_unique_resolved_gene_ids": 28944,
+    "finite_positive_basemean_universe_with_expression": 28942,
+    "excel_date_cells_recovered_de": 0,
+    "excel_date_cells_recovered_expression": 27,
+    "donor_columns": [
+      "DPN5",
+      "DPN4",
+      "DPN3",
+      "DPN2",
+      "DPN1",
+      "Con7",
+      "Con6",
+      "Con5",
+      "Con4",
+      "Con3",
+      "Con2",
+      "Con1"
+    ],
+    "de_workbook_sha256": "5a5ba8f7527c1c64c7ae3a3e66eb93690a9b4ac8b0baf5426e5210403f7d720d",
+    "expression_workbook_sha256": "4aa2994c508394a3aa89df0da63065bc27213a20c29b8b47acaa3f4047ba2e00",
+    "metadata_workbook_sha256": "ad1bce8ef8a5fe88d959f65635a37e644c299c76f74123b070cb4b2c82694722",
+    "donor_count": 12,
+    "group_counts": {
+      "Control": 7,
+      "DPN": 5
+    },
+    "sex_by_group_counts": {
+      "F_Control": 3,
+      "F_DPN": 3,
+      "M_Control": 4,
+      "M_DPN": 2
+    },
+    "age_by_group": {
+      "Control": {
+        "count": 7,
+        "mean": 45.57142857142857,
+        "min": 30,
+        "max": 55
+      },
+      "DPN": {
+        "count": 5,
+        "mean": 56.6,
+        "min": 47,
+        "max": 69
+      }
+    }
+  },
+  "rat_DRG_audit": {
+    "counts_file_sha256": "a91cf5036e6d781e9c3ae1ffbd293a3e01d71f796655a6243f568937faa1a4f8",
+    "animal_count": 8,
+    "expressed_gene_ids": 11878,
+    "orthology": {
+      "unique_pairs": 16946,
+      "human_with_any": 16946,
+      "other_with_any": 16946,
+      "reciprocal_one_to_one": 16946
+    }
+  },
+  "ocular_audits": [
+    {
+      "dataset": "GSE329119",
+      "effect_rows": 15146,
+      "resolved_effect_rows": 14588,
+      "unique_resolved_effect_gene_ids": 14549,
+      "target_universe_gene_ids": 14549,
+      "sample_count": 6,
+      "effect_sha256": "ce7ff03e4a691ed05048bf1d27ea20dd4be1ba8a152e9db414f4131de5b044d7",
+      "expression_sha256": "323b93dadfe964a755386657118835134c29452389ed5c73c48d4e67f1d4740f",
+      "orthology": {
+        "unique_pairs": 17096,
+        "human_with_any": 17096,
+        "other_with_any": 17096,
+        "reciprocal_one_to_one": 17096
+      }
+    },
+    {
+      "dataset": "GSE227165",
+      "effect_rows": 61453,
+      "resolved_effect_rows": 47069,
+      "unique_resolved_effect_gene_ids": 18726,
+      "target_universe_gene_ids": 18726,
+      "sample_count": 6,
+      "effect_sha256": "0b17a59906feec124420f096bb52fcd5a5392b9501f5b83452f65f067f36a084",
+      "expression_sha256": "df7b8f6ba80190dd4082f4eece6cd931993a24c14dd2ac73bcbffe1b5c767574",
+      "orthology": {
+        "unique_pairs": 16946,
+        "human_with_any": 16946,
+        "other_with_any": 16946,
+        "reciprocal_one_to_one": 16946
+      }
+    },
+    {
+      "dataset": "GSE180490",
+      "effect_rows": 14969,
+      "resolved_effect_rows": 14816,
+      "unique_resolved_effect_gene_ids": 14782,
+      "target_universe_gene_ids": 14418,
+      "sample_count": 6,
+      "effect_sha256": "10d2fd833db9d5f01d2081bad83dc7d0a743e36499fade82ffb1c0bcc13da4d3",
+      "expression_sha256": "76c70036f16644d52157bd848e9dccc3741d0fafc4b15e0a87eadbd8f0b21fb4",
+      "orthology": {
+        "unique_pairs": 17096,
+        "human_with_any": 17096,
+        "other_with_any": 17096,
+        "reciprocal_one_to_one": 17096
+      }
+    }
+  ],
+  "support_counts_by_target": {
+    "GSE176017_rat_DRG": 2,
+    "GSE180490": 2,
+    "GSE227165": 0,
+    "GSE329119": 2,
+    "JCI184075_human_sural_nerve": 1,
+    "independent_human_hDRG": 2
+  }
+}

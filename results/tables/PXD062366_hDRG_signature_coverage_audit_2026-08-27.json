@@ -1,0 +1,15 @@
+{
+  "sample_count": 47,
+  "protein_group_rows": 1698,
+  "unambiguous_gene_mapped_rows": 1625,
+  "unique_gene_representatives": 1619,
+  "detection_50pct_minimum_samples": 24,
+  "gene_representatives_passing_detection_50pct": 744,
+  "mapping_method_counts": {
+    "official_exact": 1614,
+    "ambiguous_multi_gene_protein_group": 66,
+    "unique_synonym": 11,
+    "missing_gene_annotation": 7
+  },
+  "analysis_boundary": "No Healthy/preDM/T2DM group association was calculated in this coverage audit."
+}

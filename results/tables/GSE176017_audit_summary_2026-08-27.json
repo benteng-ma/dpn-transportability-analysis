@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "soft_file": "${PROJECT_ROOT}\\data\\raw\\GSE176017\\GSE176017_family.soft.gz",
+  "soft_sha256": "6c950fdd6c10f3ff1c1b5ae98f4ec8ff259682e496a635ef45f80e6a7a3599eb",
+  "n_animal_matrices": 8,
+  "group_counts": {
+    "Painful_DPN": 4,
+    "Diabetes_no_allodynia": 2,
+    "Normal": 2
+  },
+  "total_cells": 8765,
+  "union_gene_symbols": 20730,
+  "total_umi": 38067962,
+  "minimum_cells_in_an_animal": 488,
+  "maximum_cells_in_an_animal": 1816,
+  "all_matrices_structurally_valid": true,
+  "animal_is_inferential_unit": true,
+  "small_group_warning": "Normal and diabetes-without-allodynia each have n=2 animals. Effect size, exact uncertainty, and leave-one-animal-out behavior must be shown; this dataset cannot provide definitive inference alone.",
+  "outputs": [
+    "${PROJECT_ROOT}\\results\\tables\\GSE176017_per_animal_matrix_qc_2026-08-27.tsv",
+    "${PROJECT_ROOT}\\metadata\\GSE176017_animal_metadata_2026-08-27.tsv",
+    "${PROJECT_ROOT}\\results\\tables\\GSE176017_animal_pseudobulk_raw_counts_2026-08-27.tsv.gz"
+  ]
+}

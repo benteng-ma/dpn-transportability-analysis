@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "raw_file": "${PROJECT_ROOT}\\data\\raw\\PXD062366\\Proteins_Report.csv",
+  "raw_sha256": "eea3d0d0557f0932d4bbc3a3712dbdde89375aded4e1a3499e59a86a0e343eca",
+  "supplement_file": "${PROJECT_ROOT}\\data\\raw\\PXD062366\\supplement\\Table S1.xlsx",
+  "supplement_sha256": "881ece355983968cd667ce21a5d48fe0c8b3569e7d5a1c5be301b9372ce9b960",
+  "raw_shape": [
+    1698,
+    50
+  ],
+  "supplement_shape": [
+    1373,
+    50
+  ],
+  "shared_one_to_one_uniprot_rows": 1370,
+  "n_sample_columns": 47,
+  "group_counts": {
+    "Healthy": 13,
+    "T2DM": 18,
+    "preDM": 16
+  },
+  "unique_assignments": true,
+  "all_best_matches_exact": true,
+  "all_missingness_agreement_at_least_0_999": true,
+  "minimum_exact_fraction": 1.0,
+  "minimum_missingness_agreement_fraction": 1.0,
+  "minimum_exact_match_margin": 1.0,
+  "outputs": [
+    "${PROJECT_ROOT}\\results\\tables\\PXD062366_sample_group_mapping_2026-08-27.tsv",
+    "${PROJECT_ROOT}\\metadata\\PXD062366_sample_metadata_2026-08-27.tsv"
+  ],
+  "interpretation": "Subject IDs in Proteins_Report.csv are deterministically assigned to the Healthy, preDM, and T2DM groups by exact abundance-vector matches to the author supplement."
+}

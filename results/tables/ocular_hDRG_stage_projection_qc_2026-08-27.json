@@ -1,0 +1,207 @@
+{
+  "status": "PASS",
+  "frozen_spec": "OCULAR_TRANSFER_FROZEN_SPEC_2026-08-27.md",
+  "random_seed": 20260827,
+  "matched_null_iterations": 10000,
+  "orthology_qc": {
+    "mouse": {
+      "unique_pairs": 17096,
+      "human_with_any": 17096,
+      "other_with_any": 17096,
+      "reciprocal_one_to_one": 17096
+    },
+    "rat": {
+      "unique_pairs": 16946,
+      "human_with_any": 16946,
+      "other_with_any": 16946,
+      "reciprocal_one_to_one": 16946
+    }
+  },
+  "input_hashes": {
+    "${PROJECT_ROOT}\\results\\tables\\hDRG_frozen_primary_stage_signatures_2026-08-27.tsv": "10c7e07c7865a53623c08c5030186f80618895c00555868a9b37fb96b6ff69c7",
+    "${PROJECT_ROOT}\\data\\raw\\NCBI_orthology_2026-08-27\\gene_orthologs.gz": "00b874bfb67f389b6ee3d2aa9c37d288eda4d4d9ed419fd81e43499b2bac42a8",
+    "${PROJECT_ROOT}\\data\\raw\\NCBI_orthology_2026-08-27\\Homo_sapiens.gene_info.gz": "7a9622bda5fd16e5e4eab75ecf64d69977f4388e93066d1eb68a9d0a71ed2c8a",
+    "${PROJECT_ROOT}\\data\\raw\\NCBI_orthology_2026-08-27\\Mus_musculus.gene_info.complete.gz": "12147728b4cc781353d85f9263b98f42da38fa69d5195eb1e99eb82bc3e0e227",
+    "${PROJECT_ROOT}\\data\\raw\\NCBI_orthology_2026-08-27\\Rattus_norvegicus.gene_info.gz": "ba91d2fb6c5ad96a5e29a29035bf5fc3b27f0ba9dd3fb4860a9e3e2c6db72bf3"
+  },
+  "dataset_audits": [
+    {
+      "dataset": "GSE329119",
+      "effect_rows": 15146,
+      "resolved_effect_rows": 14588,
+      "unique_resolved_effect_gene_ids": 14549,
+      "target_universe_gene_ids": 14549,
+      "sample_count": 6,
+      "effect_sha256": "ce7ff03e4a691ed05048bf1d27ea20dd4be1ba8a152e9db414f4131de5b044d7",
+      "expression_sha256": "323b93dadfe964a755386657118835134c29452389ed5c73c48d4e67f1d4740f",
+      "orthology_species": "mouse"
+    },
+    {
+      "dataset": "GSE227165",
+      "effect_rows": 61453,
+      "resolved_effect_rows": 47069,
+      "unique_resolved_effect_gene_ids": 18726,
+      "target_universe_gene_ids": 18726,
+      "sample_count": 6,
+      "effect_sha256": "0b17a59906feec124420f096bb52fcd5a5392b9501f5b83452f65f067f36a084",
+      "expression_sha256": "df7b8f6ba80190dd4082f4eece6cd931993a24c14dd2ac73bcbffe1b5c767574",
+      "orthology_species": "rat"
+    },
+    {
+      "dataset": "GSE180490",
+      "effect_rows": 14969,
+      "resolved_effect_rows": 14816,
+      "unique_resolved_effect_gene_ids": 14782,
+      "target_universe_gene_ids": 14418,
+      "sample_count": 6,
+      "effect_sha256": "10d2fd833db9d5f01d2081bad83dc7d0a743e36499fade82ffb1c0bcc13da4d3",
+      "expression_sha256": "76c70036f16644d52157bd848e9dccc3741d0fafc4b15e0a87eadbd8f0b21fb4",
+      "orthology_species": "mouse"
+    }
+  ],
+  "null_summaries": {
+    "GSE329119__early_allcell_diabetes_vs_control": {
+      "gene_null_quantiles": {
+        "0": -0.12702636493396877,
+        "0.025": -0.059353802794147606,
+        "0.5": -0.004595122242328361,
+        "0.975": 0.0506695585253507,
+        "1": 0.1191025213516172
+      }
+    },
+    "GSE329119__late_allcell_DPN_vs_diabetes": {
+      "gene_null_quantiles": {
+        "0": -0.0711426060996448,
+        "0.025": -0.04648432673505834,
+        "0.5": -0.021200229369753545,
+        "0.975": 0.004948826032505401,
+        "1": 0.02589172088132123
+      }
+    },
+    "GSE329119__late_neuron_DPN_vs_diabetes": {
+      "gene_null_quantiles": {
+        "0": -0.12078653713569176,
+        "0.025": -0.05688285332626362,
+        "0.5": -0.001876290268003969,
+        "0.975": 0.05323760768663165,
+        "1": 0.11138973637113746
+      }
+    },
+    "GSE329119__severity_neuron_modhigh_vs_low_nageotte": {
+      "gene_null_quantiles": {
+        "0": -0.12131863045546061,
+        "0.025": -0.07004263120267214,
+        "0.5": -0.013396592683524031,
+        "0.975": 0.04422927061831038,
+        "1": 0.09647586966733263
+      }
+    },
+    "GSE329119__xenium_DPN_vs_control": {
+      "gene_null_quantiles": {
+        "0": -0.5908528238298564,
+        "0.025": -0.2590895545778429,
+        "0.5": -0.003500347597589647,
+        "0.975": 0.26496477193260587,
+        "1": 0.7170706889523617
+      }
+    },
+    "GSE227165__early_allcell_diabetes_vs_control": {
+      "gene_null_quantiles": {
+        "0": -0.12449345785103141,
+        "0.025": -0.07251733119303601,
+        "0.5": -0.0005561713006176018,
+        "0.975": 0.07038858126670398,
+        "1": 0.13743767019475928
+      }
+    },
+    "GSE227165__late_allcell_DPN_vs_diabetes": {
+      "gene_null_quantiles": {
+        "0": -0.06302198636503475,
+        "0.025": -0.030332188293985356,
+        "0.5": 0.0010150353260064329,
+        "0.975": 0.031838575862455656,
+        "1": 0.06379499399428033
+      }
+    },
+    "GSE227165__late_neuron_DPN_vs_diabetes": {
+      "gene_null_quantiles": {
+        "0": -0.12493619103674611,
+        "0.025": -0.07015013892687516,
+        "0.5": -0.0014758979405268737,
+        "0.975": 0.06777333980182135,
+        "1": 0.13547101153141333
+      }
+    },
+    "GSE227165__severity_neuron_modhigh_vs_low_nageotte": {
+      "gene_null_quantiles": {
+        "0": -0.15089085138962133,
+        "0.025": -0.07547325989104899,
+        "0.5": 0.0017177022042534147,
+        "0.975": 0.08127374261636006,
+        "1": 0.17458524290735475
+      }
+    },
+    "GSE227165__xenium_DPN_vs_control": {
+      "gene_null_quantiles": {
+        "0": -0.5180517196639738,
+        "0.025": -0.22742065664877315,
+        "0.5": 0.010397101507519805,
+        "0.975": 0.25488601642114933,
+        "1": 0.5116035724688506
+      }
+    },
+    "GSE180490__early_allcell_diabetes_vs_control": {
+      "gene_null_quantiles": {
+        "0": -0.13393625124134562,
+        "0.025": -0.06413101921088954,
+        "0.5": 0.0007851110177179432,
+        "0.975": 0.06418591761722278,
+        "1": 0.12121095723685228
+      }
+    },
+    "GSE180490__late_allcell_DPN_vs_diabetes": {
+      "gene_null_quantiles": {
+        "0": -0.05241060372426114,
+        "0.025": -0.030211381200043144,
+        "0.5": -0.001600210647674384,
+        "0.975": 0.027952348889874516,
+        "1": 0.05154926981184081
+      }
+    },
+    "GSE180490__late_neuron_DPN_vs_diabetes": {
+      "gene_null_quantiles": {
+        "0": -0.12428876249541257,
+        "0.025": -0.06271606630898403,
+        "0.5": 0.00010775964763582759,
+        "0.975": 0.06405946478888021,
+        "1": 0.1285632512333901
+      }
+    },
+    "GSE180490__severity_neuron_modhigh_vs_low_nageotte": {
+      "gene_null_quantiles": {
+        "0": -0.17493503061336596,
+        "0.025": -0.07129754529659837,
+        "0.5": 0.001462951239717885,
+        "0.975": 0.07156367820443174,
+        "1": 0.15611933382445417
+      }
+    },
+    "GSE180490__xenium_DPN_vs_control": {
+      "gene_null_quantiles": {
+        "0": -0.5473721007282701,
+        "0.025": -0.29583582955362714,
+        "0.5": -0.0001456661305763423,
+        "0.975": 0.31090560976089776,
+        "1": 0.9035096850209733
+      }
+    }
+  },
+  "gate_components": {
+    "resting_ocular_allcell_support": true,
+    "tg_supportive_neuronal_signatures": [],
+    "minimum_cornea_specificity_boundary": false
+  },
+  "ocular_transfer_gate_pass": false,
+  "interpretation_boundary": "A pass supports anatomy-aware transfer, not propagation, same-animal coupling, temporal causality, or MG/LG diabetes specificity.",
+  "excluded_incomplete_download": "${PROJECT_ROOT}\\data\\raw\\NCBI_orthology_2026-08-27\\Mus_musculus.gene_info.gz"
+}

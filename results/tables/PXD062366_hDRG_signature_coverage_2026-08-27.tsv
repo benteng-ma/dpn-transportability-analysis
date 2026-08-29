@@ -1,0 +1,11 @@
+contrast_id	direction	original_gene_n	resolved_unique_gene_n	tear_proteome_gene_n_any_detection	tear_proteome_gene_n_detection_ge_50pct	fraction_original_detection_ge_50pct
+early_allcell_diabetes_vs_control	down	353	337	50	22	0.06232294617563739
+early_allcell_diabetes_vs_control	up	303	303	13	7	0.0231023102310231
+late_allcell_DPN_vs_diabetes	down	1737	1722	196	94	0.05411629245826137
+late_allcell_DPN_vs_diabetes	up	1436	1409	67	30	0.020891364902506964
+late_neuron_DPN_vs_diabetes	down	446	427	51	23	0.0515695067264574
+late_neuron_DPN_vs_diabetes	up	298	266	32	11	0.03691275167785235
+severity_neuron_modhigh_vs_low_nageotte	down	153	151	54	33	0.21568627450980393
+severity_neuron_modhigh_vs_low_nageotte	up	356	338	26	7	0.019662921348314606
+xenium_DPN_vs_control	down	43	43	5	5	0.11627906976744186
+xenium_DPN_vs_control	up	17	17	0	0	0.0

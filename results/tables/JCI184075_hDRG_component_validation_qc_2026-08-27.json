@@ -1,0 +1,137 @@
+{
+  "analysis_date": "2026-08-27",
+  "random_seed": 20260827,
+  "matched_null_iterations": 10000,
+  "source_audit": {
+    "signature_file_sha256": "10c7e07c7865a53623c08c5030186f80618895c00555868a9b37fb96b6ff69c7",
+    "source_signature_counts": {
+      "early_allcell_diabetes_vs_control": 656,
+      "late_allcell_DPN_vs_diabetes": 3173,
+      "late_neuron_DPN_vs_diabetes": 744,
+      "severity_neuron_modhigh_vs_low_nageotte": 509,
+      "xenium_DPN_vs_control": 60
+    },
+    "asserted_component_counts": {
+      "late_shared_concordant_neuronal_core": {
+        "all": 196,
+        "up": 77,
+        "down": 119
+      },
+      "late_allcell_residual": {
+        "all": 2951,
+        "up": 1339,
+        "down": 1612
+      },
+      "late_neuron_residual": {
+        "all": 522,
+        "up": 215,
+        "down": 307
+      },
+      "late_directionally_opposed_overlap": {
+        "all": 26,
+        "up": 0,
+        "down": 0
+      },
+      "severity_neuron_shared_concordant_core": {
+        "all": 137,
+        "up": 104,
+        "down": 33
+      },
+      "severity_neuron_residual": {
+        "all": 348,
+        "up": 230,
+        "down": 118
+      },
+      "severity_directionally_opposed_overlap": {
+        "all": 24,
+        "up": 0,
+        "down": 0
+      }
+    }
+  },
+  "dpn_control_target_audit": {
+    "target_id": "DPN_vs_control",
+    "source_workbook": "jci-135-184075-s176.xlsx",
+    "source_workbook_sha256": "c046fdbf3e3e3b012794f1fa94200daf468f2d3a46dc761a49e919b4e4d53dc0",
+    "source_sheet": "deseq2_results",
+    "deposited_rows": 19984,
+    "resolved_rows": 19302,
+    "unique_resolved_gene_ids": 19301,
+    "finite_positive_basemean_complete_expression_universe": 17924,
+    "excel_date_cells_recovered": 0,
+    "sample_columns": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "S38",
+      "S39",
+      "S40",
+      "S42",
+      "S43",
+      "S44"
+    ],
+    "group_counts": {
+      "Control": 6,
+      "DPN": 6
+    },
+    "target_orientation_multiplier": 1
+  },
+  "axon_severity_target_audit": {
+    "target_id": "severe_vs_moderate_axonal_loss",
+    "source_workbook": "jci-135-184075-s172.xlsx",
+    "source_workbook_sha256": "1e361e7b4a251b5526d3bcdc436fcb96fc21bb1e58ef061a3dec9fc087a4b073",
+    "source_sheet": "Deseq_mod_vs_severe_axonLoss",
+    "deposited_rows": 19971,
+    "resolved_rows": 19323,
+    "unique_resolved_gene_ids": 19322,
+    "finite_positive_basemean_complete_expression_universe": 19027,
+    "excel_date_cells_recovered": 0,
+    "sample_columns": [
+      "S8",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "S22",
+      "S25",
+      "S28",
+      "S30",
+      "S31",
+      "S33",
+      "S34"
+    ],
+    "group_counts": {
+      "Severe": 13,
+      "Moderate": 4
+    },
+    "target_orientation_multiplier": -1
+  },
+  "tpm_sensitivity_audit": {
+    "source_workbook": "jci-135-184075-s175.xlsx",
+    "source_workbook_sha256": "3a33975ae22ad3817aec4f8c65e586ccf8a7d2a0eb70f678774a59636637670d",
+    "source_sheet": "A - Quantile normalized TPMs",
+    "deposited_rows": 14808,
+    "positive_complete_unique_gene_ids": 14586,
+    "excel_date_cells_recovered": 0
+  },
+  "gate_summary": {
+    "distal_neuronal_state_gate": "PASS",
+    "within_DPN_axonal_severity_gate": "PASS",
+    "pure_computational_manuscript_upgrade_gate": "PASS",
+    "distal_passing_components": [
+      "late_neuron_residual"
+    ],
+    "severity_passing_components": [
+      "severity_neuron_shared_concordant_core"
+    ]
+  },
+  "interpretation": "peer_reviewed_human_distal_nerve_upgrade"
+}

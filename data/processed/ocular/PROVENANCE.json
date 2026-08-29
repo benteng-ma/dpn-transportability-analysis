@@ -1,0 +1,44 @@
+[
+  {
+    "file": "data/processed/ocular/GSE329119_diabetes_effects.tsv",
+    "source_accession": "GSE329119",
+    "sha256": "ce7ff03e4a691ed05048bf1d27ea20dd4be1ba8a152e9db414f4131de5b044d7",
+    "size_bytes": 2824472,
+    "note": "Frozen processed derivative from a public GEO dataset; no raw source data included."
+  },
+  {
+    "file": "data/processed/ocular/GSE329119_gene_FPKM_clean.tsv.gz",
+    "source_accession": "GSE329119",
+    "sha256": "323b93dadfe964a755386657118835134c29452389ed5c73c48d4e67f1d4740f",
+    "size_bytes": 654369,
+    "note": "Frozen processed derivative from a public GEO dataset; no raw source data included."
+  },
+  {
+    "file": "data/processed/ocular/GSE227165_diabetes_effects_with_mouse_ortholog.tsv",
+    "source_accession": "GSE227165",
+    "sha256": "0b17a59906feec124420f096bb52fcd5a5392b9501f5b83452f65f067f36a084",
+    "size_bytes": 11186684,
+    "note": "Frozen processed derivative from a public GEO dataset; no raw source data included."
+  },
+  {
+    "file": "data/processed/ocular/GSE227165_rat_cornea_gene_FPKM_clean.tsv.gz",
+    "source_accession": "GSE227165",
+    "sha256": "df7b8f6ba80190dd4082f4eece6cd931993a24c14dd2ac73bcbffe1b5c767574",
+    "size_bytes": 1727193,
+    "note": "Frozen processed derivative from a public GEO dataset; no raw source data included."
+  },
+  {
+    "file": "data/processed/ocular/GSE180490_diabetes_effects.tsv",
+    "source_accession": "GSE180490",
+    "sha256": "10d2fd833db9d5f01d2081bad83dc7d0a743e36499fade82ffb1c0bcc13da4d3",
+    "size_bytes": 2652760,
+    "note": "Frozen processed derivative from a public GEO dataset; no raw source data included."
+  },
+  {
+    "file": "data/processed/ocular/GSE180490_gene_FPKM_clean.tsv.gz",
+    "source_accession": "GSE180490",
+    "sha256": "76c70036f16644d52157bd848e9dccc3741d0fafc4b15e0a87eadbd8f0b21fb4",
+    "size_bytes": 810143,
+    "note": "Frozen processed derivative from a public GEO dataset; no raw source data included."
+  }
+]

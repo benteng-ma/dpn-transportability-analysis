@@ -1,0 +1,15 @@
+target_id	module_id	source_n	source_up_n	source_down_n	mapped_n	mapped_up_n	mapped_down_n	coverage_fraction	minimum_10_per_direction
+DPN_vs_control	late_shared_concordant_neuronal_core	178	65	113	172	63	109	0.9662921348314607	True
+DPN_vs_control	late_neuron_residual	407	145	262	389	137	252	0.9557739557739557	True
+DPN_vs_control	late_allcell_residual	2922	1317	1605	2890	1304	1586	0.9890485968514716	True
+DPN_vs_control	severity_neuron_shared_concordant_core	110	87	23	106	85	21	0.9636363636363636	True
+DPN_vs_control	severity_neuron_residual	346	228	118	345	227	118	0.9971098265895953	True
+DPN_vs_control	original_late_allcell	3118	1400	1718	3080	1384	1696	0.9878127004490058	True
+DPN_vs_control	original_late_neuron	569	191	378	545	182	363	0.9578207381370826	True
+DPN_vs_control	original_severity	473	331	142	469	329	140	0.9915433403805497	True
+DPN_vs_control	original_early_allcell	641	303	338	631	302	329	0.984399375975039	True
+DPN_vs_control	original_xenium	60	17	43	60	17	43	1.0	True
+severe_vs_moderate_axonal_loss	severity_neuron_shared_concordant_core	110	87	23	107	85	22	0.9727272727272728	True
+severe_vs_moderate_axonal_loss	severity_neuron_residual	346	228	118	345	227	118	0.9971098265895953	True
+severe_vs_moderate_axonal_loss	original_severity	473	331	142	470	329	141	0.9936575052854123	True
+severe_vs_moderate_axonal_loss	original_late_neuron	569	191	378	547	181	366	0.961335676625659	True

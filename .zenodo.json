@@ -1,0 +1,30 @@
+{
+  "title": "DPN transportability analysis: code and frozen reproducibility archive",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Ma, Benteng",
+      "affiliation": "Department of Ophthalmology, The Second Xiangya Hospital, Central South University; Hunan Clinical Research Centre of Ophthalmic Disease"
+    },
+    {
+      "name": "Chen, Baihua",
+      "affiliation": "Department of Ophthalmology, The Second Xiangya Hospital, Central South University; Hunan Clinical Research Centre of Ophthalmic Disease"
+    }
+  ],
+  "description": "Frozen analysis code, environment specification, sample metadata, selected processed derivatives, numerical result tables, figures, and traceability audits for a source-frozen, non-pooled study of human sensory-ganglion transcriptomic-program transportability in diabetic neuropathy. Third-party raw data are not redistributed.",
+  "keywords": [
+    "diabetic peripheral neuropathy",
+    "dorsal root ganglion",
+    "sural nerve",
+    "trigeminal ganglion",
+    "diabetic cornea",
+    "transcriptomics",
+    "transportability",
+    "cross-species analysis",
+    "reproducible research"
+  ]
+}

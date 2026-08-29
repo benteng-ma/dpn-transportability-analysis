@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "frozen_spec": "INDEPENDENT_HUMAN_BULK_VALIDATION_FROZEN_SPEC_2026-08-27.md",
+  "source_article": {
+    "title": "Transcriptomic analysis of human sensory neurons in painful diabetic neuropathy reveals inflammation and neuronal loss",
+    "pmid": "35304484",
+    "pmcid": "PMC8933403",
+    "doi": "10.1038/s41598-022-08100-8"
+  },
+  "target_audit": {
+    "all_gene_rows_deposited": 42897,
+    "de_rows_resolved_to_human_gene_id": 28979,
+    "de_unique_resolved_gene_ids": 28944,
+    "finite_positive_basemean_universe_with_expression": 28942,
+    "excel_date_cells_recovered_de": 0,
+    "excel_date_cells_recovered_expression": 27,
+    "donor_columns": [
+      "DPN5",
+      "DPN4",
+      "DPN3",
+      "DPN2",
+      "DPN1",
+      "Con7",
+      "Con6",
+      "Con5",
+      "Con4",
+      "Con3",
+      "Con2",
+      "Con1"
+    ],
+    "de_workbook_sha256": "5a5ba8f7527c1c64c7ae3a3e66eb93690a9b4ac8b0baf5426e5210403f7d720d",
+    "expression_workbook_sha256": "4aa2994c508394a3aa89df0da63065bc27213a20c29b8b47acaa3f4047ba2e00"
+  },
+  "metadata_audit": {
+    "metadata_workbook_sha256": "ad1bce8ef8a5fe88d959f65635a37e644c299c76f74123b070cb4b2c82694722",
+    "donor_count": 12,
+    "group_counts": {
+      "Control": 7,
+      "DPN": 5
+    },
+    "sex_by_group_counts": {
+      "F_Control": 3,
+      "F_DPN": 3,
+      "M_Control": 4,
+      "M_DPN": 2
+    },
+    "age_by_group": {
+      "Control": {
+        "count": 7,
+        "mean": 45.57142857142857,
+        "min": 30,
+        "max": 55
+      },
+      "DPN": {
+        "count": 5,
+        "mean": 56.6,
+        "min": 47,
+        "max": 69
+      }
+    }
+  },
+  "signature_source_sha256": "10c7e07c7865a53623c08c5030186f80618895c00555868a9b37fb96b6ff69c7",
+  "ncbi_gene_info_sha256": "7a9622bda5fd16e5e4eab75ecf64d69977f4388e93066d1eb68a9d0a71ed2c8a",
+  "random_seed": 20260827,
+  "matched_null_iterations": 10000,
+  "null_summaries": {
+    "early_allcell_diabetes_vs_control": {
+      "gene_matched_null_quantiles": {
+        "0": -0.4799409151353954,
+        "0.025": -0.2144170349574187,
+        "0.5": 0.018450542440712214,
+        "0.975": 0.24757235384722448,
+        "1": 0.45279977777404834
+      },
+      "donor_sex_stratified_null_quantiles": {
+        "0": -0.022283590162492872,
+        "0.025": -0.018836297988982884,
+        "0.5": -0.0027129772224579844,
+        "0.975": 0.01395476189605163,
+        "1": 0.019302067303074755
+      }
+    },
+    "late_allcell_DPN_vs_diabetes": {
+      "gene_matched_null_quantiles": {
+        "0": -0.22165235273224973,
+        "0.025": -0.13312102097205492,
+        "0.5": -0.030317420231607488,
+        "0.975": 0.07197974439889149,
+        "1": 0.15439534758984316
+      },
+      "donor_sex_stratified_null_quantiles": {
+        "0": -0.03710777014830413,
+        "0.025": -0.02861128213339657,
+        "0.5": -0.002637808821948154,
+        "0.975": 0.029073842058900113,
+        "1": 0.039372594013901197
+      }
+    },
+    "late_neuron_DPN_vs_diabetes": {
+      "gene_matched_null_quantiles": {
+        "0": -0.44753558801186105,
+        "0.025": -0.24212115902372802,
+        "0.5": -0.014555510418400266,
+        "0.975": 0.21680864984126996,
+        "1": 0.4409157929648523
+      },
+      "donor_sex_stratified_null_quantiles": {
+        "0": -0.008856059338296876,
+        "0.025": -0.006883563195995518,
+        "0.5": -0.00023364359227407566,
+        "0.975": 0.006629486400076063,
+        "1": 0.009555302940790551
+      }
+    },
+    "severity_neuron_modhigh_vs_low_nageotte": {
+      "gene_matched_null_quantiles": {
+        "0": -0.6000674391634927,
+        "0.025": -0.2845877487108096,
+        "0.5": -0.004398722635711222,
+        "0.975": 0.2674599023309018,
+        "1": 0.6414437974350848
+      },
+      "donor_sex_stratified_null_quantiles": {
+        "0": -0.013004240356609333,
+        "0.025": -0.011123761011434558,
+        "0.5": -0.0007881819637105235,
+        "0.975": 0.009015591600988327,
+        "1": 0.013100223975907203
+      }
+    },
+    "xenium_DPN_vs_control": {
+      "gene_matched_null_quantiles": {
+        "0": -1.7999535619753857,
+        "0.025": -0.8984131466194928,
+        "0.5": -0.013625197373254565,
+        "0.975": 0.9000763155112268,
+        "1": 2.1547238403951954
+      },
+      "donor_sex_stratified_null_quantiles": {
+        "0": -0.08452539099851666,
+        "0.025": -0.06756141098498979,
+        "0.5": 0.002469527639308862,
+        "0.975": 0.06198250629739251,
+        "1": 0.07894648631091945
+      }
+    }
+  },
+  "terminal_human_dpn_gate_pass": true,
+  "gate_interpretation": "A pass supports a reproducible terminal human DPN program but does not validate the specific diabetes-to-DPN transition."
+}

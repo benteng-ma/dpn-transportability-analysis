@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article and the final archived software release."
+title: "DPN transportability analysis"
+type: software
+version: "1.0.0"
+date-released: 2026-08-29
+license: MIT
+authors:
+  - family-names: Ma
+    given-names: Benteng
+  - family-names: Chen
+    given-names: Baihua
+abstract: >-
+  Reproducibility code, frozen metadata, processed ocular derivatives,
+  numerical results, figures, and audit records for a source-frozen,
+  non-pooled study of human sensory-ganglion transcriptomic-program
+  transportability in diabetic neuropathy.
+keywords:
+  - diabetic peripheral neuropathy
+  - dorsal root ganglion
+  - sural nerve
+  - trigeminal ganglion
+  - diabetic cornea
+  - transcriptomics
+  - transportability
+  - cross-species analysis
+preferred-citation:
+  type: article
+  title: "Cross-tissue projection of human sensory-ganglion transcriptomic programs in diabetic neuropathy: a multi-cohort computational study"
+  authors:
+    - family-names: Ma
+      given-names: Benteng
+    - family-names: Chen
+      given-names: Baihua
+  year: 2026
+  notes: "Manuscript under preparation; journal citation and DOI are not yet available."

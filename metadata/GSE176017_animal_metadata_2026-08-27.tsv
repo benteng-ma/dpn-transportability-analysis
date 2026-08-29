@@ -1,0 +1,9 @@
+gsm	sample_id	group	disease_state_geo	treatment	strain	source	biological_unit	inferential_role
+GSM5352803	DM1	Diabetes_no_allodynia	DM	streptozotocin	Sprague Dawley	Dorsal root ganglion	one rat	animal-level progression replication
+GSM5352804	DM2	Diabetes_no_allodynia	DM	streptozotocin	Sprague Dawley	Dorsal root ganglion	one rat	animal-level progression replication
+GSM5352801	N1	Normal	normal	vehicle	Sprague Dawley	Dorsal root ganglion	one rat	animal-level progression replication
+GSM5352802	N2	Normal	normal	vehicle	Sprague Dawley	Dorsal root ganglion	one rat	animal-level progression replication
+GSM5352805	PDPN1	Painful_DPN	PDPN	streptozotocin	Sprague Dawley	Dorsal root ganglion	one rat	animal-level progression replication
+GSM5352806	PDPN2	Painful_DPN	PDPN	streptozotocin	Sprague Dawley	Dorsal root ganglion	one rat	animal-level progression replication
+GSM5352807	PDPN3	Painful_DPN	PDPN	streptozotocin	Sprague Dawley	Dorsal root ganglion	one rat	animal-level progression replication
+GSM5412495	PDPN4	Painful_DPN	PDPN	streptozotocin	Sprague Dawley	Dorsal root ganglion	one rat	animal-level progression replication

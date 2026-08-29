@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-27",
+  "figure_rows": 6,
+  "claim_rows": 18,
+  "all_claims_pass": true,
+  "assertions": [
+    "five frozen source-signature counts match 656/3173/744/509/60",
+    "late and severity component counts match the source-only decomposition",
+    "evidence atlas contains 22 unique evidence units"
+  ],
+  "output_sha256": {
+    "FIGURE_RESULT_SOURCE_MAP_V1_2026-08-27.tsv": "134bda7d4c95de5149165a6d514f93530d7687dce6bd20f9a01356a340232377",
+    "MANUSCRIPT_NUMERICAL_CLAIM_REGISTRY_V1_2026-08-27.tsv": "8977bbe953691b50fae7416a65345c733b2e01cf430b78373a9a9b4ff0cb6810"
+  },
+  "source_sha256": {
+    "GSE302658_clinical_signature_tests_2026-08-27.tsv": "a5bb994f9f479451a8cd95dc4af4cc3470f9aea5fda96eff3ef1ff6af29988f6",
+    "JCI184075_hDRG_component_gate_table_2026-08-27.tsv": "d82bff9a8f8157d7499c97aca64c2f5c011d031932a4883960cf28d5ac065482",
+    "JCI184075_hDRG_component_sample_tests_2026-08-27.tsv": "a1c0e27fe1ab24c9a98d6adc84945d53da86aac5163a2b4bd7cd732aae723dcd",
+    "PXD062366_hDRG_signature_coverage_2026-08-27.tsv": "45fe19148ad4f8bed3ea3ab0947fdd33d059a19e81511ea4937233cc9fe79f0a",
+    "cross_target_hDRG_component_transportability_tests_2026-08-27.tsv": "f2e035bb5c63612976a61be6e8c5e13b0370c66696403f480fe975bcd9c11c4e",
+    "hDRG_frozen_primary_stage_signatures_2026-08-27.tsv": "10c7e07c7865a53623c08c5030186f80618895c00555868a9b37fb96b6ff69c7",
+    "hDRG_major_celltype_pairwise_proportion_tests_2026-08-27.tsv": "6cca70f6c05136cbef390a33f29b6130b4910573871ec716ae111c662925e70b",
+    "hDRG_source_defined_transport_components_2026-08-27.tsv": "1e5423965c04547280d2b9b70b8ccfbdec51ce9cde3bea2cf1f7f468fd47bc97",
+    "human_PBMC_stage_projection_meta_analysis_2026-08-27.tsv": "926efddbeb5cbacda4a48ec5276f07cb82b32dab99f0fa725e98ae6d49e7cea7",
+    "independent_human_DPN_bulk_signature_tests_2026-08-27.tsv": "2270c69b3ee85afb00d2258c68d1caf5f702e6fdb8497bb78b329687430c621c"
+  },
+  "boundary": "Registry checks source-table extraction and traceability; it does not convert explanatory or provisional analyses into independent validation."
+}

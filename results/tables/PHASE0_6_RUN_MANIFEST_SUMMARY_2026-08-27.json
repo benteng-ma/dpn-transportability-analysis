@@ -1,0 +1,16 @@
+{
+  "analysis_date": "2026-08-27",
+  "manifest_entry_count": 156,
+  "total_manifested_bytes": 28582673,
+  "category_counts": {
+    "result_tables": 69,
+    "result_figures": 30,
+    "analysis_script": 24,
+    "manuscript": 13,
+    "frozen_spec_or_status": 11,
+    "metadata": 8,
+    "report": 1
+  },
+  "manifest_sha256": "d305c7e4d3c8fc9e94bf712f6445d4da8579383b17dbf8622381a0a7a9bf87d1",
+  "scope_note": "Specifications, scripts, metadata, reports, manuscript files and result deliverables are manifested. Raw-input checksums are recorded in dataset-specific QC JSON files rather than duplicated here."
+}

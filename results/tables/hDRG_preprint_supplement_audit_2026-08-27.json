@@ -1,0 +1,286 @@
+{
+  "status": "PASS",
+  "source_status": "bioRxiv_preprint_not_peer_reviewed",
+  "preprint_doi": "10.64898/2026.01.16.700028",
+  "cohort_file": "${PROJECT_ROOT}\\data\\raw\\human_hDRG_preprint\\700028_file11.xlsx",
+  "cohort_sha256": "da0eaa2711c6f375a7c16eb7482d7c181603a386743d25d9b02c44b366567c71",
+  "data_file": "${PROJECT_ROOT}\\data\\raw\\human_hDRG_preprint\\700028_file12.xlsx",
+  "data_sha256": "aea62338d165b22a396b85ccbfb7a4b35b86921b9ed44a252cfbd70a9a6c4709",
+  "supplementary_data_sheet_count": 18,
+  "sheet_shapes": {
+    "Sup_Data1": {
+      "rows": 27,
+      "columns": 16
+    },
+    "Sup_Data2": {
+      "rows": 8495,
+      "columns": 7
+    },
+    "Sup_Data3": {
+      "rows": 7142,
+      "columns": 6
+    },
+    "Sup_Data4": {
+      "rows": 5177,
+      "columns": 6
+    },
+    "Sup_Data5": {
+      "rows": 748,
+      "columns": 6
+    },
+    "Sup_Data6": {
+      "rows": 511,
+      "columns": 6
+    },
+    "Sup_Data7": {
+      "rows": 40601,
+      "columns": 32
+    },
+    "Sup_Data8": {
+      "rows": 1181,
+      "columns": 20
+    },
+    "Sup_Data9": {
+      "rows": 1181,
+      "columns": 10
+    },
+    "Sup_Data10": {
+      "rows": 474,
+      "columns": 3
+    },
+    "Sup_Data11": {
+      "rows": 25,
+      "columns": 6
+    },
+    "Sup_Data12": {
+      "rows": 124,
+      "columns": 6
+    },
+    "Sup_Data13": {
+      "rows": 8951,
+      "columns": 7
+    },
+    "Sup_Data14": {
+      "rows": 47,
+      "columns": 12
+    },
+    "Sup_Data15": {
+      "rows": 8951,
+      "columns": 7
+    },
+    "Sup_Data16": {
+      "rows": 8951,
+      "columns": 7
+    },
+    "Sup_Data17": {
+      "rows": 8639,
+      "columns": 7
+    },
+    "Sup_Data18": {
+      "rows": 3,
+      "columns": 12
+    }
+  },
+  "transcript_contrasts": [
+    {
+      "source_sheet": "Sup_Data3",
+      "contrast_id": "early_allcell_diabetes_vs_control",
+      "effect_orientation": "Diabetes_minus_Control",
+      "rows_after_gene_repair_and_deduplication": 1488,
+      "excel_date_gene_rows_recovered": 0,
+      "duplicate_rows_before_resolution": 0,
+      "deposited_fdr_only_up": 800,
+      "deposited_fdr_only_down": 688,
+      "postdedup_fdr_only_up": 800,
+      "postdedup_fdr_only_down": 688,
+      "expected_fdr_only_up": 800,
+      "expected_fdr_only_down": 688,
+      "fdr_only_count_matches_preprint_report": true,
+      "strict_primary_up": 303,
+      "strict_primary_down": 353,
+      "caption_threshold_discrepancy": true
+    },
+    {
+      "source_sheet": "Sup_Data4",
+      "contrast_id": "late_allcell_DPN_vs_diabetes",
+      "effect_orientation": "DPN_minus_Diabetes",
+      "rows_after_gene_repair_and_deduplication": 3173,
+      "excel_date_gene_rows_recovered": 2,
+      "duplicate_rows_before_resolution": 0,
+      "deposited_fdr_only_up": 1436,
+      "deposited_fdr_only_down": 1737,
+      "postdedup_fdr_only_up": 1436,
+      "postdedup_fdr_only_down": 1737,
+      "expected_fdr_only_up": 1436,
+      "expected_fdr_only_down": 1737,
+      "fdr_only_count_matches_preprint_report": true,
+      "strict_primary_up": 1436,
+      "strict_primary_down": 1737,
+      "caption_threshold_discrepancy": false
+    },
+    {
+      "source_sheet": "Sup_Data5",
+      "contrast_id": "late_neuron_DPN_vs_diabetes",
+      "effect_orientation": "DPN_minus_Diabetes",
+      "rows_after_gene_repair_and_deduplication": 744,
+      "excel_date_gene_rows_recovered": 10,
+      "duplicate_rows_before_resolution": 4,
+      "deposited_fdr_only_up": 298,
+      "deposited_fdr_only_down": 448,
+      "postdedup_fdr_only_up": 298,
+      "postdedup_fdr_only_down": 446,
+      "expected_fdr_only_up": 298,
+      "expected_fdr_only_down": 448,
+      "fdr_only_count_matches_preprint_report": true,
+      "strict_primary_up": 298,
+      "strict_primary_down": 446,
+      "caption_threshold_discrepancy": false
+    },
+    {
+      "source_sheet": "Sup_Data6",
+      "contrast_id": "severity_neuron_modhigh_vs_low_nageotte",
+      "effect_orientation": "Diabetes_ModHigh_minus_Diabetes_Low",
+      "rows_after_gene_repair_and_deduplication": 509,
+      "excel_date_gene_rows_recovered": 4,
+      "duplicate_rows_before_resolution": 0,
+      "deposited_fdr_only_up": 356,
+      "deposited_fdr_only_down": 153,
+      "postdedup_fdr_only_up": 356,
+      "postdedup_fdr_only_down": 153,
+      "expected_fdr_only_up": 356,
+      "expected_fdr_only_down": 153,
+      "fdr_only_count_matches_preprint_report": true,
+      "strict_primary_up": 356,
+      "strict_primary_down": 153,
+      "caption_threshold_discrepancy": false
+    },
+    {
+      "source_sheet": "Sup_Data12",
+      "contrast_id": "xenium_DPN_vs_control",
+      "effect_orientation": "DPN_minus_Control",
+      "rows_after_gene_repair_and_deduplication": 122,
+      "excel_date_gene_rows_recovered": 0,
+      "duplicate_rows_before_resolution": 0,
+      "deposited_fdr_only_up": 38,
+      "deposited_fdr_only_down": 84,
+      "postdedup_fdr_only_up": 38,
+      "postdedup_fdr_only_down": 84,
+      "expected_fdr_only_up": 38,
+      "expected_fdr_only_down": 84,
+      "fdr_only_count_matches_preprint_report": true,
+      "strict_primary_up": 17,
+      "strict_primary_down": 43,
+      "caption_threshold_discrepancy": true
+    }
+  ],
+  "protein_contrasts": [
+    {
+      "source_sheet": "Sup_Data13",
+      "contrast_id": "protein_DPN_vs_diabetes",
+      "rows": 8949,
+      "fdr_0_10_up": 4,
+      "fdr_0_10_down": 0,
+      "fdr_0_05_total": 0
+    },
+    {
+      "source_sheet": "Sup_Data15",
+      "contrast_id": "protein_diabetes_vs_control",
+      "rows": 8949,
+      "fdr_0_10_up": 1,
+      "fdr_0_10_down": 1,
+      "fdr_0_05_total": 0
+    },
+    {
+      "source_sheet": "Sup_Data16",
+      "contrast_id": "protein_DPN_vs_control",
+      "rows": 8949,
+      "fdr_0_10_up": 12,
+      "fdr_0_10_down": 4,
+      "fdr_0_05_total": 9
+    },
+    {
+      "source_sheet": "Sup_Data17",
+      "contrast_id": "protein_severity_modhigh_vs_low_nageotte",
+      "rows": 8637,
+      "fdr_0_10_up": 8,
+      "fdr_0_10_down": 10,
+      "fdr_0_05_total": 6
+    }
+  ],
+  "cohort_inventory": {
+    "rows": 79,
+    "unique_box_ids": 71,
+    "unique_base_donors": 69,
+    "assays": {
+      "snRNAseq": {
+        "rows_or_tissue_samples": 30,
+        "unique_box_ids": 30,
+        "unique_base_donors": 28,
+        "condition_rows": {
+          "Control": 13,
+          "DPN": 7,
+          "Diabetes": 10
+        },
+        "condition_unique_base_donors": {
+          "Control": 13,
+          "DPN": 6,
+          "Diabetes": 9
+        }
+      },
+      "Xenium": {
+        "rows_or_tissue_samples": 11,
+        "unique_box_ids": 11,
+        "unique_base_donors": 11,
+        "condition_rows": {
+          "Control": 5,
+          "DPN": 4,
+          "Diabetes": 2
+        },
+        "condition_unique_base_donors": {
+          "Control": 5,
+          "DPN": 4,
+          "Diabetes": 2
+        }
+      },
+      "Visium": {
+        "rows_or_tissue_samples": 6,
+        "unique_box_ids": 6,
+        "unique_base_donors": 6,
+        "condition_rows": {
+          "Control": 3,
+          "DPN": 3
+        },
+        "condition_unique_base_donors": {
+          "Control": 3,
+          "DPN": 3
+        }
+      },
+      "Proteomics": {
+        "rows_or_tissue_samples": 58,
+        "unique_box_ids": 50,
+        "unique_base_donors": 50,
+        "condition_rows": {
+          "Control": 44,
+          "DPN": 4,
+          "Diabetes": 10
+        },
+        "condition_unique_base_donors": {
+          "Control": 37,
+          "DPN": 4,
+          "Diabetes": 9
+        }
+      }
+    },
+    "snRNAseq_note": "The deposited cohort workbook contains 30 snRNA-seq DRG samples from 28 base donors: 13 Control, 10 Diabetes and 7 DPN tissue rows, corresponding to 13, 9 and 6 base donors. Sample-level and donor-level counts must not be interchanged."
+  },
+  "threshold_rule": "Primary transcript signatures require FDR < 0.05 and absolute log2FC > 0.585, as stated in the figure captions. FDR-only deposited rows are retained for audit and sensitivity analysis.",
+  "direction_rule": "Positive effects are oriented toward the later/disease state: Diabetes-Control, DPN-Diabetes, moderate/high-low Nageotte, or DPN-Control, as confirmed by SCN10A/METRN loss and ATF3/PKDCC gain in the preprint text and figures.",
+  "excel_gene_repair_rule": "March dates in gene columns are repaired to MARCH{day}; duplicate repaired symbols are resolved by lowest adjusted P value. The original workbook remains unchanged.",
+  "outputs": [
+    "${PROJECT_ROOT}\\results\\tables\\hDRG_stage_transcript_tables_audited_2026-08-27.tsv.gz",
+    "${PROJECT_ROOT}\\results\\tables\\hDRG_frozen_primary_stage_signatures_2026-08-27.tsv",
+    "${PROJECT_ROOT}\\results\\tables\\hDRG_proteomics_contrasts_audited_2026-08-27.tsv.gz",
+    "${PROJECT_ROOT}\\metadata\\hDRG_preprint_cohort_inventory_2026-08-27.tsv",
+    "${PROJECT_ROOT}\\results\\tables\\hDRG_stage_signature_pairwise_overlap_2026-08-27.tsv"
+  ]
+}

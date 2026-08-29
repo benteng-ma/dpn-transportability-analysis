@@ -1,0 +1,14 @@
+{
+  "analysis_date": "2026-08-27",
+  "workbook_sha256": "aea62338d165b22a396b85ccbfb7a4b35b86921b9ed44a252cfbd70a9a6c4709",
+  "xml_sha256": "1d5dac2110d39274772559ee3bad0262e7ee3fc28ba14387f6bbf5b314eb20ea",
+  "sheet": "Sup_Data1",
+  "extracted_pairwise_rows": 24,
+  "diabetes_to_DPN_significant_cell_types_q_below_0_05": [
+    "Neurons",
+    "Fibroblast",
+    "SMC"
+  ],
+  "article_results_text": "The source preprint states that DPN showed increased fibroblast and smooth-muscle-cell proportions and decreased neuronal proportion. The direction labels in the output are taken from that narrative, not inferred from the sign of the deposited pairwise statistic.",
+  "evidence_status": "source_preprint_context_not_independent_validation"
+}

@@ -1,0 +1,25 @@
+row_id	cell_type	group1	group2	n1	n2	statistic	p	p.adj	p.adj.signif	pairwise_q_below_0_05	source_article_narrative_for_DPN	direction_source
+1	Neurons	Control	Diabetic	13	10	1.3939143	0.163343484	0.163	ns	False	decreased_in_DPN	article_results_text
+2	Neurons	Control	DPN	13	7	-1.8265753	0.067763656	0.102	ns	False	decreased_in_DPN	article_results_text
+3	Neurons	Diabetic	DPN	10	7	-2.9273687	0.003418433	0.0103	*	True	decreased_in_DPN	article_results_text
+4	Adipocytes	Control	Diabetic	9	6	0.3084237	0.757759968	0.758	ns	False		not_assigned
+5	Adipocytes	Control	DPN	9	7	1.6976695	0.08957016	0.269	ns	False		not_assigned
+6	Adipocytes	Diabetic	DPN	6	7	1.2456064	0.212908914	0.319	ns	False		not_assigned
+7	Endothelial	Control	Diabetic	13	10	0.766549	0.443349709	0.443	ns	False		not_assigned
+8	Endothelial	Control	DPN	13	7	2.1727193	0.029801454	0.0894	ns	False		not_assigned
+9	Endothelial	Diabetic	DPN	10	7	1.4126448	0.157760204	0.237	ns	False		not_assigned
+10	Fibroblast	Control	Diabetic	12	10	-1.371451	0.17023442	0.21	ns	False	increased_in_DPN	article_results_text
+11	Fibroblast	Control	DPN	12	7	1.2523455	0.210444004	0.21	ns	False	increased_in_DPN	article_results_text
+12	Fibroblast	Diabetic	DPN	10	7	2.4001956	0.016386314	0.0492	*	True	increased_in_DPN	article_results_text
+13	Immunecells	Control	Diabetic	10	8	-1.8618987	0.062617374	0.188	ns	False		not_assigned
+14	Immunecells	Control	DPN	10	7	-0.4135707	0.679188535	0.679	ns	False		not_assigned
+15	Immunecells	Diabetic	DPN	8	7	1.3126602	0.189297459	0.284	ns	False		not_assigned
+16	Satglia	Control	Diabetic	13	10	0.7353885	0.462102942	0.462	ns	False		not_assigned
+17	Satglia	Control	DPN	13	7	-1.5416721	0.12315329	0.185	ns	False		not_assigned
+18	Satglia	Diabetic	DPN	10	7	-2.0942705	0.036235887	0.109	ns	False		not_assigned
+19	Schwann	Control	Diabetic	13	10	-1.1570943	0.24723384	0.371	ns	False		not_assigned
+20	Schwann	Control	DPN	13	7	0.564481	0.572426839	0.572	ns	False		not_assigned
+21	Schwann	Diabetic	DPN	10	7	1.5246026	0.127358246	0.371	ns	False		not_assigned
+22	SMC	Control	Diabetic	13	9	-0.7754817	0.438055097	0.438	ns	False	increased_in_DPN	article_results_text
+23	SMC	Control	DPN	13	7	2.6786017	0.007393027	0.0111	*	True	increased_in_DPN	article_results_text
+24	SMC	Diabetic	DPN	9	7	3.1590653	0.00158276	0.00475	**	True	increased_in_DPN	article_results_text

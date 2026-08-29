@@ -1,0 +1,138 @@
+{
+  "date": "2026-08-27",
+  "draft": "FULL_MANUSCRIPT_DRAFT_V1_2026-08-27.md",
+  "draft_sha256": "80d47aeba04db17c21625a0a25547ead611c285777b5f20c38c430da28979367",
+  "abstract_word_count": 250,
+  "registry_sha256": "8977bbe953691b50fae7416a65345c733b2e01cf430b78373a9a9b4ff0cb6810",
+  "bibliography_audit_sha256": "849903130f34d464fe578d42771587e6a5d638ae743b943f322c24f56416d18a",
+  "numerical_checks": {
+    "N001": {
+      "missing_tokens": [],
+      "pass": true
+    },
+    "N002": {
+      "missing_tokens": [],
+      "pass": true
+    },
+    "N004": {
+      "missing_tokens": [],
+      "pass": true
+    },
+    "N006": {
+      "missing_tokens": [],
+      "pass": true
+    },
+    "N009": {
+      "missing_tokens": [],
+      "pass": true
+    },
+    "N016": {
+      "missing_tokens": [],
+      "pass": true
+    },
+    "N017": {
+      "missing_tokens": [],
+      "pass": true
+    },
+    "N018": {
+      "missing_tokens": [],
+      "pass": true
+    }
+  },
+  "citation_checks": {
+    "1": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "2": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "3": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "4": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "5": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "6": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "7": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "8": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "9": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "10": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "11": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "12": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "13": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "14": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "15": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "16": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "17": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "18": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    },
+    "19": {
+      "cited_in_body": true,
+      "listed_in_references": true
+    }
+  },
+  "structural_and_boundary_checks": {
+    "required_sections_present": true,
+    "abstract_word_count_150_to_300": true,
+    "no_reference_placeholders": true,
+    "nineteen_bibliography_rows": true,
+    "nineteen_references_listed": true,
+    "all_references_cited": true,
+    "numerical_registry_unchanged_and_passed": true,
+    "preprint_boundary": true,
+    "causal_boundary": true,
+    "bulk_cell_origin_boundary": true,
+    "ocular_axis_boundary": true,
+    "biomarker_boundary": true,
+    "tear_coverage_boundary": true,
+    "funding_not_asserted_without_confirmation": true
+  },
+  "all_checks_pass": true,
+  "audit_scope": "Full-draft structure, citation completeness, critical numerical tokens, and required evidence-boundary language. Journal formatting and final language editing remain separate tasks."
+}

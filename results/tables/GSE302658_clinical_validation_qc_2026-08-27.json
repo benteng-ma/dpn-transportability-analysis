@@ -1,0 +1,117 @@
+{
+  "dataset": "GSE302658",
+  "analysis_date": "2026-08-27",
+  "random_seed": 20260827,
+  "frozen_spec": "${PROJECT_ROOT}\\CLINICAL_PDN_GSE302658_FROZEN_SPEC_2026-08-27.md",
+  "input_sha256": {
+    "counts": "f47260c9624a371a229db2e11f6cb3732ead31baa3d929f0d0c01af80e7a603a",
+    "sample_metadata": "267e6789bfbbe3fdc85f08a172b2b41670bf0a1c9b8c1b29755717bde52d999e",
+    "signatures": "10c7e07c7865a53623c08c5030186f80618895c00555868a9b37fb96b6ff69c7",
+    "human_gene_info": "7a9622bda5fd16e5e4eab75ecf64d69977f4388e93066d1eb68a9d0a71ed2c8a"
+  },
+  "aggregation": {
+    "deposited_transcript_rows": 252303,
+    "mapped_transcript_rows": 210444,
+    "mapped_positive_gene_count": 27190,
+    "sample_count": 205,
+    "library_size_min": 6895517.049,
+    "library_size_median": 21081265.886000004,
+    "library_size_max": 70239327.98400001
+  },
+  "filter": {
+    "cpm_threshold": 1.0,
+    "baseline_prevalence": 0.2,
+    "minimum_baseline_sample_count": 21,
+    "retained_gene_count": 13833
+  },
+  "pca_baseline_variance_explained": {
+    "PC1": 0.13885226123888209,
+    "PC2": 0.08146986693732233,
+    "PC3": 0.050556907136110225
+  },
+  "matched_signature_null": {
+    "eligible_null_gene_count": 13420,
+    "up_counts_by_expression_decile": {
+      "0": 10,
+      "1": 18,
+      "2": 19,
+      "3": 18,
+      "4": 25,
+      "5": 30,
+      "6": 40,
+      "7": 58,
+      "8": 50,
+      "9": 37
+    },
+    "down_counts_by_expression_decile": {
+      "0": 7,
+      "1": 6,
+      "2": 12,
+      "3": 7,
+      "4": 7,
+      "5": 13,
+      "6": 11,
+      "7": 13,
+      "8": 20,
+      "9": 28
+    },
+    "null_quantiles": {
+      "0": -0.37767968875570573,
+      "0.025": -0.20731581926662235,
+      "0.5": 0.004552780329951425,
+      "0.975": 0.2215455837072492,
+      "1": 0.37958843515639723
+    }
+  },
+  "primary": {
+    "coverage_pass": true,
+    "correlation": {
+      "n": 100,
+      "rho": 0.07024546895375264,
+      "asymptotic_two_sided_p": 0.4873801882197911,
+      "permutation_positive_p": 0.24377562243775622,
+      "permutation_two_sided_p": 0.49365063493650635,
+      "bootstrap_ci_low": -0.12544123606792157,
+      "bootstrap_ci_high": 0.2660990269975963,
+      "loo_all_positive": true,
+      "loo_min_rho": 0.04584554014999926,
+      "loo_max_rho": 0.09916394664748186
+    },
+    "matched_signature_p": 0.2800719928007199,
+    "hc3_model": {
+      "n": 100,
+      "coefficient": -0.020450388454209323,
+      "standard_error_hc3": 3.0339621920420012,
+      "two_sided_p_hc3": 0.994621908705711,
+      "ci_low_hc3": -5.966907015312727,
+      "ci_high_hc3": 5.926006238404308,
+      "r_squared": 0.11841721673839678
+    },
+    "frozen_baseline_gate_pass": false
+  },
+  "longitudinal": {
+    "correlation": {
+      "n": 95,
+      "rho": 0.19796526113063287,
+      "asymptotic_two_sided_p": 0.05447235430462283,
+      "permutation_positive_p": 0.027297270272972702,
+      "permutation_two_sided_p": 0.055394460553944605,
+      "bootstrap_ci_low": -0.00012925478465138982,
+      "bootstrap_ci_high": 0.375132445466873,
+      "loo_all_positive": true,
+      "loo_min_rho": 0.17815300336748613,
+      "loo_max_rho": 0.22295145820648635
+    },
+    "hc3_model": {
+      "n": 95,
+      "coefficient": 2.4457405838635315,
+      "standard_error_hc3": 1.9990206329979041,
+      "two_sided_p_hc3": 0.22115245316512744,
+      "ci_low_hc3": -1.4722678611648217,
+      "ci_high_hc3": 6.363749028891885,
+      "r_squared": 0.4382314913946065
+    },
+    "confirmation_pass": false
+  },
+  "interpretation_tier": "compartment_boundary"
+}

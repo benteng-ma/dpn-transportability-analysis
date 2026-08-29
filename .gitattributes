@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+# Preserve scientific tables and binary artifacts byte-for-byte
+*.tsv -text
+*.gz -text
+*.png -text
+*.pdf -text
+*.zip -text
+*.docx -text
+*.xlsx -text

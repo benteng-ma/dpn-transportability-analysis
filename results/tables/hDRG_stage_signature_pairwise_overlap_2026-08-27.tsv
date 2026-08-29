@@ -1,0 +1,11 @@
+contrast_1	contrast_2	n_1	n_2	n_overlap	n_direction_concordant	direction_concordance_fraction
+early_allcell_diabetes_vs_control	late_allcell_DPN_vs_diabetes	656	3173	253	17	0.06719367588932806
+early_allcell_diabetes_vs_control	late_neuron_DPN_vs_diabetes	656	744	114	9	0.07894736842105263
+early_allcell_diabetes_vs_control	severity_neuron_modhigh_vs_low_nageotte	656	509	73	26	0.3561643835616438
+early_allcell_diabetes_vs_control	xenium_DPN_vs_control	656	60	5	5	1.0
+late_allcell_DPN_vs_diabetes	late_neuron_DPN_vs_diabetes	3173	744	222	196	0.8828828828828829
+late_allcell_DPN_vs_diabetes	severity_neuron_modhigh_vs_low_nageotte	3173	509	109	41	0.3761467889908257
+late_allcell_DPN_vs_diabetes	xenium_DPN_vs_control	3173	60	21	14	0.6666666666666666
+late_neuron_DPN_vs_diabetes	severity_neuron_modhigh_vs_low_nageotte	744	509	161	137	0.8509316770186336
+late_neuron_DPN_vs_diabetes	xenium_DPN_vs_control	744	60	7	6	0.8571428571428571
+severity_neuron_modhigh_vs_low_nageotte	xenium_DPN_vs_control	509	60	0	0	

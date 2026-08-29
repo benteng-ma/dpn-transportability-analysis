@@ -1,0 +1,80 @@
+Index	Samp_ID	Box_ID	Age	AgeGroup	Sex	Ethnicity	COD	Pain	Analgesics	Condition	NagScore	NagCategory	Opioids	snRNAseq	Xenium	Visium	Proteomics	base_donor_id	has_snRNAseq	has_Xenium	has_Visium	has_Proteomics
+1		DN0003	53		M	White	Anoxia/Cardiac Arrest	True	True	Diabetes	4.0	High	True				Proteomics	DN0003	False	False	False	True
+2		DN0006	29		M	Black	Head Trauma	False	False	Control	3.0	Moderate	False				Proteomics	DN0006	False	False	False	True
+3		DN0013	56		M	White	Anoxia/Cardiac Arrest	False	False	Diabetes	3.0	Moderate	False				Proteomics	DN0013	False	False	False	True
+4	AIAG131	DN0020	61	60s	F	White	CardiacArrest	False	False	Control	1.0	Low	False	snRNAseq				DN0020	True	False	False	False
+5		DN0024	32		F	Black	Head Trauma/GSW	False	False	Control			False				Proteomics	DN0024	False	False	False	True
+6		DN0024	32		F	Black	Head Trauma/GSW	False	False	Control			False				Proteomics	DN0024	False	False	False	True
+7		DN0028	29		F	White	Anoxia/Drug Overdose	False	True	Control			True				Proteomics	DN0028	False	False	False	True
+8	AIEJ414	DN0037	69	60s	M	Black	Stroke	False	False	Control	1.0	Low	False	snRNAseq				DN0037	True	False	False	False
+9		DN0046	41		F	White	Head Trauma/Motorcycle Accident	False	False	Diabetes			False				Proteomics	DN0046	False	False	False	True
+10		DN0046	41		F	White	Head Trauma/Motorcycle Accident	False	False	Diabetes			False				Proteomics	DN0046	False	False	False	True
+11		DN0048	36		F	Black	Head Trauma/Blunt Injury/MVA	False	False	Control			False				Proteomics	DN0048	False	False	False	True
+12		DN0052	33		F	White	Head Trauma/MVA	False	False	Control			False				Proteomics	DN0052	False	False	False	True
+13	AIIK226	DN0055	45	40s	F	White	Stroke	True	False	Control	1.0	Low	False	snRNAseq				DN0055	True	False	False	False
+14	AJD2236	DN0087	56	50s	M	White	HeadTrauma	False	False	Control	1.0	Low	Unknown	snRNAseq		Visium		DN0087	True	False	True	False
+15		DN0091	22		M	Black	Overdose/Cardiovacular	False	True	Diabetes	3.0	Moderate	True				Proteomics	DN0091	False	False	False	True
+16		DN0093	43		M	Hispanic	Head Trauma/MVA	False	False	Control			False				Proteomics	DN0093	False	False	False	True
+17		DN0093	43		M	Hispanic	Head Trauma/MVA	False	False	Control			False				Proteomics	DN0093	False	False	False	True
+18	AJEX220	DN0095	34	30s	M	Black	CardiacArrest	True	True	DPN	4.0	High	Unknown	snRNAseq		Visium	Proteomics	DN0095	True	False	True	True
+19		DN0097	22		M	White	Head Trauma/Non-MVA (Crush injury to skull)	False	False	Control			False				Proteomics	DN0097	False	False	False	True
+20		DN0100	37		M	White	Anoxia/Overdose	False	True	Control			True				Proteomics	DN0100	False	False	False	True
+21	AJGB347	DN0106	48	40s	F	Hispanic	Stroke	True	True	DPN	3.0	High	Unknown	snRNAseq	Xenium	Visium		DN0106	True	True	True	False
+22		DN0108	36		F	White	Anoxia/Drug Overdose	False	True	Control	1.0	Low	True				Proteomics	DN0108	False	False	False	True
+23	AJGJ324	DN0110	60	60s	F	White	ICB	False	False	Diabetes	2.0	Low	No	snRNAseq				DN0110	True	False	False	False
+24	AJGS325	DN0111	29	20s	M					Control	2.0	Low	True				Proteomics	DN0111	False	False	False	True
+25		DN0114	31		M	Hispanic	Head Trauma/GSW	False	False	Control	2.0	Low	False				Proteomics	DN0114	False	False	False	True
+26	AJHC333	DN0116	56	50s	M	White	Respiratory	True	False	Diabetes	2.0	Low	False	snRNAseq				DN0116	True	False	False	False
+27	AJHF199	DN0119	50	50s	F	Hispanic	DrugOverdose	False	Yes	Control	1.0	Low	Yes	snRNAseq			Proteomics	DN0119	True	False	False	True
+28	AJHR406	DN0120	27	20s	M	Black	Anoxia/Cardiac Arrest	False	False	Control	1.0	Low	False		Xenium			DN0120	False	True	False	False
+29	AJHX209	DN0121	48	40s	M	White	CardiacArrest	True	True	Control	1.0	Low	Yes	snRNAseq			Proteomics	DN0121	True	False	False	True
+30		DN0123	33		M	White	Head Trauma/MVA	False	False	Control			False				Proteomics	DN0123	False	False	False	True
+31		DN0123	33		M	White	Head Trauma/MVA	False	False	Control			False				Proteomics	DN0123	False	False	False	True
+32	AJH5198	DN0124	53	50s	M	White	CardiacArrest	Yes	Yes	Diabetes	3.0	Moderate-High	Yes	snRNAseq			Proteomics	DN0124	True	False	False	True
+33		DN0128	51		F	White	Anoxia/Drug Overdose	True	True	Control			True				Proteomics	DN0128	False	False	False	True
+34		DN0129	60		M	White	Anoxia/Cardiovascular	True	False	Control	4.0	High	False				Proteomics	DN0129	False	False	False	True
+35	AJJB371	DN0131	47	40s	F	White	Stroke	False	False	Control	1.0	Low	Unknown	snRNAseq		Visium		DN0131	True	False	True	False
+36	AJJA309	DN0132	39	30s	F	White	CardiacArrest	Yes	False	Diabetes	3.0	Moderate-High	No	snRNAseq				DN0132	True	False	False	False
+37		DN0133	40		F	White	Head Trauma/Blunt Injury (fall down stairs)	True	True	Control	1.0	Low	True				Proteomics	DN0133	False	False	False	True
+38	AJJJ231	DN0134	48	40s	M	Black	HeadTrauma	True	True	DPN	4.0	High	Unknown	snRNAseq	Xenium	Visium	Proteomics	DN0134	True	True	True	True
+39	AJJT462	DN0138	37	30s	M			True		Diabetes	5.0	High			Xenium		Proteomics	DN0138	False	True	False	True
+40		DN0142	46		F	White	Anoxia/Blunt Injury/MVA	False	False	Control	1.0	Low	False				Proteomics	DN0142	False	False	False	True
+41	AJKN140	DN0143	31	30s	M	Hispanic	DrugOverdose	False	True	Diabetes	2.0	Low	Yes	snRNAseq			Proteomics	DN0143	True	False	False	True
+42	AJKT138	DN0146	75	70s	F	White	CVA/Stroke	False	False	Control	1.0	Low	False		Xenium			DN0146	False	True	False	False
+43	AJLA352	DN0152	31	30s	M	White	DrugOverdose	False	False	Control	1.0	Low	Unknown	snRNAseq		Visium	Proteomics	DN0152	True	False	True	True
+44		DN0154	33		F	White	Anoxia/Drug Overdose	False	True	Control			True				Proteomics	DN0154	False	False	False	True
+45		DN0156	31		M	Black	Anoxia / cardiovascular	False	True	Control	1.0	Low	True				Proteomics	DN0156	False	False	False	True
+46	AKAA358B	DN0157.L1	68	60s	M	White	Stroke	True	True	DPN	4.0	High	False	snRNAseq				DN0157	True	False	False	False
+47	AKAA358A	DN0157.L2	68	60s	M	White	Stroke	True	True	DPN	4.0	High	False	snRNAseq				DN0157	True	False	False	False
+48	AJL5162A	DN0158.A	36	30s	F	Black	Seizure	Yes	False	Diabetes	4.0	Moderate-High	False	snRNAseq				DN0158	True	False	False	False
+49	AJL5162B	DN0158.B	36	30s	F	Black	Seizure	Yes	False	Diabetes	4.0	Moderate-High	False	snRNAseq				DN0158	True	False	False	False
+50	AKBF175	DN0166	38	30s	F	Black	Respiratory	False	False	Control	2.0	Low	Unknown	snRNAseq	Xenium			DN0166	True	True	False	False
+51	AKBE204	DN0167	39	30s	F	White	CardiacArrest	True	False	DPN	4.0	High	Unknown	snRNAseq	Xenium			DN0167	True	True	False	False
+52		DN0176	20		M	White	Anoxia/Drug Overdose	False	True	Control			True				Proteomics	DN0176	False	False	False	True
+53	AKCG403	DN0177	45	40s	F	White	HeadTrauma	True	True	Diabetes	3.0	Moderate-High	Yes	snRNAseq			Proteomics	DN0177	True	False	False	True
+54		DN0178	53		M	Hispanic	Anoxia/Seizure	False	False	Control			False				Proteomics	DN0178	False	False	False	True
+55		DN0178	53		M	Hispanic	Anoxia/Seizure	False	False	Control			False				Proteomics	DN0178	False	False	False	True
+56		DN0181	55		F	White	Anoxia/Cardiovascular	False	False	Control			False				Proteomics	DN0181	False	False	False	True
+57		DN0181	55		F	White	Anoxia/Cardiovascular	False	False	Control	1.0	Low	False				Proteomics	DN0181	False	False	False	True
+58		DN0182	50		F	White	Anoxia/Seizure	True	False	Control	1.0	Low	False				Proteomics	DN0182	False	False	False	True
+59		DN0183	39		M	White	Anoxia/Drug Overdose	False	True	Control			True				Proteomics	DN0183	False	False	False	True
+60		DN0192	34		M	Hispanic	Head Trauma/MVA	False	False	Control			False				Proteomics	DN0192	False	False	False	True
+61	AKFU078	DN0201	49		M	Hispanic	Anoxia/Seizure	True	Unknown	DPN			Unknown				Proteomics	DN0201	False	False	False	True
+62		DN0205	22		M	Hispanic	Head Trauma/GSW	False	True	Control			True				Proteomics	DN0205	False	False	False	True
+63		DN0219	54		F	White	CVA/Stroke	True	True	Diabetes	2.0	Low	True				Proteomics	DN0219	False	False	False	True
+64		DN0220	31		F	White	Anoxia/Cardiovascular /Overdose	False	True	Control			True				Proteomics	DN0220	False	False	False	True
+65	AKHO306	DN0221	52	50s	M	White	Stroke	True	Unknown	DPN	4.0	High	False	snRNAseq	Xenium		Proteomics	DN0221	True	True	False	True
+66		DN0223	62		M	White	Anoxia/Cardiovascular 	True	True	Control	1.0	Low	True				Proteomics	DN0223	False	False	False	True
+67		DN0226	22		M	White	Head Trauma/Blunt Injury/MVA	False	False	Control			False				Proteomics	DN0226	False	False	False	True
+68	AKHZ124	DN0227	45	40s	F	White	Stroke	False	Yes	Control	2.0	Low	False	snRNAseq				DN0227	True	False	False	False
+69		DN0231	49		F	White	Anoxia/Drug Intoxication	True	True	Control	3.0	Moderate	True				Proteomics	DN0231	False	False	False	True
+70	AKIE115	DN0234	37	30s	M	White	Stroke	False	True	Control	1.0	Low	Yes	snRNAseq	Xenium		Proteomics	DN0234	True	True	False	True
+71	AKJC406	DN0243	49	40s	M	Unknown	Stroke	False	True	Control	1.0	Low	Yes	snRNAseq	Xenium		Proteomics	DN0243	True	True	False	True
+72		DN0245	41		F	White	CVA/Stroke	False	False	Control			False				Proteomics	DN0245	False	False	False	True
+73		DN0245	41		F	White	CVA/Stroke	False	False	Control			False				Proteomics	DN0245	False	False	False	True
+74		DN0251	41		M	Black	Head Trauma/GSW/Suicide	False	False	Control			False				Proteomics	DN0251	False	False	False	True
+75		DN0251	41		M	Black	Head Trauma/GSW/Suicide	False	False	Control			False				Proteomics	DN0251	False	False	False	True
+76		DN0253	54		M	White	Anoxia/Cardiovascular	False	False	Control			False				Proteomics	DN0253	False	False	False	True
+77	AKK3142	DN0257	63	60s	F	White	Stroke	True	False	Diabetes	4.0	Moderate-High	False	snRNAseq	Xenium			DN0257	True	True	False	False
+78	AKK3408	DN0258	52	50s	F	White	Respiratory	True	True	Diabetes	2.0	Low	False	snRNAseq				DN0258	True	False	False	False
+79	ALBT459	DN0280	65	60s	M	White	CardiacArrest	False	False	Control	2.0	Low	False	snRNAseq				DN0280	True	False	False	False

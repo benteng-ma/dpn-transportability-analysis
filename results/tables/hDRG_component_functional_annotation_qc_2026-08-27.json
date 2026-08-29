@@ -1,0 +1,77 @@
+{
+  "analysis_date": "2026-08-27",
+  "source_audit": {
+    "signature_file_sha256": "10c7e07c7865a53623c08c5030186f80618895c00555868a9b37fb96b6ff69c7",
+    "source_signature_counts": {
+      "early_allcell_diabetes_vs_control": 656,
+      "late_allcell_DPN_vs_diabetes": 3173,
+      "late_neuron_DPN_vs_diabetes": 744,
+      "severity_neuron_modhigh_vs_low_nageotte": 509,
+      "xenium_DPN_vs_control": 60
+    },
+    "asserted_component_counts": {
+      "late_shared_concordant_neuronal_core": {
+        "all": 196,
+        "up": 77,
+        "down": 119
+      },
+      "late_allcell_residual": {
+        "all": 2951,
+        "up": 1339,
+        "down": 1612
+      },
+      "late_neuron_residual": {
+        "all": 522,
+        "up": 215,
+        "down": 307
+      },
+      "late_directionally_opposed_overlap": {
+        "all": 26,
+        "up": 0,
+        "down": 0
+      },
+      "severity_neuron_shared_concordant_core": {
+        "all": 137,
+        "up": 104,
+        "down": 33
+      },
+      "severity_neuron_residual": {
+        "all": 348,
+        "up": 230,
+        "down": 118
+      },
+      "severity_directionally_opposed_overlap": {
+        "all": 24,
+        "up": 0,
+        "down": 0
+      }
+    }
+  },
+  "background_unique_genes": 3695,
+  "library_audit": {
+    "GO_BP_2025": {
+      "path": "${PROJECT_ROOT}\\data\\raw\\reference\\GO_Biological_Process_2025.gmt",
+      "sha256": "0fc02458765cfce6c9348dce9f7a9397c6caf7c09ba318f468135d7ac60342ee",
+      "deposited_terms": 5343
+    },
+    "Reactome_2024": {
+      "path": "${PROJECT_ROOT}\\data\\raw\\reference\\Reactome_Pathways_2024.gmt",
+      "sha256": "1a7c43cb503d9db23494605169614a7b1741ef8f208c37295e834d1f92b34181",
+      "deposited_terms": 2105
+    },
+    "Hallmark_2020": {
+      "path": "${PROJECT_ROOT}\\data\\raw\\reference\\MSigDB_Hallmark_2020.gmt",
+      "sha256": "4275592957a1587652092bb398cf77216fde5b8daa2aedaa0e016f7d10bbdb81",
+      "deposited_terms": 50
+    }
+  },
+  "tested_term_rows": 5173,
+  "formal_enrichment_rows": 256,
+  "formal_counts": {
+    "late_allcell_residual|down": 156,
+    "late_allcell_residual|up": 28,
+    "late_neuron_residual|up": 44,
+    "late_shared_concordant_neuronal_core|down": 15,
+    "late_shared_concordant_neuronal_core|up": 13
+  }
+}

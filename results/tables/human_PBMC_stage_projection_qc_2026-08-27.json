@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "frozen_spec": "HUMAN_PBMC_STAGE_VALIDATION_FROZEN_SPEC_2026-08-27.md",
+  "seed": 20260827,
+  "matched_null_iterations": 10000,
+  "cohort_audits": {
+    "GSE95849": {
+      "deposited_probe_rows": 31741,
+      "annotated_resolved_probe_rows": 18550,
+      "unique_gene_ids_after_probe_reduction": 18550,
+      "sample_count": 18,
+      "group_counts": {
+        "DM": 6,
+        "HC": 6,
+        "DPN": 6
+      },
+      "series_matrix_sha256": "8692ea489dc7759008f7fb20280668ca8a6a3c568214142f58489aa235e86a6a",
+      "platform_soft_sha256": "c40f90e442e2c896addcc939c845844e9964c4f89adfa806dadad2059f8f420c"
+    },
+    "GSE185011": {
+      "deposited_gene_rows": 39898,
+      "resolved_positive_rows": 21114,
+      "unique_gene_ids": 21114,
+      "sample_count": 25,
+      "group_counts": {
+        "HC": 5,
+        "DM": 5,
+        "DR": 5,
+        "DPN": 5,
+        "DN": 5
+      },
+      "fpkm_matrix_sha256": "1b683142f565491fa2061dbba126d0d9d023dcd5fe5cdeacfa4c80637a002a3c"
+    }
+  },
+  "signature_sha256": "10c7e07c7865a53623c08c5030186f80618895c00555868a9b37fb96b6ff69c7",
+  "human_gene_info_sha256": "7a9622bda5fd16e5e4eab75ecf64d69977f4388e93066d1eb68a9d0a71ed2c8a",
+  "null_summaries": {
+    "GSE95849__early_HC_to_DM": {
+      "gene_null_quantiles": {
+        "0": -0.28698223716260063,
+        "0.025": -0.2082480140168855,
+        "0.5": -0.10397215822124561,
+        "0.975": -0.0007561327708160383,
+        "1": 0.09822379414314186
+      }
+    },
+    "GSE95849__late_DM_to_DPN": {
+      "gene_null_quantiles": {
+        "0": -0.07557898943661859,
+        "0.025": -0.0379589856411194,
+        "0.5": 0.003838857397085546,
+        "0.975": 0.046484840234013544,
+        "1": 0.08210098968337555
+      }
+    },
+    "GSE95849__late_neuron_DM_to_DPN": {
+      "gene_null_quantiles": {
+        "0": -0.1887713395333009,
+        "0.025": -0.10786839736435283,
+        "0.5": -0.008082668227304919,
+        "0.975": 0.08997177748664702,
+        "1": 0.1965502441840313
+      }
+    },
+    "GSE95849__severity_neuron_DM_to_DPN": {
+      "gene_null_quantiles": {
+        "0": -0.20239044145476864,
+        "0.025": -0.07661362945221646,
+        "0.5": 0.04312174194859476,
+        "0.975": 0.16338126813559892,
+        "1": 0.28182502016205324
+      }
+    },
+    "GSE95849__xenium_HC_to_DPN": {
+      "gene_null_quantiles": {
+        "0": -1.0911465748098768,
+        "0.025": -0.543591513599497,
+        "0.5": 0.018221449697128415,
+        "0.975": 0.5940741525247905,
+        "1": 1.0680582776774694
+      }
+    },
+    "GSE185011__early_HC_to_DM": {
+      "gene_null_quantiles": {
+        "0": -0.11818358450386449,
+        "0.025": -0.041727949822614414,
+        "0.5": 0.02173829090422809,
+        "0.975": 0.08144864439889281,
+        "1": 0.14186691739730575
+      }
+    },
+    "GSE185011__late_DM_to_DPN": {
+      "gene_null_quantiles": {
+        "0": -0.032105344199734,
+        "0.025": -0.015856121052376528,
+        "0.5": -0.0016267216050751855,
+        "0.975": 0.012525645165500813,
+        "1": 0.02721819736753791
+      }
+    },
+    "GSE185011__late_neuron_DM_to_DPN": {
+      "gene_null_quantiles": {
+        "0": -0.06679676613186257,
+        "0.025": -0.03662610544073326,
+        "0.5": -0.0020812285031944692,
+        "0.975": 0.033483668025335755,
+        "1": 0.0692157754713941
+      }
+    },
+    "GSE185011__severity_neuron_DM_to_DPN": {
+      "gene_null_quantiles": {
+        "0": -0.08708558502679818,
+        "0.025": -0.04748036656818465,
+        "0.5": -0.0037091705325829807,
+        "0.975": 0.038716733149597435,
+        "1": 0.07475188794190693
+      }
+    },
+    "GSE185011__xenium_HC_to_DPN": {
+      "gene_null_quantiles": {
+        "0": -0.3603137282502378,
+        "0.025": -0.18163467903055028,
+        "0.5": -0.005461221032398646,
+        "0.975": 0.19089547197983933,
+        "1": 0.4481635896777346
+      }
+    },
+    "GSE185011__DPN_vs_DR": {
+      "gene_null_quantiles": {
+        "0": -0.062393562771048336,
+        "0.025": -0.03345951826862231,
+        "0.5": -0.005676006453134194,
+        "0.975": 0.022327011070604096,
+        "1": 0.04948333577983636
+      }
+    },
+    "GSE185011__DPN_vs_DN": {
+      "gene_null_quantiles": {
+        "0": -0.038214021323664145,
+        "0.025": -0.020051951298144407,
+        "0.5": 0.00032390571611184103,
+        "0.975": 0.02039367127724304,
+        "1": 0.037788457502821005
+      }
+    }
+  },
+  "gate_components": {
+    "early_transition_pass": false,
+    "late_transition_pass": false,
+    "GSE185011_DPN_complication_specificity_pass": false
+  },
+  "human_PBMC_stage_gate_pass": false,
+  "interpretation_boundary": "PBMC validation supports a systemic correlate, not neuronal localization or blood-to-ganglion causality."
+}

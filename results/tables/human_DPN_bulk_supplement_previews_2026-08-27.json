@@ -1,0 +1,970 @@
+{
+  "41598_2022_8100_MOESM10_ESM.xlsx": {
+    "S9 GO 0007399": [
+      [
+        "GO:0007399",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "nervous system development",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        "baseMean",
+        "log2FoldChange",
+        "padj",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "ANXA1",
+        24724.889283394,
+        0.819497553855547,
+        0.0492744865936161,
+        "Annexin A1",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "AREG",
+        405.123391604871,
+        2.21254223081901,
+        0.0074357691247564,
+        "Amphiregulin",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "ATP8B1",
+        684.269988317361,
+        0.571289313669652,
+        0.0212527573869397,
+        "ATPase Phospholipid Transporting 8B1",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "BCL6",
+        26563.6444194937,
+        0.65383876366535,
+        0.0314462018730932,
+        "BCL6 Transcription Repressor",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "BHLHE22",
+        262.865131581942,
+        1.33223277565859,
+        0.0494849961753727,
+        "Basic Helix-Loop-Helix Family Member E22",
+        null,
+        null,
+        null,
+        null
+      ]
+    ]
+  },
+  "41598_2022_8100_MOESM11_ESM.xlsx": {
+    "S10 Quality Table": [
+      [
+        "Sample",
+        "RIN",
+        "Post-Trimming Minimum Average Phred Score",
+        "Read Count (millions)",
+        "% Uniquely mapped reads"
+      ],
+      [
+        "Con1",
+        7,
+        34.9984883663824,
+        96.6,
+        0.762
+      ],
+      [
+        "Con2",
+        8.4,
+        35.0218837790442,
+        80.5,
+        0.716
+      ],
+      [
+        "Con3",
+        8.7,
+        35.0881400880773,
+        113.7,
+        0.811
+      ],
+      [
+        "Con4",
+        7.2,
+        35.0459074593873,
+        108.5,
+        0.785
+      ],
+      [
+        "Con5",
+        8.2,
+        35.1584194219979,
+        76.5,
+        0.775
+      ],
+      [
+        "Con6",
+        8.3,
+        35.1734385509973,
+        110.7,
+        0.788
+      ],
+      [
+        "Con7",
+        6.8,
+        34.8986847030075,
+        105.4,
+        0.758
+      ]
+    ]
+  },
+  "41598_2022_8100_MOESM2_ESM.xlsx": {
+    "S1 Demographics": [
+      [
+        "Donor",
+        "Condition",
+        "Sex",
+        "Age",
+        "Ethnicity",
+        "BMI",
+        "Blood Type",
+        "COD",
+        "Diabetes",
+        "Medications",
+        "Comments",
+        "Respiratory Disease",
+        "Cardiac Disease",
+        "Hypertension",
+        "Neurological Disease",
+        "Kidney Disease",
+        "Tobacco",
+        "Alcohol",
+        "Drug Use"
+      ],
+      [
+        "DPN1",
+        "Diabetic",
+        "F",
+        58,
+        "Caucasian",
+        20.1,
+        "O",
+        "Cerebrovascular/Intracranial Hemorrhage/Stroke",
+        "Diabetic neuropathy, unknown details",
+        "Armour thyroid, Losartan (Cozaar), Bimatoprost solution (Lumigan), Prednisolone acetate suspension (Pred Forte), Timolol solution (Timoptic), Progesterone, Alpha Lipoic acid, Ashwagandha, Aspirin enteric, B complex Vitamin, Biotin, Calcium carbonate, Cholecalciferol, Plavix, Cyanocobalamin, Ginkgo b",
+        "Diabetic neuropathy",
+        "No",
+        "No",
+        "Yes: Since 2015. Varcose veins removed in 2015",
+        "Yes: Fibromuscular dysplasia, SAH in 2014, left pericallosal aneurysm post endovascular treatment in May 2016. Glaucoma in right eye, tear flim insufficiency. Drainage device surgery in 2015, embolization/coiling surgery, selective laser trabeculoplasty, trabeculotomy, trabeculectemy. Lasik in both ",
+        "No",
+        "No",
+        "Yes: Drank 1-2 glasses of wine every three weeks x 30 years",
+        "No"
+      ],
+      [
+        "DPN2",
+        "Diabetic",
+        "F",
+        69,
+        "Caucasian",
+        28,
+        null,
+        "CVA/ICH/Stroke",
+        "Type II with neuropathy, 6-10 years, non-compliant",
+        "Carvedilol, Spironolactone, Ondansetron, Metformin, Benazepril, Insulin, Ketoconazole",
+        "Chronic Pain-Diabetic Neuropathy. Stopped taking BP and DM meds and began following a YouTube video about holistic medicine.",
+        "No",
+        "No",
+        "Yes: 0-5 years, non-compliant",
+        "Yes: Stroke, rapid mental decline, forgetfulness, difficulty walking, severe headaches",
+        "Yes: Stage III CKD, kidney stones x15 years ago, nephropathy",
+        "No",
+        "Yes: 2 glasses of wine/week, x5 years",
+        null
+      ],
+      [
+        "DPN3",
+        "Diabetic",
+        "F",
+        50,
+        "Hispanic/Latino",
+        43.9,
+        null,
+        "Anoxia/Cardiovascular",
+        "Diabetic neuropathy, x20 years, treated, difficulty walking",
+        "Venlafaxine, Nortriptyline, Gabepentin, Losartan, Atenolol, Hydrochlorothiazide, Insulin, Glargine, Insulin Lispro, Metformin, Glipizide, Notrofurantoin, Amlodipine, Hydrocodone-Acetominophen, Lisinopril, Atorvastin, Zofran, Lidex, Ketoconazole, PriLOSEC, QVAR, actuation Inhl Aero",
+        "Diabetic neuropathy. Sarcoidosis",
+        "Yes: Asthma, sleep apnea",
+        "Yes: CAD",
+        "Yes: >10 years, Compliant, worsened after 2008",
+        null,
+        "Yes: CKD stage III",
+        "Yes: .5 packs per day x5 years, quit 2005",
+        null,
+        null
+      ],
+      [
+        "DPN4",
+        "Diabetic",
+        "M",
+        59,
+        "Hispanic/Italian",
+        34.2,
+        null,
+        "Anoxia/Cardiovascular",
+        "Diabetic polyneuropathy, bilateral lower legs, DM 20+ years, treated with pills and insulin injections",
+        "Atorvastatin, Norvasc, Metolazone, Bumex, Benazepril, Plavix, Flovent, Albuterol, Norco, Glimepiride",
+        "DM Polyneuropathy. Bilateral knee pain, difficulty walking, had to use a cane. Dyslipidemia, obesity, optic neuritis, B12 and iron deficiency, benign colon polyps",
+        "Yes: Asthma since childhood, treated with breathing treatments, hospitalized once",
+        "Yes: Questionable chronic diastolic congestive heart failure",
+        "Yes: 10+ years",
+        "Yes: TIA, Asperger syndrome",
+        "Yes: Hypertensive nephrosclerosis with stage II CKD, unknown duration",
+        "No",
+        "Yes: beer once or twice a month, with dinner, x 20 years",
+        null
+      ],
+      [
+        "DPN5",
+        "Diabetic",
+        "M",
+        47,
+        "Hispanic/Latino",
+        25,
+        "A",
+        "CVA/ICH/Stroke",
+        "Dx 10 years ago, with peripheral neuropathy",
+        "Lisinopril, Atorvastatin, Clonidine, Enalapril, Amlodipine",
+        "Diabetes with peripheral neuropathy. Type 2",
+        "No",
+        "Yes: Mild concentric LVH, impaired relaxation of LV distal filling, mild decreased global LV function, increased RA, severe mitral annular calcification, Low EF 45-50% (11/2014)",
+        "Yes: HTN/High cholesterol x 6-7 years, treated with medications",
+        "No",
+        "Yes: ESRD with hemodialysis three times a week x 6-7 years",
+        "Yes: Cigarettes x 25 years: 1991-2001 2 ppd, 2001-present 1 ppd",
+        "Yes: Beer twice a month, 24 pack. From age 23 to 37 years old",
+        "No"
+      ],
+      [
+        "Con1",
+        "Healthy",
+        "F",
+        30,
+        "Hispanic",
+        19.9,
+        "O+",
+        "CVA/Stroke",
+        "No",
+        "Lisinopril, Sensipar, Renvela, Procardia, Protonix, Carvedilol, Albuterol, Vitamin D Supplement.",
+        "Surgeries done: kidney transplant, thoracentesis, port placement. Treated with peritoneal dialysis (age 16-20) and hemodialysis (for 1 year prior to death)",
+        "Yes: Asthma: used inhaler daily",
+        "No",
+        "Yes: Diagnosed several months ago, related to renal failure",
+        "No",
+        "Yes: Renal failure due to being born with small kidneys: kidney transplant done 10 years ago. Kidney failure post-transplant 1 year ago.",
+        "No",
+        "Yes: Wine/beer: 1-2 drinks every few months x5 years, stopped drinking 1 year ago",
+        "No"
+      ],
+      [
+        "Con2",
+        "Healthy",
+        "F",
+        49,
+        "Caucasian",
+        36.7,
+        "O",
+        "MVA/Head Trauma",
+        "No",
+        "Simvastatin and Advil",
+        null,
+        "No",
+        "No",
+        "No",
+        "No",
+        "No",
+        "Yes: Cigarettes 1/2 pack/day, for more than 18 years, stopped last year",
+        "Yes: 1/2 glass rum/beer, once every 3 months for more than 8 years",
+        "Yes: Smoked Methamphetamines, last used 10 years ago"
+      ]
+    ]
+  },
+  "41598_2022_8100_MOESM3_ESM.xlsx": {
+    "S2 Histology": [
+      [
+        "Donor",
+        "Age",
+        "Sex",
+        "BMI",
+        "Ethnicity",
+        "Degree of Ganglionic Loss",
+        "Score"
+      ],
+      [
+        "DPN1",
+        58,
+        "F",
+        20.1,
+        "Caucasian",
+        "Moderate",
+        2
+      ],
+      [
+        "DPN2",
+        69,
+        "F",
+        28,
+        "Caucasian",
+        "Mild to Moderate",
+        1.5
+      ],
+      [
+        "DPN3",
+        50,
+        "F",
+        43.9,
+        "Hispanic/Latino",
+        "Normal",
+        0
+      ],
+      [
+        "DPN4",
+        59,
+        "M",
+        34.2,
+        "Hispanic/Italian",
+        "Moderate",
+        2
+      ],
+      [
+        "DPN5",
+        47,
+        "M",
+        25,
+        "Hispanic/Latino",
+        "Moderate to Significant",
+        2.5
+      ],
+      [
+        "Con1",
+        30,
+        "F",
+        19.9,
+        "Hispanic",
+        "Normal",
+        0
+      ],
+      [
+        "Con3",
+        39,
+        "F",
+        25,
+        "African American",
+        "Mild",
+        1
+      ]
+    ]
+  },
+  "41598_2022_8100_MOESM4_ESM.xlsx": {
+    "S3 Significant_genes_only": [
+      [
+        null,
+        "baseMean",
+        "log2FoldChange",
+        "lfcSE",
+        "stat",
+        "pvalue",
+        "padj",
+        "weight"
+      ],
+      [
+        "IGKV3-20",
+        687.600067110443,
+        3.65938596671879,
+        0.38808775700271,
+        9.42927443777421,
+        4.12935427018867e-21,
+        6.97716212202566e-17,
+        2.52892658761861
+      ],
+      [
+        "IGKV1-39",
+        138.718271606737,
+        4.20777424533028,
+        0.513060477536864,
+        8.20132212391657,
+        2.37757492205621e-16,
+        2.42237697693463e-12,
+        2.0969852625503
+      ],
+      [
+        "JCHAIN",
+        1237.41066978637,
+        4.06745104777292,
+        0.500573837442068,
+        8.12557657539113,
+        4.45240788768538e-16,
+        3.37273872788905e-12,
+        1.88028586845081
+      ],
+      [
+        "IGHV3-33",
+        147.471923454392,
+        3.88612131674641,
+        0.490922311270489,
+        7.91595987293645,
+        2.45352745497079e-15,
+        1.05060091059444e-11,
+        2.49474436709708
+      ],
+      [
+        "IGKV1-5",
+        300.959267473586,
+        3.05852022356829,
+        0.396114617845651,
+        7.72130107240845,
+        1.15148204843322e-14,
+        4.02815028195264e-11,
+        2.44294897089592
+      ],
+      [
+        "IGHG2",
+        680.22564249971,
+        3.52962491468823,
+        0.47272926965552,
+        7.46648270216118,
+        8.23667952826966e-14,
+        1.75362426299909e-10,
+        3.3450088070847
+      ],
+      [
+        "IGLV1-44",
+        217.507031494201,
+        3.74563635853594,
+        0.503503965854674,
+        7.43913973384081,
+        1.01343082086122e-13,
+        2.47733667258529e-10,
+        2.49714596754593
+      ]
+    ]
+  },
+  "41598_2022_8100_MOESM5_ESM.xlsx": {
+    "S4 All_genes": [
+      [
+        null,
+        "baseMean",
+        "log2FoldChange",
+        "lfcSE",
+        "stat",
+        "pvalue",
+        "padj",
+        "weight"
+      ],
+      [
+        "IGKV3-20",
+        687.600067110443,
+        3.65938596671879,
+        0.38808775700271,
+        9.42927443777421,
+        4.12935427018867e-21,
+        6.97716212202566e-17,
+        2.52892658761861
+      ],
+      [
+        "IGKV1-39",
+        138.718271606737,
+        4.20777424533028,
+        0.513060477536864,
+        8.20132212391657,
+        2.37757492205621e-16,
+        2.42237697693463e-12,
+        2.0969852625503
+      ],
+      [
+        "JCHAIN",
+        1237.41066978637,
+        4.06745104777292,
+        0.500573837442068,
+        8.12557657539113,
+        4.45240788768538e-16,
+        3.37273872788905e-12,
+        1.88028586845081
+      ],
+      [
+        "IGHV3-33",
+        147.471923454392,
+        3.88612131674641,
+        0.490922311270489,
+        7.91595987293645,
+        2.45352745497079e-15,
+        1.05060091059444e-11,
+        2.49474436709708
+      ],
+      [
+        "IGKV1-5",
+        300.959267473586,
+        3.05852022356829,
+        0.396114617845651,
+        7.72130107240845,
+        1.15148204843322e-14,
+        4.02815028195264e-11,
+        2.44294897089592
+      ],
+      [
+        "IGHG2",
+        680.22564249971,
+        3.52962491468823,
+        0.47272926965552,
+        7.46648270216118,
+        8.23667952826966e-14,
+        1.75362426299909e-10,
+        3.3450088070847
+      ],
+      [
+        "IGLV1-44",
+        217.507031494201,
+        3.74563635853594,
+        0.503503965854674,
+        7.43913973384081,
+        1.01343082086122e-13,
+        2.47733667258529e-10,
+        2.49714596754593
+      ]
+    ]
+  },
+  "41598_2022_8100_MOESM6_ESM.xlsx": {
+    "S5 Normalized_data D_vs_C": [
+      [
+        null,
+        "DPN5",
+        "DPN4",
+        "DPN3",
+        "DPN2",
+        "DPN1",
+        "Con7",
+        "Con6",
+        "Con5",
+        "Con4",
+        "Con3",
+        "Con2",
+        "Con1"
+      ],
+      [
+        "5S_rRNA",
+        23.3431234976843,
+        28.885842499737,
+        8.7322316700807,
+        9.72932943499216,
+        41.7139509081602,
+        19.670325664431,
+        25.4126880589812,
+        19.8636303049084,
+        17.1807716195497,
+        23.1425827975238,
+        20.7268081411575,
+        16.1860066560438
+      ],
+      [
+        "7SK",
+        0,
+        0,
+        0.9702479633423,
+        3.64849853812206,
+        2.50283705448961,
+        1.87336434899343,
+        1.75259917648146,
+        0,
+        0,
+        4.13260407098639,
+        1.29542550882234,
+        0
+      ],
+      [
+        "A1BG",
+        62.248329327158,
+        66.4374377493951,
+        65.0066135439341,
+        57.159810430579,
+        47.5539040353026,
+        76.8079383087306,
+        53.4542748826846,
+        105.525535994826,
+        60.9917392494015,
+        104.141622588857,
+        69.9529774764064,
+        80.9300332802192
+      ],
+      [
+        "A1BG-AS1",
+        283.035372409422,
+        310.041376163844,
+        382.277697556866,
+        297.960713946635,
+        375.425558173441,
+        310.041799758413,
+        500.367064885457,
+        255.744240175695,
+        391.721592925733,
+        384.332178601734,
+        322.560951696763,
+        337.882888944915
+      ],
+      [
+        "A1CF",
+        1.94526029147369,
+        3.8514456666316,
+        13.5834714867922,
+        3.64849853812206,
+        15.0170223269377,
+        0.936682174496715,
+        9.63929547064803,
+        7.44886136434065,
+        3.43615432390994,
+        14.877374655551,
+        2.59085101764468,
+        9.10462874402466
+      ],
+      [
+        "A2M",
+        247748.350722089,
+        255479.871127507,
+        116033.894432032,
+        136813.83051486,
+        200945.278593807,
+        101053.019713404,
+        183476.978887079,
+        105575.195070588,
+        85951.1052197023,
+        61669.1975097015,
+        71083.8839456083,
+        114282.311620414
+      ],
+      [
+        "A2M-AS1",
+        404.614140626527,
+        714.443171160162,
+        733.507460286779,
+        803.885844566227,
+        549.789872969551,
+        859.874236187984,
+        488.975170238328,
+        1077.60194404128,
+        825.536076319364,
+        641.380151817087,
+        1018.20444993436,
+        632.265885001713
+      ]
+    ]
+  },
+  "41598_2022_8100_MOESM7_ESM.xlsx": {
+    "S6 Immunoglobulin": [
+      [
+        null,
+        null,
+        "baseMean",
+        "log2FoldChange",
+        "lfcSE",
+        "stat",
+        "pvalue",
+        "padj",
+        "weight",
+        null
+      ],
+      [
+        1,
+        "IGKV3-20",
+        687.600067110443,
+        3.65938596671879,
+        0.38808775700271,
+        9.42927443777421,
+        4.12935427018867e-21,
+        6.97716212202566e-17,
+        2.52892658761861,
+        "Immunoglobulin Kappa Variable 3-20"
+      ],
+      [
+        2,
+        "IGKV1-39",
+        138.718271606737,
+        4.20777424533028,
+        0.513060477536864,
+        8.20132212391657,
+        2.37757492205621e-16,
+        2.42237697693463e-12,
+        2.0969852625503,
+        "Immunoglobulin Kappa Variable 1-39 (Gene/Pseudogene)"
+      ],
+      [
+        3,
+        "IGHV3-33",
+        147.471923454392,
+        3.88612131674641,
+        0.490922311270489,
+        7.91595987293645,
+        2.45352745497079e-15,
+        1.05060091059444e-11,
+        2.49474436709708,
+        "Immunoglobulin Heavy Variable 3-33"
+      ],
+      [
+        4,
+        "IGKV1-5",
+        300.959267473586,
+        3.05852022356829,
+        0.396114617845651,
+        7.72130107240845,
+        1.15148204843322e-14,
+        4.02815028195264e-11,
+        2.44294897089592,
+        "Immunoglobulin Kappa Variable 1-5"
+      ],
+      [
+        5,
+        "IGHG2",
+        680.22564249971,
+        3.52962491468823,
+        0.47272926965552,
+        7.46648270216118,
+        8.23667952826966e-14,
+        1.75362426299909e-10,
+        3.3450088070847,
+        "Immunoglobulin Heavy Constant Gamma 2 (G2m Marker)"
+      ],
+      [
+        6,
+        "IGLV1-44",
+        217.507031494201,
+        3.74563635853594,
+        0.503503965854674,
+        7.43913973384081,
+        1.01343082086122e-13,
+        2.47733667258529e-10,
+        2.49714596754593,
+        "Immunoglobulin Lambda Variable 1-44"
+      ],
+      [
+        7,
+        "IGLV1-47",
+        116.174622250259,
+        3.48043357208066,
+        0.48912142345238,
+        7.11568417411492,
+        1.11359031691019e-12,
+        2.64221038009182e-09,
+        2.00100620299242,
+        "Immunoglobulin Lambda Variable 1-47"
+      ]
+    ]
+  },
+  "41598_2022_8100_MOESM8_ESM.xlsx": {
+    "S7 DisGeNET": [
+      [
+        "DisGeNET",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "MedGen Concept Id: C0030193",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Gene",
+        "baseMean",
+        "log2FoldChange",
+        "padj",
+        null
+      ],
+      [
+        "ABCB1",
+        5984.98589123114,
+        0.742522997869314,
+        0.0257720696244338,
+        "ATP Binding Cassette Subfamily B Member 1"
+      ],
+      [
+        "ADORA1",
+        773.119365237274,
+        -1.00790690295449,
+        0.0338573531681696,
+        "Adenosine A1 Receptor"
+      ],
+      [
+        "ADRA2C",
+        282.628433903507,
+        -1.10380401644367,
+        0.0343910008892987,
+        "Adrenoceptor Alpha 2C"
+      ],
+      [
+        "ALB",
+        103.229770941661,
+        -1.34250431577105,
+        0.0320139307762898,
+        "Albumin"
+      ],
+      [
+        "ANXA1",
+        24724.889283394,
+        0.819497553855547,
+        0.0492744865936161,
+        "Annexin A1"
+      ]
+    ]
+  },
+  "41598_2022_8100_MOESM9_ESM.xlsx": {
+    "S8 PainGenesdb": [
+      [
+        "Gene:",
+        "BaseMean",
+        "Log2FoldChange",
+        "Padj",
+        null,
+        "Mouse Homolog:",
+        "Protein Name:",
+        "Nociception:",
+        "Hypersensitivity:",
+        "Analgesia:",
+        null,
+        null
+      ],
+      [
+        "ABCB1",
+        5984.98589123114,
+        0.742522997869314,
+        0.0257720696244338,
+        null,
+        "Abcb1a",
+        "ATP-binding cassette, sub-family B (MDR/TAP), member 1A",
+        "▬",
+        "●",
+        "▲",
+        null,
+        "▲ = mutant more sensitive"
+      ],
+      [
+        "ADORA1",
+        773.119365237274,
+        -1.00790690295449,
+        0.0338573531681696,
+        null,
+        "Adora1",
+        "adenosine A1 receptor",
+        "▲",
+        "▲",
+        "▬",
+        null,
+        "▼ = mutant less sensitive"
+      ],
+      [
+        "ADRA2C",
+        282.628433903507,
+        -1.10380401644367,
+        0.0343910008892987,
+        null,
+        "Adra2c",
+        "adrenergic receptor, alpha 2c",
+        "●",
+        "●",
+        "▼",
+        null,
+        "▬ = no difference"
+      ],
+      [
+        "ANXA1",
+        24724.889283394,
+        0.819497553855547,
+        0.0492744865936161,
+        null,
+        "Anxa1",
+        "annexin A1",
+        "▲",
+        "●",
+        "●",
+        null,
+        "● = not tested"
+      ],
+      [
+        "APOE",
+        41222.5365067097,
+        -1.1887820422437,
+        0.013795190119824,
+        null,
+        "Apoe",
+        "apolipoprotein E",
+        "?",
+        "●",
+        "●",
+        null,
+        "? = contradictory data"
+      ],
+      [
+        "BHLHE22",
+        262.865131581942,
+        1.33223277565859,
+        0.0494849961753727,
+        null,
+        "Bhlhe22",
+        "basic helix-loop-helix family, member e22",
+        "▼",
+        "●",
+        "●",
+        null,
+        null
+      ],
+      [
+        "C5AR1",
+        4373.54669893735,
+        1.75360875822864,
+        1.50159110052349e-05,
+        null,
+        "C5ar1",
+        "complement component 5a receptor 1",
+        "▬",
+        "▼",
+        "●",
+        null,
+        null
+      ]
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+contrast_id	direction	original_gene_n	resolved_unique_gene_n	deposited_gene_n	expressed_gene_n	expressed_fraction_of_original	passes_count_20	passes_fraction_0_20	direction_coverage_pass
+severity_neuron_modhigh_vs_low_nageotte	up	356	338	338	305	0.8567415730337079	True	True	True
+severity_neuron_modhigh_vs_low_nageotte	down	153	151	150	124	0.8104575163398693	True	True	True
+late_neuron_DPN_vs_diabetes	up	298	266	265	220	0.738255033557047	True	True	True
+late_neuron_DPN_vs_diabetes	down	446	427	415	313	0.7017937219730942	True	True	True
+late_allcell_DPN_vs_diabetes	up	1436	1409	1386	957	0.6664345403899722	True	True	True
+late_allcell_DPN_vs_diabetes	down	1737	1722	1693	1060	0.6102475532527346	True	True	True
+early_allcell_diabetes_vs_control	up	303	303	299	221	0.7293729372937293	True	True	True
+early_allcell_diabetes_vs_control	down	353	337	335	275	0.7790368271954674	True	True	True

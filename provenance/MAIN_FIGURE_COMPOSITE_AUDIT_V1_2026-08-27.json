@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-27",
+  "figure_directory": "${PROJECT_ROOT}\\results\\figures\\main_composites",
+  "expected_figures": 6,
+  "expected_files": 12,
+  "records": [
+    {
+      "figure": 1,
+      "stem": "Figure1_source_design_and_decomposition",
+      "png": "Figure1_source_design_and_decomposition_2026-08-27.png",
+      "png_sha256": "ea2420bf11b22a6228583eb9313e2e829459a1eed680eedb7622be4181e25265",
+      "png_width_px": 4684,
+      "png_height_px": 2884,
+      "pdf": "Figure1_source_design_and_decomposition_2026-08-27.pdf",
+      "pdf_sha256": "11dd7e97537eba5662bb98874998286b6a96b41f44ecbdaab770f2abe87fe3a5",
+      "pdf_size_bytes": 30855,
+      "dimensions_pass": true,
+      "pdf_size_pass": true,
+      "pass": true
+    },
+    {
+      "figure": 2,
+      "stem": "Figure2_independent_human_hDRG_validation",
+      "png": "Figure2_independent_human_hDRG_validation_2026-08-27.png",
+      "png_sha256": "65bf6e4e6dfd23ffcb5627a33ce4ba4d1c554352eb4e1024f47e65ce4620c403",
+      "png_width_px": 4687,
+      "png_height_px": 2884,
+      "pdf": "Figure2_independent_human_hDRG_validation_2026-08-27.pdf",
+      "pdf_sha256": "464cc8ab624d07800d40bd60b164bc9bcd3633f452c976c6be433a15cc8b3494",
+      "pdf_size_bytes": 31486,
+      "dimensions_pass": true,
+      "pdf_size_pass": true,
+      "pass": true
+    },
+    {
+      "figure": 3,
+      "stem": "Figure3_human_sural_nerve_transport_and_severity",
+      "png": "Figure3_human_sural_nerve_transport_and_severity_2026-08-27.png",
+      "png_sha256": "3373815883e36b392b70545cd7a9eb526afed8a198a2aeba6f8af860b36b6686",
+      "png_width_px": 4127,
+      "png_height_px": 2869,
+      "pdf": "Figure3_human_sural_nerve_transport_and_severity_2026-08-27.pdf",
+      "pdf_sha256": "d14878d9b3f8bf63c4eaf2a65dd99afa08c1bd65bbcb09d8f7a880e9e5953f6b",
+      "pdf_size_bytes": 32081,
+      "dimensions_pass": true,
+      "pdf_size_pass": true,
+      "pass": true
+    },
+    {
+      "figure": 4,
+      "stem": "Figure4_component_functional_annotation",
+      "png": "Figure4_component_functional_annotation_2026-08-27.png",
+      "png_sha256": "e6405802a68eec4e6a2dc666a60cd754ffcb288c755814e92ce92eada7612574",
+      "png_width_px": 4340,
+      "png_height_px": 4361,
+      "pdf": "Figure4_component_functional_annotation_2026-08-27.pdf",
+      "pdf_sha256": "e99937647bec4ea7cb5d904f5e5ec55b6102117bad40f6bf1ab36c2f03215087",
+      "pdf_size_bytes": 53985,
+      "dimensions_pass": true,
+      "pdf_size_pass": true,
+      "pass": true
+    },
+    {
+      "figure": 5,
+      "stem": "Figure5_cross_target_transportability_atlas",
+      "png": "Figure5_cross_target_transportability_atlas_2026-08-27.png",
+      "png_sha256": "e4e2bb0a8108d32d230ad2761b98a6321b346c066cf1d85405e158135a54a75f",
+      "png_width_px": 4684,
+      "png_height_px": 2824,
+      "pdf": "Figure5_cross_target_transportability_atlas_2026-08-27.pdf",
+      "pdf_sha256": "ecc49b86ae188216268f5359c238f95efc55ddff9e6b30d1f1a1fa1353e45b58",
+      "pdf_size_bytes": 34401,
+      "dimensions_pass": true,
+      "pdf_size_pass": true,
+      "pass": true
+    },
+    {
+      "figure": 6,
+      "stem": "Figure6_accessible_compartment_boundary",
+      "png": "Figure6_accessible_compartment_boundary_2026-08-27.png",
+      "png_sha256": "e2b41811325afc9d4d8485cba87cdad71f4b22bb6cac59b525ca108207c0312c",
+      "png_width_px": 4674,
+      "png_height_px": 2884,
+      "pdf": "Figure6_accessible_compartment_boundary_2026-08-27.pdf",
+      "pdf_sha256": "f51f53bd4839a637dc29fc383c900cbb387ab5f5adde6907436f84b20fb7e363",
+      "pdf_size_bytes": 33650,
+      "dimensions_pass": true,
+      "pdf_size_pass": true,
+      "pass": true
+    }
+  ],
+  "all_checks_pass": true,
+  "visual_qa": {
+    "performed": true,
+    "checked_items": [
+      "panel labels and titles",
+      "font readability after rendering",
+      "human versus provisional evidence labels",
+      "failed and not-testable outcomes retained",
+      "absence of clipped annotations"
+    ],
+    "result": "PASS"
+  },
+  "scope": "File existence, PNG dimensions, PDF non-trivial size, hashes, and recorded visual QA. Source-number consistency remains covered by the manuscript and source-data audits."
+}

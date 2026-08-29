@@ -1,0 +1,6 @@
+contrast_id	source_genes	human_symbol_resolved	reciprocal_one_to_one	rat_matrix_present	rat_expressed	rat_expressed_fraction
+early_allcell_diabetes_vs_control	656	640	598	554	448	0.6829268292682927
+late_allcell_DPN_vs_diabetes	3173	3139	2946	2712	2069	0.6520642924676961
+late_neuron_DPN_vs_diabetes	744	696	641	584	485	0.6518817204301075
+severity_neuron_modhigh_vs_low_nageotte	509	494	484	459	429	0.8428290766208252
+xenium_DPN_vs_control	60	60	57	56	41	0.6833333333333333

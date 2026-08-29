@@ -1,0 +1,179 @@
+{
+  "dataset": "GSE302658",
+  "audit_date": "2026-08-27",
+  "design_interpretation": {
+    "population": "painful diabetic polyneuropathy",
+    "visit_3": "pretreatment; study day -1",
+    "visit_8": "post-randomized treatment; study day 28",
+    "randomized_arms": [
+      "Placebo",
+      "AZD2423 20 mg",
+      "AZD2423 150 mg"
+    ],
+    "matrix_unit": "Salmon transcript-level estimated counts; fractional values retained"
+  },
+  "metadata": {
+    "sample_count": 205,
+    "unique_subject_count": 104,
+    "visit_counts": {
+      "Visit 3": 102,
+      "Visit 8": 103
+    },
+    "treatment_counts_by_sample": {
+      "AZD2423 20 mg": 73,
+      "AZD2423 150 mg": 72,
+      "Placebo": 60
+    },
+    "unique_subject_counts_by_treatment": {
+      "AZD2423 150 mg": 36,
+      "AZD2423 20 mg": 37,
+      "Placebo": 31
+    },
+    "sex_counts_by_subject": {
+      "F": 54,
+      "M": 50
+    },
+    "race_counts_by_subject": {
+      "WHITE": 68,
+      "BLACK OR AFRICAN AMERICAN": 25,
+      "OTHER": 7,
+      "ASIAN": 3,
+      "AMERICAN INDIAN OR ALASKA NATIVE": 1
+    },
+    "duplicate_subject_visit_row_count": 0,
+    "complete_visit3_visit8_subject_count": 101,
+    "paired_outcome_counts": {
+      "average_pain_nrs_last_12_hours": 101,
+      "worst_pain_nrs_last_12_hours": 101,
+      "npsi_total_score": 95
+    },
+    "all_title_metadata_fields_agree": true,
+    "all_library_description_fields_agree": true,
+    "all_visit_day_fields_compatible": true,
+    "actual_study_day_counts_by_visit": {
+      "Visit 3": {
+        "-1": 102
+      },
+      "Visit 8": {
+        "26": 2,
+        "27": 1,
+        "28": 99,
+        "35": 1
+      }
+    },
+    "baseline_age_range": [
+      34.0,
+      77.0
+    ],
+    "baseline_bmi_range": [
+      21.45,
+      57.77
+    ],
+    "outcome_nonmissing_counts_by_visit": {
+      "average_pain_nrs_last_12_hours": {
+        "Visit 3": 102,
+        "Visit 8": 103
+      },
+      "burning_pain": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "burning_superfic_spont_pain_sub_score": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "electric_shock_pain": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "evoked_pain_sub_score": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "npsi_total_score": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "pain_attacks": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "pain_brushing": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "pain_pins_and_needle": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "pain_present": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "pain_pressure": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "pain_something_cold": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "paresthesia_dysesthesia_sub_score": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "paroxysmal_pain_sub_score": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "pressing_deep_spont_pain_sub_score": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "pressure_pain": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "squeezing_pain": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "stabbing_pain": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "tingling": {
+        "Visit 3": 100,
+        "Visit 8": 99
+      },
+      "worst_pain_nrs_last_12_hours": {
+        "Visit 3": 102,
+        "Visit 8": 103
+      }
+    }
+  },
+  "matrix": {
+    "matrix_transcript_rows": 252303,
+    "matrix_unique_transcript_ids": 252303,
+    "duplicate_transcript_rows_detected_within_chunks_or_prior_chunks": 0,
+    "matrix_unique_ensembl_gene_ids": 62703,
+    "matrix_sample_count": 205,
+    "metadata_sample_count": 205,
+    "matrix_metadata_sample_set_equal": true,
+    "matrix_metadata_sample_order_equal": true,
+    "unmatched_matrix_samples": [],
+    "unmatched_metadata_samples": [],
+    "deposited_gene_ids_one_to_one_mapped_to_ncbi": 36810,
+    "deposited_gene_id_one_to_one_mapping_fraction": 0.5870532510406201,
+    "fractional_salmon_estimated_counts_observed": true,
+    "matrix_sha256": "f47260c9624a371a229db2e11f6cb3732ead31baa3d929f0d0c01af80e7a603a"
+  },
+  "files": {
+    "series_matrix": "${PROJECT_ROOT}\\data\\raw\\human_PDN_trial_GSE302658\\GSE302658_series_matrix.txt.gz",
+    "series_matrix_sha256": "bfce3f9579b777452e44ca1ec2ad76ad37acce347e5c121a802227fb58ea5cc4",
+    "salmon_matrix": "${PROJECT_ROOT}\\data\\raw\\human_PDN_trial_GSE302658\\GSE302658_salmon.merged.transcript_counts.tsv.gz",
+    "human_gene_info": "${PROJECT_ROOT}\\data\\raw\\NCBI_orthology_2026-08-27\\Homo_sapiens.gene_info.gz",
+    "human_gene_info_sha256": "7a9622bda5fd16e5e4eab75ecf64d69977f4388e93066d1eb68a9d0a71ed2c8a"
+  },
+  "analysis_boundary": "No signature-outcome association was calculated by this audit script."
+}
