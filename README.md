@@ -1,4 +1,6 @@
-# DPN transportability analysis: public release candidate
+# DPN transportability analysis
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22151890.svg)](https://doi.org/10.5281/zenodo.22151890)
 
 This repository is the reproducibility companion for:
 
@@ -8,7 +10,7 @@ Authors: Benteng Ma and Baihua Chen.
 
 ## Release status
 
-This directory is the author-approved **version 1.0.0** release prepared on 2026-08-29. It is ready for publication through GitHub and Zenodo but has not yet been deposited and therefore has no repository URL or DOI. Do not cite a DOI until the public Zenodo record exists and resolves. After deposit, cite the archived version that Zenodo creates for this release.
+Version **1.0.0** was released on 2026-08-29 and is publicly archived in Zenodo at [https://doi.org/10.5281/zenodo.22151890](https://doi.org/10.5281/zenodo.22151890). The corresponding GitHub release is [v1.0.0](https://github.com/benteng-ma/dpn-transportability-analysis/releases/tag/v1.0.0). For exact reproducibility of the submitted manuscript, cite the version-specific Zenodo DOI rather than the all-versions concept DOI.
 
 ## What this release contains
 
@@ -86,7 +88,7 @@ The release was tested with Python 3.13.11. Exact package versions are recorded 
 
 ## License and citation
 
-Original analysis software is licensed under the MIT License in `LICENSE`. Original documentation, author-generated metadata, frozen result tables, figures, and provenance records are licensed under CC BY 4.0 as scoped in `LICENSE-CONTENT.md`. Third-party source data remain governed by their original repository or publisher terms and are not redistributed or relicensed here. Citation metadata are provided in `CITATION.cff`; a repository URL and DOI must be added only after a real public deposit exists.
+Original analysis software is licensed under the MIT License in `LICENSE`. Original documentation, author-generated metadata, frozen result tables, figures, and provenance records are licensed under CC BY 4.0 as scoped in `LICENSE-CONTENT.md`. Third-party source data remain governed by their original repository or publisher terms and are not redistributed or relicensed here. Citation metadata are provided in `CITATION.cff`; the archived version should be cited as DOI [10.5281/zenodo.22151890](https://doi.org/10.5281/zenodo.22151890).
 
 ## Contact
 

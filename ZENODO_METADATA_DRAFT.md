@@ -1,4 +1,10 @@
-# Zenodo metadata for version 1.0.0 — not yet deposited
+# Zenodo metadata for version 1.0.0 — published 29 August 2026
+
+Version DOI: https://doi.org/10.5281/zenodo.22151890
+
+Concept DOI for all versions: https://doi.org/10.5281/zenodo.22151889
+
+GitHub repository: https://github.com/benteng-ma/dpn-transportability-analysis
 
 ## Upload type
 
@@ -14,14 +20,14 @@ DPN transportability analysis: code and frozen reproducibility archive
 
 ## Publication date
 
-Use the actual public-deposit date.
+2026-08-29
 
 ## Creators
 
 - Benteng Ma — Department of Ophthalmology, The Second Xiangya Hospital, Central South University; Hunan Clinical Research Centre of Ophthalmic Disease
 - Baihua Chen — Department of Ophthalmology, The Second Xiangya Hospital, Central South University; Hunan Clinical Research Centre of Ophthalmic Disease
 
-Add ORCID identifiers only after each identifier has been confirmed by its owner.
+ORCID identifiers were not added because they were not confirmed by their owners before release.
 
 ## Description
 
@@ -37,9 +43,9 @@ Select MIT for the Zenodo software record. Original code is licensed under MIT. 
 
 ## Related identifiers
 
+- The archived source release is linked to https://github.com/benteng-ma/dpn-transportability-analysis/tree/v1.0.0.
 - Add the manuscript DOI after publication, with relation “isSupplementTo” or the relationship recommended by Zenodo at that time.
-- Add no manuscript DOI, code DOI, or repository URL until it exists.
 
 ## Access right
 
-Open access, after the final privacy, license, and integrity checks pass.
+Open access. Published as Zenodo record 22151890.

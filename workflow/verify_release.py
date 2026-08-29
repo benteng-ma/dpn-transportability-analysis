@@ -188,7 +188,9 @@ def main() -> None:
         actual_files = {
             path.relative_to(ROOT).as_posix()
             for path in ROOT.rglob("*")
-            if path.is_file() and path.resolve() != checksum_path.resolve()
+            if path.is_file()
+            and ".git" not in path.relative_to(ROOT).parts
+            and path.resolve() != checksum_path.resolve()
         }
         if set(checksum_entries) != actual_files:
             checksum_errors.append(

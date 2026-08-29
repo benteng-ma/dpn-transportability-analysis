@@ -5,6 +5,9 @@ type: software
 version: "1.0.0"
 date-released: 2026-08-29
 license: MIT
+doi: 10.5281/zenodo.22151890
+repository-code: "https://github.com/benteng-ma/dpn-transportability-analysis"
+url: "https://doi.org/10.5281/zenodo.22151890"
 authors:
   - family-names: Ma
     given-names: Benteng
