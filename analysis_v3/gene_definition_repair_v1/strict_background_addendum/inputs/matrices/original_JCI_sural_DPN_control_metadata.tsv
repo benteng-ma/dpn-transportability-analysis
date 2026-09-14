@@ -1,0 +1,13 @@
+target_id	sample_id	group	primary_expression_source	group_code	sex	patient_id
+original_JCI_sural_DPN_control	C1	Control	DESeq2_normalized_counts	0	not_required	JCI184075:C1
+original_JCI_sural_DPN_control	C2	Control	DESeq2_normalized_counts	0	not_required	JCI184075:C2
+original_JCI_sural_DPN_control	C3	Control	DESeq2_normalized_counts	0	not_required	JCI184075:C3
+original_JCI_sural_DPN_control	C4	Control	DESeq2_normalized_counts	0	not_required	JCI184075:C4
+original_JCI_sural_DPN_control	C5	Control	DESeq2_normalized_counts	0	not_required	JCI184075:C5
+original_JCI_sural_DPN_control	C6	Control	DESeq2_normalized_counts	0	not_required	JCI184075:C6
+original_JCI_sural_DPN_control	S38	DPN	DESeq2_normalized_counts	1	not_required	JCI184075:S38
+original_JCI_sural_DPN_control	S39	DPN	DESeq2_normalized_counts	1	not_required	JCI184075:S39
+original_JCI_sural_DPN_control	S40	DPN	DESeq2_normalized_counts	1	not_required	JCI184075:S40
+original_JCI_sural_DPN_control	S42	DPN	DESeq2_normalized_counts	1	not_required	JCI184075:S42
+original_JCI_sural_DPN_control	S43	DPN	DESeq2_normalized_counts	1	not_required	JCI184075:S43
+original_JCI_sural_DPN_control	S44	DPN	DESeq2_normalized_counts	1	not_required	JCI184075:S44

@@ -1,0 +1,11 @@
+resource	module_id	measured_up	measured_down	total_up	total_down	eligible	reason
+GSE143979	late_allcell_residual	1295	1571	1310	1596	True	
+GSE143979	late_neuron_residual	76	199	86	199	True	
+GSE143979	late_shared_concordant_neuronal_core	48	77	48	80	True	
+GSE143979	original_early_allcell	303	328	303	337	True	
+GSE143979	original_late_allcell	1380	1678	1395	1707	True	
+GSE143979	original_late_neuron	131	299	141	302	True	
+GSE143979	original_severity	316	133	321	134	True	
+GSE143979	original_xenium	15	42	17	43	True	
+GSE143979	severity_neuron_residual	219	118	219	118	True	
+GSE143979	severity_neuron_shared_concordant_core	11	7	16	7	False	fewer than 10 measured genes in at least one arm

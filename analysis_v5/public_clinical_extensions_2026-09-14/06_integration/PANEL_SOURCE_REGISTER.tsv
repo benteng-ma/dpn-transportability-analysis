@@ -1,0 +1,21 @@
+figure	module	source_record	source_exists	display_role	data_status
+M01_F1_structure.png	01	01_GSE302658/results/GSE302658_CLINICAL_ANALYSIS_WIDE.tsv	True	formal	actual public-data result
+M01_F2_baseline.png	01	01_GSE302658/results/BASELINE_SYMPTOM_ASSOCIATIONS.tsv	True	formal	actual public-data result
+M01_F3_longitudinal.png	01	01_GSE302658/results/LONGITUDINAL_SYMPTOM_ASSOCIATIONS.tsv	True	formal	actual public-data result
+M01_F4_interaction.png	01	01_GSE302658/results/TREATMENT_INTERACTION_OMNIBUS.tsv	True	formal	actual public-data result
+M02_F1_cohorts.png	02	02_GSE286347/results/M02_PUBLIC_METADATA_AUDIT.tsv	True	formal	actual public-data result
+M02_F2_MODEL_EFFECT_COMPARISON.png	02	02_GSE286347/results/M02_EWAS_MODEL_COMPARISON.tsv	True	formal	actual public-data result
+M02_F3_fixed_regions.png	02	02_GSE286347/results/M02_FIXED_REGION_EFFECT_COMPARISON.tsv	True	formal	actual public-data result
+M02_F4_burden.png	02	02_GSE286347/results/M02_PROPENG_BURDEN_ASSOCIATIONS.tsv	True	formal	actual public-data result
+M03_DIAGNOSTIC_BETA_VS_M.png	03	03_GSE14806x/results/M03_RRBS_DIFFERENTIAL_RESULTS.tsv.gz	True	diagnostic	actual public-data result
+M03_F1_groups.png	03	03_GSE14806x/results/M03_RRBS_SAMPLE_AUDIT.tsv	True	formal	actual public-data result
+M03_F2_RNA_PROMOTER_EFFECTS.png	03	03_GSE14806x/results/M03_CROSSOMIC_GENE_EFFECTS.tsv.gz	True	formal	actual public-data result
+M03_F3_PROGRAM_EVIDENCE_MATRIX.png	03	03_GSE14806x/results/M03_PROGRAM_CROSSOMIC_SUMMARY.tsv	True	formal	actual public-data result
+M03_F4_GLOBAL_SAMPLE_QC.png	03	03_GSE14806x/results/M03_RRBS_GLOBAL_SAMPLE_QC.tsv	True	formal	actual public-data result
+M04_F1_PUBLIC_FIELD_AVAILABILITY.png	04	04_JCI184075/results/M04_DIRECT_KEY_AUDIT.tsv	True	formal	actual public-data result
+M05_F1_real_coordinates.png	05	05_GSE295206/results/M05_NAGEOTTE_BURDEN_BY_SECTION.tsv	True	formal	actual public-data result
+M05_F2_burden.png	05	05_GSE295206/results/M05_NAGEOTTE_BURDEN_BY_DONOR.tsv	True	formal	actual public-data result
+M05_F3_program_burden.png	05	05_GSE295206/results/M05_NAGEOTTE_BURDEN_PROGRAM_ASSOCIATIONS.tsv	True	formal	actual public-data result
+M05_F4_ARM_SPECIFIC_BURDEN.png	05	05_GSE295206/results/M05_NAGEOTTE_BURDEN_ARM_ASSOCIATIONS.tsv	True	formal	actual public-data result
+M05_F5_MARKER_PROXY_ROI_DIFFERENCES.png	05	05_GSE295206/results/M05_SPATIAL_MARKER_PROXY_SUMMARY.tsv	True	formal	actual public-data result
+M05_F6_TOPOLOGICAL_RING_TRENDS.png	05	05_GSE295206/results/M05_TOPOLOGICAL_RING_ANALYSIS.tsv	True	formal	actual public-data result

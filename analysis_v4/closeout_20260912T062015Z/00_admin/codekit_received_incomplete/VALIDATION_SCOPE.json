@@ -1,0 +1,18 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "pytest": "9.0.2",
+    "python-docx": "1.2.0"
+  },
+  "python_syntax_parse": "PASS",
+  "json_parse": "PASS",
+  "complete_task_md_txt_identical": true,
+  "R_scripts": "NOT_EXECUTED: Rscript not available in authoring runtime",
+  "R_synthetic_smoke_script": "SUPPLIED_NOT_EXECUTED",
+  "patient_analyses": "NOT_EXECUTED: current targeted-repair datasets/code are on author local system",
+  "docx_visual_layout": "NOT_ASSESSED: supplied helper is code, not a newly generated manuscript",
+  "test_fixtures": "SYNTHETIC_ONLY"
+}

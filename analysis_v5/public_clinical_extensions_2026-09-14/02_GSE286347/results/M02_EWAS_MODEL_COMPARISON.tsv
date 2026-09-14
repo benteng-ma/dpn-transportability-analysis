@@ -1,0 +1,9 @@
+cohort	model	status	eligible_CpGs	min_q	q_lt_0_05	source	design_rank	design_columns	n
+PROPGER	sex_only_existing	REUSED_COMPLETED	840040.0	0.8208619693486678	0.0	${DPN_PROJECT_ROOT}\analysis_v4\targeted_repair_2026-09-12\07_resource_recovery\M02_results\M02_PROPGER_EWAS_ALL_ELIGIBLE.tsv.gz			
+PROPGER	sex_plus_cells	NOT_EVALUABLE				cell estimates unavailable			
+PROPGER	sex_plus_batch_plus_cells	NOT_EVALUABLE				cell estimates unavailable			
+PROPENG	sex_only_existing	REUSED_COMPLETED	839953.0	0.999976869125687	0.0	${DPN_PROJECT_ROOT}\analysis_v4\targeted_repair_2026-09-12\07_resource_recovery\M02_results\M02_PROPENG_EWAS_ALL_ELIGIBLE.tsv.gz			
+PROPENG	sex_plus_cells	NOT_EVALUABLE				cell estimates unavailable			
+PROPENG	sex_plus_batch_plus_cells	NOT_EVALUABLE				cell estimates unavailable			
+PROPGER	sex_plus_batch	COMPLETED_EXPLORATORY	840040.0	0.04145872940982104	1.0		20.0	20.0	139.0
+PROPENG	sex_plus_batch	COMPLETED_EXPLORATORY	839953.0	0.9818819635867246	0.0		24.0	24.0	92.0

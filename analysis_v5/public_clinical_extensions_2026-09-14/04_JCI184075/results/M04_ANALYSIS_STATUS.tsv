@@ -1,0 +1,6 @@
+analysis	status	reason
+continuous pathology association	NOT_EVALUABLE	No public donor-linked continuous pathology measure; only categorical axonal-loss grades already analyzed.
+composition sensitivity	NOT_EVALUABLE	No public donor-linked quantitative cell fractions/counts for the fixed sural program-score cohort.
+paired tibial-sural quantitative pathology	NOT_EVALUABLE	Direct S/T RNA sample labels exist, but no quantitative pathology measure in both nerves.
+categorical moderate-versus-severe axonal loss	REUSED_HISTORICAL	Existing corrected analysis retained; not rerun to seek a different P value.
+S174 pain history	AUDIT_ONLY_NOT_LINKED	Six DRG/sciatic proteomic donors are a different assay cohort and are not treated as a sural-score clinical crosswalk.

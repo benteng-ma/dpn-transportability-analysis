@@ -1,0 +1,10 @@
+claim_id	claim	result_file	status	boundary
+C01	Baseline fixed RNA programs did not associate with any of eight symptom domains after BH correction.	01_GSE302658/results/BASELINE_SYMPTOM_ASSOCIATIONS.tsv	UNSUPPORTED	No equivalence claim.
+C02	Within-person changes in P1, P4 and P10 covaried with selected symptom changes after BH correction.	01_GSE302658/results/LONGITUDINAL_SYMPTOM_ASSOCIATIONS.tsv	SUPPORTED	Contemporaneous association; not prediction, mediation or causality.
+C03	No fixed program modified AZD2423 treatment effects after BH correction.	01_GSE302658/results/TREATMENT_INTERACTION_OMNIBUS.tsv	UNSUPPORTED	Specific trial and analyzable programs only.
+C04	One PROPGER CpG emerged only after Sentrix adjustment and did not replicate in PROPENG.	02_GSE286347/results/M02_PROPGER_EWAS_SEX_BATCH_ALL.tsv.gz	EXPLORATORY	Batch-sensitive, single-source signal; no biomarker claim.
+C05	No frozen PROPGER region or held-out program burden was supported in PROPENG.	02_GSE286347/results/M02_FIXED_REGION_BATCH_ADJUSTED_RETEST.tsv	UNSUPPORTED	P1/P3-P7/P9/P10 burdens mostly NE by fixed >=5 rule.
+C06	RRBS showed a broad ordered group trend but no extreme-group CpG after BH; fixed-program methylation enrichment was NE.	03_GSE14806x/results/M03_RRBS_ORDERED_TREND.tsv.gz	EXPLORATORY	No patient pairing; strong directional/numerical structure; not program validation.
+C07	Public JCI supplements contain categorical morphology but no new linked continuous pathology or composition endpoint.	04_JCI184075/results/M04_DIRECT_KEY_AUDIT.tsv	NE	Historical categorical analysis retained.
+C08	Donor-level Nageotte annotated-spot burden did not track any fixed program after BH.	05_GSE295206/results/M05_NAGEOTTE_BURDEN_PROGRAM_ASSOCIATIONS.tsv	UNSUPPORTED	n=6; spot fraction not area.
+C09	Some marker-expression proxy correlations were nominally large but remain descriptive and unadjusted as a family.	05_GSE295206/results/M05_SPATIAL_MARKER_PROXY_SUMMARY.tsv	EXPLORATORY	Expression proxies are not cell fractions.

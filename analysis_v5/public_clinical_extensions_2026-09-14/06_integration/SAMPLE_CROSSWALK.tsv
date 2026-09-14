@@ -1,0 +1,667 @@
+module	source	participant_key	sample_key	timepoint	group	hierarchy	cross_source_link
+M01	GSE302658	E1001002	GSM9108252	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E1001002	GSM9108254	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E1001007	GSM9108251	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1001007	GSM9108257	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1001009	GSM9108317	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1001009	GSM9108253	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1001010	GSM9108250	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E1001010	GSM9108255	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E1001012	GSM9108316	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E1001012	GSM9108256	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E1002001	GSM9108239	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1002001	GSM9108240	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1003002	GSM9108244	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E1003002	GSM9108249	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E1003003	GSM9108245	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1003003	GSM9108248	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1003006	GSM9108246	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E1003006	GSM9108247	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E1004001	GSM9108177	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E1004001	GSM9108178	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E1005001	GSM9108204	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E1005001	GSM9108290	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E1005005	GSM9108205	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E1005005	GSM9108309	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E1005006	GSM9108281	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1005006	GSM9108310	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1005007	GSM9108292	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E1005007	GSM9108311	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E1005008	GSM9108291	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E1005008	GSM9108208	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E1005018	GSM9108282	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E1005018	GSM9108289	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E1005019	GSM9108303	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E1005019	GSM9108207	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E1005022	GSM9108304	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1005022	GSM9108206	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1005023	GSM9108315	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1005023	GSM9108209	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1006003	GSM9108241	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1006003	GSM9108243	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1006005	GSM9108318	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1006005	GSM9108242	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E1007002	GSM9108265	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E1007002	GSM9108266	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7802002	GSM9108170	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7802002	GSM9108173	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7802003	GSM9108171	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7802003	GSM9108176	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7802006	GSM9108307	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7802006	GSM9108175	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7802007	GSM9108306	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7802007	GSM9108172	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7802009	GSM9108308	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7802009	GSM9108174	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7802012	GSM9108305	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7802012	GSM9108365	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7802013	GSM9108341	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7802013	GSM9108369	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7802016	GSM9108339	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7802016	GSM9108368	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7803001	GSM9108210	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7803001	GSM9108214	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7803004	GSM9108213	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7803004	GSM9108215	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7803005	GSM9108211	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7803005	GSM9108313	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7803006	GSM9108293	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7803006	GSM9108312	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7803008	GSM9108295	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7803008	GSM9108216	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7803009	GSM9108294	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7803009	GSM9108314	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7803019	GSM9108212	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7803019	GSM9108371	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7803021	GSM9108364	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7803021	GSM9108370	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7804006	GSM9108228	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7804006	GSM9108234	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7804010	GSM9108229	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7804010	GSM9108233	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7804011	GSM9108227	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7804011	GSM9108235	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7804014	GSM9108226	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7804014	GSM9108231	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7804015	GSM9108230	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7804015	GSM9108232	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7804033	GSM9108331	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7804033	GSM9108330	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7805002	GSM9108278	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7805002	GSM9108283	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7805010	GSM9108280	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7805010	GSM9108284	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7805017	GSM9108279	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7805017	GSM9108374	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7805019	GSM9108353	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7805019	GSM9108373	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7805022	GSM9108354	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7805022	GSM9108372	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7806003	GSM9108237	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7806003	GSM9108299	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7806014	GSM9108297	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7806014	GSM9108302	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7806018	GSM9108296	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7806018	GSM9108238	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7806020	GSM9108298	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7806020	GSM9108301	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7806023	GSM9108332	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7806023	GSM9108300	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7806029	GSM9108333	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7806029	GSM9108349	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7806035	GSM9108334	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7806035	GSM9108351	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7806040	GSM9108347	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7806040	GSM9108360	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7806042	GSM9108348	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7806042	GSM9108358	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7806045	GSM9108362	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7806048	GSM9108345	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7806048	GSM9108361	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7806050	GSM9108346	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7806050	GSM9108359	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7806055	GSM9108236	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7806055	GSM9108350	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7806059	GSM9108357	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7807004	GSM9108188	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7807004	GSM9108190	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7807006	GSM9108186	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7807006	GSM9108189	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7807007	GSM9108187	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7807007	GSM9108191	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7807013	GSM9108340	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7807013	GSM9108192	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7808012	GSM9108326	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7808012	GSM9108327	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7808015	GSM9108342	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7808015	GSM9108193	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7808016	GSM9108335	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7808016	GSM9108328	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7808018	GSM9108344	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7808018	GSM9108329	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7808019	GSM9108343	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7808019	GSM9108336	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7809003	GSM9108180	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7809003	GSM9108185	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7809005	GSM9108179	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7809005	GSM9108182	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7809008	GSM9108184	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7809012	GSM9108181	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7809012	GSM9108338	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7809016	GSM9108337	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7809016	GSM9108183	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7810002	GSM9108219	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7810002	GSM9108224	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7810004	GSM9108220	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7810004	GSM9108225	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7810005	GSM9108285	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7810005	GSM9108320	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7810008	GSM9108218	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7810008	GSM9108321	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7810009	GSM9108287	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7810009	GSM9108322	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7810013	GSM9108319	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7810013	GSM9108363	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7810017	GSM9108286	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7810017	GSM9108222	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7810018	GSM9108288	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7810018	GSM9108223	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7810022	GSM9108217	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7810022	GSM9108221	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7811002	GSM9108275	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7811002	GSM9108277	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7811005	GSM9108274	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7811005	GSM9108325	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7811008	GSM9108324	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7811008	GSM9108276	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7812001	GSM9108196	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7812001	GSM9108199	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7812002	GSM9108194	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7812002	GSM9108203	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7812006	GSM9108198	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7812006	GSM9108200	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7812007	GSM9108195	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7812007	GSM9108201	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7812008	GSM9108197	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7812008	GSM9108202	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7812010	GSM9108356	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7812010	GSM9108367	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7812015	GSM9108355	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7812015	GSM9108366	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7813001	GSM9108259	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7813001	GSM9108261	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7813008	GSM9108260	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7813008	GSM9108264	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7813011	GSM9108258	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7813011	GSM9108263	followup	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7813012	GSM9108352	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7813012	GSM9108262	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7814001	GSM9108269	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7814001	GSM9108272	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7814003	GSM9108268	baseline	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7814003	GSM9108271	followup	Placebo	participant>visit sample	NONE
+M01	GSE302658	E7814011	GSM9108323	baseline	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7814011	GSM9108270	followup	AZD2423 20 mg	participant>visit sample	NONE
+M01	GSE302658	E7814012	GSM9108267	baseline	AZD2423 150 mg	participant>visit sample	NONE
+M01	GSE302658	E7814012	GSM9108273	followup	AZD2423 150 mg	participant>visit sample	NONE
+M02	GSE286347	GSM8724140	GSM8724140	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724141	GSM8724141	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724142	GSM8724142	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724143	GSM8724143	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724144	GSM8724144	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724145	GSM8724145	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724146	GSM8724146	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724147	GSM8724147	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724148	GSM8724148	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724149	GSM8724149	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724150	GSM8724150	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724151	GSM8724151	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724152	GSM8724152	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724153	GSM8724153	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724154	GSM8724154	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724155	GSM8724155	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724156	GSM8724156	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724157	GSM8724157	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724158	GSM8724158	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724159	GSM8724159	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724160	GSM8724160	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724161	GSM8724161	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724162	GSM8724162	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724163	GSM8724163	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724164	GSM8724164	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724165	GSM8724165	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724166	GSM8724166	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724167	GSM8724167	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724168	GSM8724168	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724169	GSM8724169	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724170	GSM8724170	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724171	GSM8724171	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724172	GSM8724172	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724173	GSM8724173	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724174	GSM8724174	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724175	GSM8724175	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724176	GSM8724176	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724177	GSM8724177	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724178	GSM8724178	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724179	GSM8724179	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724180	GSM8724180	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724181	GSM8724181	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724182	GSM8724182	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724183	GSM8724183	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724184	GSM8724184	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724185	GSM8724185	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724186	GSM8724186	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724187	GSM8724187	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724188	GSM8724188	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724189	GSM8724189	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724190	GSM8724190	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724191	GSM8724191	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724192	GSM8724192	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724193	GSM8724193	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724194	GSM8724194	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724195	GSM8724195	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724196	GSM8724196	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724197	GSM8724197	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724198	GSM8724198	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724199	GSM8724199	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724200	GSM8724200	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724201	GSM8724201	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724202	GSM8724202	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724203	GSM8724203	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724204	GSM8724204	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724205	GSM8724205	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724206	GSM8724206	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724207	GSM8724207	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724208	GSM8724208	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724209	GSM8724209	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724210	GSM8724210	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724211	GSM8724211	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724212	GSM8724212	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724213	GSM8724213	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724214	GSM8724214	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724215	GSM8724215	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724216	GSM8724216	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724217	GSM8724217	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724218	GSM8724218	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724219	GSM8724219	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724220	GSM8724220	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724221	GSM8724221	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724222	GSM8724222	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724223	GSM8724223	cross-sectional	control	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724224	GSM8724224	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724225	GSM8724225	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724226	GSM8724226	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724227	GSM8724227	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724228	GSM8724228	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724229	GSM8724229	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724230	GSM8724230	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724231	GSM8724231	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724232	GSM8724232	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724233	GSM8724233	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724234	GSM8724234	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724235	GSM8724235	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724236	GSM8724236	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724237	GSM8724237	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724238	GSM8724238	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724239	GSM8724239	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724240	GSM8724240	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724241	GSM8724241	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724242	GSM8724242	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724243	GSM8724243	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724244	GSM8724244	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724245	GSM8724245	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724246	GSM8724246	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724247	GSM8724247	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724248	GSM8724248	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724249	GSM8724249	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724250	GSM8724250	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724251	GSM8724251	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724252	GSM8724252	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724253	GSM8724253	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724254	GSM8724254	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724255	GSM8724255	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724256	GSM8724256	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724257	GSM8724257	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724258	GSM8724258	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724259	GSM8724259	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724260	GSM8724260	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724261	GSM8724261	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724262	GSM8724262	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724263	GSM8724263	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724264	GSM8724264	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724265	GSM8724265	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724266	GSM8724266	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724267	GSM8724267	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724268	GSM8724268	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724269	GSM8724269	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724270	GSM8724270	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724271	GSM8724271	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724272	GSM8724272	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724273	GSM8724273	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724274	GSM8724274	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724275	GSM8724275	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724276	GSM8724276	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724277	GSM8724277	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724278	GSM8724278	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724279	GSM8724279	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724280	GSM8724280	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724281	GSM8724281	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724282	GSM8724282	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724283	GSM8724283	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724284	GSM8724284	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724285	GSM8724285	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724286	GSM8724286	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724287	GSM8724287	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724288	GSM8724288	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724289	GSM8724289	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724290	GSM8724290	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724291	GSM8724291	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724292	GSM8724292	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724293	GSM8724293	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724294	GSM8724294	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724295	GSM8724295	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724296	GSM8724296	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724297	GSM8724297	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724298	GSM8724298	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724299	GSM8724299	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724300	GSM8724300	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724301	GSM8724301	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724302	GSM8724302	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724303	GSM8724303	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724304	GSM8724304	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724305	GSM8724305	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724306	GSM8724306	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724307	GSM8724307	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724308	GSM8724308	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724309	GSM8724309	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724310	GSM8724310	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724311	GSM8724311	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724312	GSM8724312	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724313	GSM8724313	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724314	GSM8724314	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724315	GSM8724315	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724316	GSM8724316	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724317	GSM8724317	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724318	GSM8724318	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724319	GSM8724319	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724320	GSM8724320	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724321	GSM8724321	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724322	GSM8724322	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724323	GSM8724323	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724324	GSM8724324	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724325	GSM8724325	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724326	GSM8724326	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724327	GSM8724327	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724328	GSM8724328	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724329	GSM8724329	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724330	GSM8724330	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724331	GSM8724331	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724332	GSM8724332	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724333	GSM8724333	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724334	GSM8724334	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724335	GSM8724335	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724336	GSM8724336	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724337	GSM8724337	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724338	GSM8724338	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724339	GSM8724339	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724340	GSM8724340	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724341	GSM8724341	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724342	GSM8724342	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724343	GSM8724343	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724344	GSM8724344	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724345	GSM8724345	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724346	GSM8724346	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724347	GSM8724347	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724348	GSM8724348	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724349	GSM8724349	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724350	GSM8724350	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724351	GSM8724351	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724352	GSM8724352	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724353	GSM8724353	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724354	GSM8724354	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724355	GSM8724355	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724356	GSM8724356	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724357	GSM8724357	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724358	GSM8724358	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724359	GSM8724359	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724360	GSM8724360	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724361	GSM8724361	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724362	GSM8724362	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724363	GSM8724363	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724364	GSM8724364	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724365	GSM8724365	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724366	GSM8724366	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724367	GSM8724367	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724368	GSM8724368	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724369	GSM8724369	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724370	GSM8724370	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724371	GSM8724371	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724372	GSM8724372	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724373	GSM8724373	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724374	GSM8724374	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724375	GSM8724375	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724376	GSM8724376	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724377	GSM8724377	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724378	GSM8724378	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724379	GSM8724379	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724380	GSM8724380	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724381	GSM8724381	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724382	GSM8724382	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724383	GSM8724383	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724384	GSM8724384	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724385	GSM8724385	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724386	GSM8724386	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724387	GSM8724387	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724388	GSM8724388	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724389	GSM8724389	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724390	GSM8724390	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724391	GSM8724391	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724392	GSM8724392	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724393	GSM8724393	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724394	GSM8724394	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724395	GSM8724395	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724396	GSM8724396	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724397	GSM8724397	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724398	GSM8724398	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724399	GSM8724399	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724400	GSM8724400	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724401	GSM8724401	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724402	GSM8724402	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724403	GSM8724403	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724404	GSM8724404	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724405	GSM8724405	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724406	GSM8724406	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724407	GSM8724407	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724408	GSM8724408	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724409	GSM8724409	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724410	GSM8724410	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724411	GSM8724411	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724412	GSM8724412	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724413	GSM8724413	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724414	GSM8724414	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724415	GSM8724415	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724416	GSM8724416	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724417	GSM8724417	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724418	GSM8724418	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724419	GSM8724419	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724420	GSM8724420	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724421	GSM8724421	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724422	GSM8724422	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724423	GSM8724423	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724424	GSM8724424	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724425	GSM8724425	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724426	GSM8724426	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724427	GSM8724427	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724428	GSM8724428	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724429	GSM8724429	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724430	GSM8724430	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724431	GSM8724431	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724432	GSM8724432	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724433	GSM8724433	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724434	GSM8724434	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724435	GSM8724435	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724436	GSM8724436	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724437	GSM8724437	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724438	GSM8724438	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724439	GSM8724439	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724440	GSM8724440	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724441	GSM8724441	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724442	GSM8724442	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724443	GSM8724443	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724444	GSM8724444	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724445	GSM8724445	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724446	GSM8724446	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724447	GSM8724447	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724448	GSM8724448	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724449	GSM8724449	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724450	GSM8724450	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724451	GSM8724451	cross-sectional	painles diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724452	GSM8724452	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724453	GSM8724453	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M02	GSE286347	GSM8724454	GSM8724454	cross-sectional	painful diabetic neuropathy	public biospecimen; participant-level study record	NONE
+M03_RNA	GSE148059	GSM4453235	GSM4453235	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453236	GSM4453236	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453237	GSM4453237	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453238	GSM4453238	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453239	GSM4453239	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453240	GSM4453240	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453241	GSM4453241	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453242	GSM4453242	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453243	GSM4453243	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453244	GSM4453244	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453245	GSM4453245	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453246	GSM4453246	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453247	GSM4453247	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453248	GSM4453248	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453249	GSM4453249	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453250	GSM4453250	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453251	GSM4453251	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453252	GSM4453252	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453253	GSM4453253	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453254	GSM4453254	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453255	GSM4453255	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453256	GSM4453256	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453257	GSM4453257	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453258	GSM4453258	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453259	GSM4453259	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453260	GSM4453260	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453261	GSM4453261	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453262	GSM4453262	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453263	GSM4453263	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453264	GSM4453264	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453265	GSM4453265	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453266	GSM4453266	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453267	GSM4453267	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453268	GSM4453268	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453269	GSM4453269	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453270	GSM4453270	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453271	GSM4453271	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453272	GSM4453272	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453273	GSM4453273	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453274	GSM4453274	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453275	GSM4453275	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453276	GSM4453276	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453277	GSM4453277	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453278	GSM4453278	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453279	GSM4453279	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453280	GSM4453280	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453281	GSM4453281	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453282	GSM4453282	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453283	GSM4453283	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453284	GSM4453284	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453285	GSM4453285	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453286	GSM4453286	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453287	GSM4453287	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453288	GSM4453288	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453289	GSM4453289	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453290	GSM4453290	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453291	GSM4453291	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453292	GSM4453292	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453293	GSM4453293	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453294	GSM4453294	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453295	GSM4453295	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453296	GSM4453296	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453297	GSM4453297	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453298	GSM4453298	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453299	GSM4453299	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453300	GSM4453300	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453301	GSM4453301	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453302	GSM4453302	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453303	GSM4453303	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453304	GSM4453304	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453305	GSM4453305	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453306	GSM4453306	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453307	GSM4453307	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453308	GSM4453308	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453309	GSM4453309	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453310	GSM4453310	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RNA	GSE148059	GSM4453311	GSM4453311	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453312	GSM4453312	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453313	GSM4453313	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453314	GSM4453314	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453315	GSM4453315	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453316	GSM4453316	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453317	GSM4453317	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453318	GSM4453318	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453319	GSM4453319	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453320	GSM4453320	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453321	GSM4453321	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453322	GSM4453322	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453323	GSM4453323	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453324	GSM4453324	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453325	GSM4453325	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453326	GSM4453326	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453327	GSM4453327	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453328	GSM4453328	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453329	GSM4453329	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453330	GSM4453330	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453331	GSM4453331	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453332	GSM4453332	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453333	GSM4453333	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453334	GSM4453334	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453335	GSM4453335	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453336	GSM4453336	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453337	GSM4453337	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453338	GSM4453338	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453339	GSM4453339	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453340	GSM4453340	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453341	GSM4453341	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453342	GSM4453342	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453343	GSM4453343	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453344	GSM4453344	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453345	GSM4453345	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453346	GSM4453346	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453347	GSM4453347	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453348	GSM4453348	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453349	GSM4453349	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453350	GSM4453350	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453351	GSM4453351	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453352	GSM4453352	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453353	GSM4453353	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453354	GSM4453354	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453355	GSM4453355	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453356	GSM4453356	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453357	GSM4453357	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453358	GSM4453358	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453359	GSM4453359	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453360	GSM4453360	cross-sectional	Regenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453361	GSM4453361	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453362	GSM4453362	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453363	GSM4453363	cross-sectional	Degenerator	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M03_RRBS	GSE148060	GSM4453364	GSM4453364	cross-sectional	Intermediate	deposited sample	BLOCKED_NO_VERIFIED_RNA_RRBS_KEY
+M05	GSE295206	sub-UTD-DN0003	GSM8943583	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-DN0003-DRG>section	NONE
+M05	GSE295206	sub-UTD-DN0003	GSM8943584	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-DN0003-DRG>section	NONE
+M05	GSE295206	sub-UTD-180714DHB	GSM8943585	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-180714DHB-DRGL4>section	NONE
+M05	GSE295206	sub-UTD-180714DHB	GSM8943586	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-180714DHB-DRGL4>section	NONE
+M05	GSE295206	sub-UTD-181030DHB	GSM8943587	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-181030DHB-1L4>section	NONE
+M05	GSE295206	sub-UTD-181030DHB	GSM8943588	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-181030DHB-1L4>section	NONE
+M05	GSE295206	sub-UTD-181030DHB	GSM8943589	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-181030DHB-2L4>section	NONE
+M05	GSE295206	sub-UTD-181030DHB	GSM8943590	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-181030DHB-2L4>section	NONE
+M05	GSE295206	sub-UTD-DN0134	GSM8943591	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-DN0134-DRGL3>section	NONE
+M05	GSE295206	sub-UTD-DN0134	GSM8943592	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-DN0134-DRGL3>section	NONE
+M05	GSE295206	sub-UTD-DN0134	GSM8943593	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-DN0134-DRGL3>section	NONE
+M05	GSE295206	sub-UTD-DN0095	GSM8943594	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-DN0095-DRGL3>section	NONE
+M05	GSE295206	sub-UTD-DN0095	GSM8943595	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-DN0095-DRGL3>section	NONE
+M05	GSE295206	sub-UTD-DN0095	GSM8943596	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-DN0095-DRGL3>section	NONE
+M05	GSE295206	sub-UTD-DN0106	GSM8943597	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-DN0106-DRGL>section	NONE
+M05	GSE295206	sub-UTD-DN0106	GSM8943598	cross-sectional	diabetes history; DPN not asserted	donor>sam-UTD-DN0106-DRGL>section	NONE

@@ -1,0 +1,3 @@
+cohort	n	n_sentrix	sentrix_missing	perfect_phenotype_confounding	usable_for_sensitivity	note
+PROPENG	92	22	0	False	True	derived directly from public IDAT filename
+PROPGER	139	18	0	False	True	derived directly from public IDAT filename

@@ -1,0 +1,12 @@
+raw_label	normalized_label	roi	spots
+Multiple Neurons near Nageotte	multiple neurons near nageotte	Neuronal	31
+Multiple neurons near Nageotte	multiple neurons near nageotte	Neuronal	48
+Multiple neurons near nageotte	multiple neurons near nageotte	Neuronal	82
+Nageotte Nodule	nageotte nodule	Nageotte	22
+Nageotte Nodules	nageotte nodules	Nageotte	1072
+Nageotte also touching neuron	nageotte also touching neuron	mixed_excluded	116
+Single  neuron near nageotte	single neuron near nageotte	Neuronal	7
+Single Neuron near Nageotte	single neuron near nageotte	Neuronal	163
+Single neuron near Nageotte	single neuron near nageotte	Neuronal	207
+Single neuron near nageotte	single neuron near nageotte	Neuronal	528
+Single neuron near nageottes	single neuron near nageottes	Neuronal	21

@@ -19,3 +19,14 @@ data/raw/*
 # Local execution scratch space
 tmp/
 work/
+
+# Internal rendering and execution logs are not part of the public v2 archive
+analysis_v4/**/logs/
+analysis_v4/**/figures/
+analysis_v4/**/rendered/
+analysis_v4/**/08_manuscript/
+analysis_v4/**/10_readout/
+analysis_v4/**/09_verification/*contact*/
+analysis_v4/**/09_verification/template_manuscript_structure.txt
+analysis_v4/**/09_verification/DOCX_STRUCTURE_QA.json
+analysis_v4/**/09_verification/artifact.md

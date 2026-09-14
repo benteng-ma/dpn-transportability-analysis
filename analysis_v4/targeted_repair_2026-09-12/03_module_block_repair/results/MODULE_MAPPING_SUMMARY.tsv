@@ -1,0 +1,11 @@
+module	exclusion_reason	rows
+black	included	210
+blue	included	775
+brown	included	716
+green	included	356
+grey	grey_not_a_network_block	3632
+magenta	included	83
+pink	included	149
+red	included	324
+turquoise	included	1070
+yellow	included	685

@@ -1,0 +1,15 @@
+field	source_file	public	n_nonmissing	direct_key	scale	new_analysis
+age	jci-135-184075-s171.xlsx	True	32	True	continuous	AUDIT_ONLY
+sex	jci-135-184075-s171.xlsx	True	32	True	categorical_or_sample_label	AUDIT_ONLY
+diabetes_status	jci-135-184075-s171.xlsx	True	32	True	categorical_or_sample_label	AUDIT_ONLY
+morphology_category	jci-135-184075-s171.xlsx	True	19	True	ordinal_category	REUSE_HISTORICAL_ONLY
+sural_tibial_sample_labels	jci-135-184075-s171.xlsx	True	12	True	categorical_or_sample_label	AUDIT_ONLY
+severity_sample_label	jci-135-184075-s171.xlsx	True	17	True	categorical_or_sample_label	AUDIT_ONLY
+visium_sample_label	jci-135-184075-s171.xlsx	True	5	True	categorical_or_sample_label	AUDIT_ONLY
+pain_score	jci-135-184075-s171.xlsx	False	0	False	absent	NOT_EVALUABLE
+HbA1c	jci-135-184075-s171.xlsx	False	0	False	absent	NOT_EVALUABLE
+diabetes_duration	jci-135-184075-s171.xlsx	False	0	False	absent	NOT_EVALUABLE
+neuropathy_duration	jci-135-184075-s171.xlsx	False	0	False	absent	NOT_EVALUABLE
+continuous_axonal_density	jci-135-184075-s171.xlsx	False	0	False	absent	NOT_EVALUABLE
+quantitative_cell_composition	jci-135-184075-s171.xlsx	False	0	False	absent	NOT_EVALUABLE
+paired_quantitative_pathology	jci-135-184075-s171.xlsx	False	0	False	absent	NOT_EVALUABLE

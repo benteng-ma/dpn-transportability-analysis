@@ -1,0 +1,40 @@
+task: M02 beta branch exploratory continuation
+recorded_utc: 2026-09-12T01:48:30Z
+timing: locked_after_input_integrity_check_before_any_new_M02_association_result
+reason:
+  - complete_public_beta_matrix_acquired_and_gzip_validated
+  - GEO_metadata_does_not_supply_actual_age_or_a_reusable_nonconfounded_technical_batch
+primary_predeclared_model:
+  status: BLOCKED_COVARIATES
+  formula: methylation_M_value ~ pain_group + age + sex + verified_nonconfounded_technical_batch
+  statement: remains_unrun_and_is_not_reclassified
+exploratory_beta_branch:
+  status: AUTHORIZED_WITH_LIMITATIONS
+  cohorts: [PROPGER, PROPENG]
+  contrast: painful_minus_painless_within_DPN
+  scale_for_model: M_value_with_epsilon_1e-6
+  display_effect: mean_beta_difference
+  covariates: [sex]
+  exclusions:
+    - controls_from_within_DPN_contrast
+    - probes_with_detection_P_greater_than_0.01_in_more_than_0.05_of_samples
+    - probes_nonfinite_or_outside_0_1
+    - sex_chromosome_probes_when_annotation_is_available
+  discovery: PROPGER
+  held_out_directional_evaluation: PROPENG
+  multiplicity:
+    EWAS: BH_within_each_cohort_all_eligible_probes
+    DMR: DMRcate_FDR_within_each_cohort_if_dependencies_and_annotation_pass
+    fixed_program_gene_sets: BH_over_all_evaluable_fixed_sets_within_each_cohort
+  forbidden:
+    - impute_age
+    - infer_batch_from_outcome
+    - tune_thresholds_after_results
+    - call_exploratory_branch_primary_confirmation
+    - call_blood_methylation_neural_tissue_validation
+limitations:
+  - no_age_adjustment
+  - no_verified_technical_batch_adjustment
+  - whole_blood_cell_composition_not_yet_available
+  - beta_matrix_is_author_processed_non_normalized_average_beta
+  - observational_cross_sectional_association_only

@@ -1,0 +1,4 @@
+Program 1	Program 2	n	Spearman rho	P
+P1	P4	101	0.929	1.55e-44
+P1	P10	101	0.944	1.60e-49
+P4	P10	101	0.99	1.70e-85

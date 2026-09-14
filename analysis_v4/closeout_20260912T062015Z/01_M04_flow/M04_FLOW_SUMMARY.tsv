@@ -1,0 +1,10 @@
+metric	value
+raw_features	58174
+unique_mapped_raw_features	35749
+eligible_raw_features	27506
+canonical_geneids_from_unique_mapping	35749
+eligible_rank_geneids	27506
+cache_rows	38551
+rebuilt_snapshot_rows	38551
+cache_pairs_missing_in_rebuild	0
+rebuild_pairs_missing_in_cache	0

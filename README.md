@@ -1,95 +1,88 @@
-# DPN transportability analysis
+# DPN sensory-program transportability analysis
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22151890.svg)](https://doi.org/10.5281/zenodo.22151890)
+This repository is the versioned computational companion for:
 
-This repository is the reproducibility companion for:
-
-> Cross-tissue projection of human sensory-ganglion transcriptomic programs in diabetic neuropathy: a multi-cohort computational study
+> Anatomical context reshapes sensory ganglion transcriptomic programs in diabetic peripheral neuropathy
 
 Authors: Benteng Ma and Baihua Chen.
 
-## Release status
+## Current manuscript-matched release
 
-Version **1.0.0** was released on 2026-08-29 and is publicly archived in Zenodo at [https://doi.org/10.5281/zenodo.22151890](https://doi.org/10.5281/zenodo.22151890). The corresponding GitHub release is [v1.0.0](https://github.com/benteng-ma/dpn-transportability-analysis/releases/tag/v1.0.0). For exact reproducibility of the submitted manuscript, cite the version-specific Zenodo DOI rather than the all-versions concept DOI.
+Version **2.0.0** corresponds to the corrected Scientific Reports submission candidate dated 2026-09-14. It supersedes v1.0.0 for interpretation of the submitted manuscript but does not delete or rewrite the historical release.
 
-## What this release contains
+The v2 analysis has three auditable layers:
 
-- `analysis/scripts/`: 21 frozen Python analysis and audit scripts.
-- `data/processed/ocular/`: six frozen processed derivatives used for the ocular and trigeminal-ganglion projection, plus their checksums and provenance.
-- `data/raw/`: an intentionally empty input area with acquisition instructions. Third-party raw data are not redistributed.
-- `metadata/`: frozen sample and cohort metadata created during the study.
-- `results/tables/`: frozen numerical results and analysis-level QC records.
-- `results/figures/`: frozen main figures and the two source figure pairs needed to rebuild the composite set.
-- `provenance/`: numerical-claim, bibliographic, dataset, manuscript, and figure audit records.
-- `workflow/`: a run-order helper and release validator.
+- `analysis_v3/gene_definition_repair_v1/`: canonical GeneID repair, strict-background addendum, final program membership, coverage, scores and benchmark comparisons.
+- `analysis_v4/`: targeted background/module repairs, whole-gene context analyses, methylation method audit, fixed-region follow-up and donor-level spatial ROI closeout.
+- `analysis_v5/public_clinical_extensions_2026-09-14/`: public clinical extensions in GSE302658, GSE286347, GSE148059/GSE148060/GSE148061, JCI184075 supplements and GSE295206, plus cross-source evidence integration.
 
-The scientific design is source-frozen and non-pooled: source-program membership and direction were set before target scoring, and every target cohort was processed independently. Matrices and study-level effects were not pooled across datasets.
+The original v1 workflow remains under `analysis/`, `data/`, `metadata/`, `results/` and `provenance/`. Its immutable release is [v1.0.0](https://github.com/benteng-ma/dpn-transportability-analysis/releases/tag/v1.0.0), archived at [10.5281/zenodo.22151890](https://doi.org/10.5281/zenodo.22151890). That historical DOI must not be cited as the numerical archive for the corrected manuscript.
 
-## Two reproducibility modes
+## Main v2 findings represented here
 
-### 1. Audit the frozen release without downloading raw data
+- Five fixed programs differed between six DPN and six control sural nerves after correction, all opposite to their source direction. Applicable fixed-module deletions did not reverse those effects.
+- Seven of nine evaluable programs differed between author-labelled Nageotte and adjacent neuronal regions in six spatial-DRG donors. This is donor-level pathological localization in donors with diabetes history, not independent proof of DPN diagnosis or cell specificity.
+- In GSE302658, none of 64 baseline program–symptom tests and none of 64 randomized-treatment interaction tests survived correction. Eight of 64 within-participant symptom-change associations reached BH q<0.05. These are concurrent exploratory associations, not prediction, treatment mediation or causality.
+- Expanded blood-methylation, fixed-region and donor-level Nageotte-burden analyses did not provide cross-source corrected support. Not-evaluable analyses remain labelled as such rather than being counted as negative results.
 
-Create the environment, then run:
+## Reproducibility modes
+
+### Audit the frozen public release
+
+Create the Python environment and run:
 
 ```text
-python workflow/verify_release.py
+python workflow/verify_release_v2.py
 python workflow/run_pipeline.py --dry-run
 ```
 
-This checks the archive structure, code syntax, local-path hygiene, checksums, frozen results, and expected input layout. It does not repeat upstream analyses that require third-party source files.
+The v2 verifier checks required artifacts, Python syntax, manifest integrity, local-path hygiene, file-size limits and the semantic test records supplied with the clinical extension. It does not claim a clean-environment rerun of every upstream raw-data workflow.
 
-### 2. Repeat the full analysis from public source data
+### Re-run analyses from public source data
 
-1. Recreate the Python environment using `environment.yml` or `requirements.txt`.
-2. Obtain the public inputs listed in `SOURCE_DATA_MANIFEST.tsv` from the cited repositories or article supplements.
-3. Place them under `data/raw/` using the exact relative paths in the manifest and `data/raw/README.md`.
-4. Run `python workflow/verify_release.py --check-raw`.
-5. Work in a copy of this release, because the scripts overwrite same-named derived outputs.
-6. Run `python workflow/run_pipeline.py --execute`.
-7. Run `python workflow/verify_release.py --check-raw` again and compare the generated output hashes or numerical tables with the frozen release.
+1. Obtain source data from the repositories in `VERSION_2_SOURCE_REGISTER.tsv` and the original `SOURCE_DATA_MANIFEST.tsv`.
+2. Set `DPN_PROJECT_ROOT` to the repository root when a script needs inputs outside its immediate analysis directory.
+3. Place public inputs in the relative locations documented by the corresponding analysis lock, input audit or script.
+4. Use a working copy: some historical execution scripts write same-named derived outputs.
+5. Compare newly generated records with the frozen tables and SHA256 manifests.
 
-Some upstream public resources are large. They are deliberately referenced rather than bundled. Repository landing pages, expected paths, source roles, and hashes of the locally analysed copies are recorded in `SOURCE_DATA_MANIFEST.tsv`.
+Large public matrices, FASTQ files, IDAT archives, Visium H5/CLOUPE files and third-party article supplements are not redistributed. Some historical scripts require those public inputs and are retained as provenance rather than represented as one-command portable workflows.
 
-## Frozen execution order
+## Important correction history
 
-| Step | Script | Role |
-|---:|---|---|
-| 01 | `01_audit_and_map_pxd062366.py` | Audit and map the tear-proteome source. |
-| 02 | `02_audit_gse176017_matrices.py` | Audit GSE176017 animal matrices and create pseudobulk counts. |
-| 03 | `03_audit_and_extract_hdrg_supplements.py` | Extract and freeze source hDRG programs. |
-| 04 | `04_project_hdrg_stages_to_gse176017.py` | Project source programs into rat DRG. |
-| 05 | `05_audit_human_dpn_bulk_supplements.py` | Audit the independent human hDRG supplements. |
-| 06 | `06_validate_hdrg_signatures_in_independent_human_bulk.py` | Perform independent human hDRG validation. |
-| 07 | `07_project_hdrg_stages_to_diabetic_tg_cornea.py` | Project source programs into TG and corneal datasets. |
-| 08 | `08_validate_hdrg_stages_in_human_pbmc_cohorts.py` | Test two PBMC cohorts. |
-| 09 | `09_audit_GSE302658_PDN_trial.py` | Audit GSE302658 and construct sample metadata. |
-| 10 | `10_validate_hdrg_severity_in_GSE302658.py` | Test the clinical whole-blood cohort. |
-| 11 | `11_audit_PXD062366_hDRG_signature_coverage.py` | Apply the prespecified tear coverage gate. |
-| 12 | `12_validate_hdrg_components_in_human_sural_nerve.py` | Test components in human sural nerve. |
-| 13 | `13_build_cross_target_component_transportability_atlas.py` | Build the cross-target component atlas. |
-| 14 | `14_annotate_hdrg_transport_components.py` | Perform competitive functional annotation. |
-| 15 | `15_extract_hdrg_cell_composition_context.py` | Extract source cell-composition context. |
-| 16 | `16_build_phase0_6_run_manifest.py` | Build the original project manifest. |
-| 17 | `17_build_manuscript_traceability_package.py` | Build result-to-claim traceability records. |
-| 18 | `18_audit_manuscript_numerical_consistency.py` | Manuscript-development audit; retained for provenance. |
-| 19 | `19_audit_full_manuscript.py` | Manuscript-development audit; retained for provenance. |
-| 20 | `20_build_main_figure_composites.py` | Rebuild the six main figures. |
-| 21 | `21_audit_main_figure_composites.py` | Audit figure dimensions and hashes. |
+The v1 source programs contained legacy symbol-to-GeneID ambiguity. The v3.1 repair used standard GeneIDs, preserved genuine cross-source direction conflicts, fixed membership before corrected association reruns, and introduced a strict target-background addendum. Because previous results were already known, this is explicitly a post-result correction and impact analysis—not prospective registration or new blind validation.
 
-Steps 18 and 19 refer to the editable manuscript-development files and are not invoked by the public pipeline helper. Their frozen audit outputs are supplied under `provenance/`. Step 16 describes the original full project tree; `workflow/verify_release.py` is the authoritative validator for this public release layout.
+The final source authority is:
 
-## Interpretation boundaries
+```text
+analysis_v3/gene_definition_repair_v1/strict_background_addendum/consolidated_results/
+```
 
-This archive supports computational reproducibility, not causal inference. Association or signature transport across tissues does not establish propagation from ganglion soma to peripheral axon. Post-primary animal and ocular analyses are explanatory and cannot substitute for independent human validation. Failed blood or tear transfer rejects a direct proxy under the frozen test; it does not establish absence of all diabetes-related biology in those compartments.
+Where a consolidated replacement exists it governs v2. Other historical files remain for audit and must not be mixed with the final strict branch. P9 remains not evaluable for complete RNA scoring because its source-down arm does not meet the fixed coverage rule.
 
-## Environment
+## Public clinical extension
 
-The release was tested with Python 3.13.11. Exact package versions are recorded in `requirements.txt`; a portable environment recipe is supplied in `environment.yml`. No internet access is used by the analysis scripts once the required source files are present.
+The compact manuscript-matched archive is located at:
 
-## License and citation
+```text
+analysis_v5/public_clinical_extensions_2026-09-14/
+```
 
-Original analysis software is licensed under the MIT License in `LICENSE`. Original documentation, author-generated metadata, frozen result tables, figures, and provenance records are licensed under CC BY 4.0 as scoped in `LICENSE-CONTENT.md`. Third-party source data remain governed by their original repository or publisher terms and are not redistributed or relicensed here. Citation metadata are provided in `CITATION.cff`; the archived version should be cited as DOI [10.5281/zenodo.22151890](https://doi.org/10.5281/zenodo.22151890).
+It contains analysis-family registers, compact machine-readable results, environment records, evidence matrices, figure-source tables and the scripts used for the public-data extension. No patient crosswalk was guessed, no controlled-access data were used and P values were not pooled across sources.
 
-## Contact
+## Software and environment
 
-Questions about the scientific analysis should be directed to the corresponding author through the contact information in the associated manuscript. No support commitment is implied by this archive.
+- Python dependencies for the original workflow are listed in `requirements.txt` and `environment.yml`.
+- The clinical-extension environment snapshot is under `analysis_v5/public_clinical_extensions_2026-09-14/00_admin/environment/`.
+- R session information for the corrected and methylation/spatial branches is retained with the corresponding analysis records.
+- Public scripts use repository-relative paths by default and accept `DPN_PROJECT_ROOT` where a root override is necessary.
+
+## Licences and data boundaries
+
+Original software is licensed under the MIT License. Original documentation, author-generated metadata, result tables, figures and provenance records are licensed under CC BY 4.0 as scoped in `LICENSE-CONTENT.md`. Third-party source data retain their original licences and are not redistributed or relicensed here.
+
+This repository supports computational audit and bounded reanalysis. It does not establish causal propagation across tissues, clinical prediction, treatment-selection utility, a cell-specific mechanism or independent DPN validation of the spatial reference.
+
+## Citation
+
+Citation metadata are provided in `CITATION.cff`. A new version-specific Zenodo DOI will be added after the v2.0.0 GitHub release is archived. Until then, do not substitute the historical v1 DOI for this corrected version.

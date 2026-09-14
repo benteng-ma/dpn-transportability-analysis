@@ -1,0 +1,11 @@
+item	value
+EWAS_input_scale	beta converted to M=log2(beta/(1-beta)); epsilon=1e-6
+EWAS_design	intercept + painful status + sex
+primary_age_batch_model	BLOCKED: age and verified technical batch unavailable
+DMR_object	CpGannotated built from stored t, P, beta_difference, q; is.sig=q<0.05
+DMRcate_call	dmrcate(obj, lambda=1000, C=2, pcutoff=0.05, min.cpgs=3)
+PROPGER_DMRs	167
+fixed_region_memberships	1023
+PROPENG_participants	92
+PROPENG_extracted_probes	1023
+fixed_region_role	known-results retrospective fixed-coordinate evaluation; not blind validation

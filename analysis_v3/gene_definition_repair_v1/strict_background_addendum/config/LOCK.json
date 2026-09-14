@@ -1,0 +1,9 @@
+{
+  "locked_utc": "2026-09-10T15:59:02.366334+00:00",
+  "nature": "Post-result implementation correction; not preregistration",
+  "rule": "Remove ambiguous official symbols rather than use the legacy last-row dictionary; no target-P/effect decision. Reaggregate actual finite expression rows, median per GeneID. Source members unchanged. Only four affected stat-free backgrounds recomputed; GSE24290 unchanged.",
+  "source_members_sha256": "4a1a4a604366bab914ec04b98a06ec78863417e943b23e39fea913288308ce9c",
+  "input_manifest_sha256": "4e196a26e3c19a249757ab7cb9a82d9b4a0cf6ad8009fe40e3aa6f40c7623889",
+  "implementation_sha256": "c064b910064d0dda5774d722a1920a4cc51203f414c57f8d5e220403faf74475",
+  "strict_associations_viewed": false
+}

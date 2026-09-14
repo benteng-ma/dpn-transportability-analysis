@@ -1,0 +1,10 @@
+figure	panel	output_file	source_records	transformation	claim_boundary
+Targeted repair summary	A	08_integration/TARGETED_REPAIR_SUMMARY.png	02_M05_background_repair/results/M05_BACKGROUND_AUDIT.tsv	three fixed background counts	background correction only
+Targeted repair summary	B	08_integration/TARGETED_REPAIR_SUMMARY.png	01_inputs/M04_CORRECTED_EFFECTS.tsv	full score effects colored by within family q	completely confounded source comparison
+Targeted repair summary	C	08_integration/TARGETED_REPAIR_SUMMARY.png	07_resource_recovery/M02_results/M02_DMR_STATUS.tsv; M02_DMR_CROSS_COHORT_SUMMARY.json	DMR counts and interval overlap	sex adjusted beta branch not primary age batch model
+Targeted repair summary	D	08_integration/TARGETED_REPAIR_SUMMARY.png	07_resource_recovery/M03_results/M03_PROGRAM_TESTS.tsv	donor weighted ROI effects	pathology localization not independent DPN validation
+M03 program effects	all	07_resource_recovery/M03_program_effects.png	07_resource_recovery/M03_results/M03_PROGRAM_TESTS.tsv	donor bootstrap intervals and exact sign flip tests	six donors diabetes history only independence unknown
+M04 and M05 diagnostic	left	06_whole_gene_DE/figures/M04_M05_DE_diagnostic.png	06_whole_gene_DE/results/M04_PRIMARY_DE_ALL_GENES.tsv	all gene log fold change versus raw P	source anatomy surgery confounded
+M04 and M05 diagnostic	right	06_whole_gene_DE/figures/M04_M05_DE_diagnostic.png	06_whole_gene_DE/results/M05_AH_DPN_minus_MNC_DE_ALL_GENES.tsv	all gene log fold change versus raw P	AH only exploratory small observational donor groups
+M04 corrected effects	all	02_M05_background_repair/figures/M04_corrected_program_effects.png	01_inputs/M04_CORRECTED_EFFECTS.tsv	program and arm effects with bootstrap intervals	completely confounded source comparison
+M05 corrected effects	all	02_M05_background_repair/figures/M05_corrected_program_effects.png	02_M05_background_repair/results/M05_CORRECTED_EFFECTS_BY_MUSCLE.tsv	program and arm effects with bootstrap intervals	no full score within family q less than 0.05

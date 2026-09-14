@@ -1,0 +1,11 @@
+test	passed	observed	expected
+M01 independent HC3 t-reference replay	True	1.176836406102666e-14	<=1e-10
+M01 participant count	True	104	104
+M02 all public samples	True	315	315
+M02 DPN samples	True	231	231
+M02 PROPGER full-family BH	True	3.2751579226442118e-15	<1e-12
+M02 PROPENG full-family BH	True	3.3306690738754696e-16	<1e-12
+M03 finite-family BH	True	1.1102230246251565e-16	<1e-12
+M03 no fabricated patient pairing	True	{'BLOCKED': 53}	all BLOCKED
+M05 donor inference count	True	6	6
+M05 P9 remains NE/absent	True	['P1', 'P10', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8']	P9 absent

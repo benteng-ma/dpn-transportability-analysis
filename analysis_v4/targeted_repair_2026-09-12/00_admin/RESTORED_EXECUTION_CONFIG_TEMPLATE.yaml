@@ -1,0 +1,262 @@
+task: DPN all additional evidence expansion
+version: v4_handoff_1
+status: TEMPLATE_NOT_EXECUTED_OR_LOCKED
+prepared_date: '2026-09-12'
+actual_lock_utc: null
+root:
+  project_name: phase0_6_human_dpn_stage_projection
+  actual_root: null
+  output_directory: analysis_v4/all_extensions_<actual_UTC_date>
+  baseline: corrected v3.1 with final strict replacement manifest
+  baseline_manifest: null
+  canonical_members_file: null
+  canonical_members_sha256: null
+  strict_override_directory: null
+  gene_mapping_snapshot: null
+authorizations:
+  public_downloads: true
+  project_environment_installs: true
+  local_analysis: true
+  overwrite_history: false
+  change_program_members: false
+  change_program_directions: false
+  send_email: false
+  fill_access_forms_or_accept_new_agreements: false
+  paid_compute: false
+  controlled_data_without_approval: false
+  publish_or_submit: false
+programs:
+  P1:
+    name: Early all cell
+    up: 303
+    down: 337
+  P2:
+    name: Late all cell
+    up: 1395
+    down: 1707
+  P3:
+    name: Late neuronal
+    up: 141
+    down: 302
+  P4:
+    name: Severity parent
+    up: 321
+    down: 134
+  P5:
+    name: Spatial parent
+    up: 17
+    down: 43
+  P6:
+    name: Late core
+    up: 48
+    down: 80
+  P7:
+    name: Neuron residual
+    up: 86
+    down: 199
+  P8:
+    name: All cell residual
+    up: 1310
+    down: 1596
+  P9:
+    name: Severity core
+    up: 16
+    down: 7
+    rna_score_status: NOT_EVALUABLE
+  P10:
+    name: Severity residual
+    up: 219
+    down: 118
+general:
+  master_seed: 20260912
+  rna_min_measured_per_arm: 10
+  rank_ties: average
+  effect_test_sides: two_sided_except_inherently_directional_set_hypotheses
+  report_q_thresholds:
+  - 0.05
+  - 0.1
+  q10_label: exploratory_only
+  permutation_exact_max_assignments: 100000
+  permutation_mc_draws: 9999
+  mc_plus_one: true
+  bootstrap_draws: 2000
+  analysis_timing: post_hoc_after_known_v31
+  max_workers: 4
+  max_ram_fraction: 0.7
+  memory_available_gb: null
+  disk_free_gb: null
+  scientific_success_requires_significance: false
+modules:
+  M01_arms:
+    enabled: true
+    all_programs: true
+    all_existing_main_human_endpoints: true
+    strict_score_parity_tolerance: 1.0e-10
+    drop_gene_preserve_rank_universe: true
+    block_source: frozen_or_label_blind_before_effects
+    no_member_selection_by_p: true
+  M02_methylation:
+    enabled: true
+    accession: GSE286347
+    reported_record_count_for_audit_only: 315
+    reported_cohort_counts_for_audit_only:
+      PROPGER: 139
+      PROPENG: 92
+      other_controls: 84
+    discovery_cohort: PROPGER
+    reserved_cohort: PROPENG
+    primary_contrast: painful minus painless within DPN
+    primary_processing_preference: verified IDAT/noob; documented beta branch if unavailable
+    idat_detection_p_cutoff: 0.01
+    sample_failure_fraction: 0.01
+    probe_max_failure_fraction: 0.05
+    primary_chromosomes: autosomes
+    beta_boundary_epsilon: 1.0e-06
+    model_scale: M value
+    display_scale: beta difference
+    primary_model_covariates:
+    - age
+    - sex
+    - verified_nonconfounded_technical_batch
+    cell_composition_adjustment_role: sensitivity
+    min_genes_per_unsigned_set: 10
+    min_set_coverage: 0.2
+    cpg_threshold_for_set_test: 0.05
+    cpg_threshold_type: EWAS_BH_q
+    dmr_method: DMRcate_version_to_lock
+    dmr_lambda: 1000
+    dmr_C: 2
+    dmr_min_cpgs: 3
+    gene_set_method: gsameth
+    region_set_method: gsaregion
+    probe_id_annotation_version: null
+    clinical_crosswalk: null
+  M03_spatial:
+    enabled: true
+    accession: GSE295206
+    reported_design_for_audit_only:
+      sections: 16
+      DRGs: 7
+      donors: 6
+    primary_contrast: author Nageotte nodule ROI minus surrounding neuronal ROI
+    roi_source: author_external_labels_not_program_scores
+    min_spots_per_section_roi: 5
+    min_paired_donors_for_exploratory_test: 3
+    program_min_total_coverage: 0.2
+    donor_weighting: equal_after_section_and_DRG_aggregation
+    distance_bins_spot_diameters:
+    - 0-2
+    - 2-4
+    - '>4'
+    source_overlap: TO_AUDIT
+    raw_controlled_reads: false
+  M04_morton:
+    enabled: true
+    accession: GSE250152
+    reported_groups_for_audit_only:
+      Morton: 22
+      control: 11
+    primary_contrast: Morton minus uninjured control
+    scale: null
+    source_nondpn: true
+    whole_gene_analysis: one_scale_appropriate_context_analysis
+    pain_secondary_endpoints_if_linked:
+    - paroxysmal
+    - evoked
+    no_new_wgcna: true
+  M05_muscle:
+    enabled: true
+    accession: GSE143979
+    reported_libraries_for_audit_only: 15
+    donor_crosswalk: null
+    muscle_label_dictionary: null
+    primary: within_muscle DPN minus metabolically normal control
+    secondary: paired muscle difference compared between diagnoses
+    minimum_donors_each_group_for_exploratory_test: 3
+    avoid_donor_fixed_effect_with_collinear_disease_main_effect: true
+  M06_trial:
+    enabled: true
+    accession: GSE302658
+    reported_libraries_for_audit_only: 205
+    reported_visit_labels_to_verify:
+    - Visit 3
+    - Visit 8
+    reported_arms_to_verify:
+    - Placebo
+    - AZD2423 20 mg
+    - AZD2423 150 mg
+    primary: followup_score ~ baseline_score + categorical_treatment
+    primary_test: two_df_omnibus_treatment_if_three_arms
+    secondary_dose_contrasts:
+    - 20 mg minus placebo
+    - 150 mg minus placebo
+    clinical_interaction: NPSI_followup ~ NPSI_baseline + S_baseline + treatment +
+      S_baseline:treatment
+    no_locf: true
+    no_response_subgroup_fishing: true
+  M07_genetics:
+    enabled: true
+    source: FinnGen_public_release_to_verify
+    access_authorization: null
+    primary_endpoint: null
+    secondary_endpoints_max: 2
+    endpoint_selection_basis: clinical_definition_not_gwas_p
+    case_control_definition: null
+    ancestry: null
+    genome_build: null
+    ld_reference: null
+    gene_set_method: MAGMA_or_prespecified_equivalent_with_appropriate_LD
+    gtex_release: null
+    eqtl_primary_tissue: Nerve_Tibial
+    eqtl_secondary_tissue: Whole_Blood
+    coloc_locus_p_cutoff: 5.0e-08
+    coloc_lead_window_bp: 1000000
+    coloc_min_shared_snps: 100
+    coloc_min_shared_variant_coverage: 0.8
+    coloc_p12_primary: 1.0e-05
+    coloc_p12_sensitivity:
+    - 1.0e-06
+    - 0.0001
+    coloc_priors_other: null
+    coloc_method: abf_or_susie_after_assumption_and_LD_audit
+    broad_mr_screen: false
+    coloc_high_posterior_description_threshold: 0.8
+  M08_linkage_access:
+    enabled: true
+    ALC_accession: GSE148061
+    ALC_formal_key_available: false
+    rna_rrbs_matching_by_order: false
+    EDC_authorized_data_available: false
+    outputs_without_authorization: audit_and_drafts_only
+    emails_status: DRAFT_NOT_SENT
+  M09_integration:
+    enabled: true
+    cross_assay_p_pooling: false
+    original_claims_not_overwritten: true
+    deliver_unified_reader_document: true
+    tables: strict_three_line_no_inner_lines
+    huge_source_data: TSV.gz_or_Parquet_clearly_not_claimed_printed
+    no_author_confirmation_form: true
+    no_automatic_journal_upgrade: true
+state_values:
+- PLANNED
+- RUNNING
+- COMPLETED
+- DESCRIPTIVE_ONLY
+- NOT_EVALUABLE
+- BLOCKED_ACCESS
+- BLOCKED_LINKAGE
+- BLOCKED_RESOURCE
+final_outputs:
+- DPN_v4_ALL_EXTENSIONS_REVIEW_REPORT.pdf
+- SOURCE_REGISTER.tsv
+- SAMPLE_CROSSWALK.tsv
+- INDEPENDENCE_REGISTER.tsv
+- MULTIPLICITY_FAMILIES.tsv
+- WORK_PACKAGE_STATUS.tsv
+- CLAIM_EVIDENCE_REGISTER.tsv
+- PANEL_SOURCE_REGISTER.tsv
+- NEXT_ACTIONS.md
+- review_zip_and_independent_sha256
+config_precedence: instructions define scientific contract; fill nulls before module-specific
+  association; record amendments, never choose by significance

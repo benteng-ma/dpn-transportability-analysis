@@ -1,0 +1,11 @@
+unit	stage	count
+raw_feature	all	58174
+raw_feature	unique_mapping	35749
+raw_feature	ambiguous_or_unmapped	22425
+raw_feature	all_zero_before_mapping_filter	15430
+raw_feature	eligible_preaggregate	27506
+raw_feature	excluded_preaggregate	30668
+canonical_gene	all_uniquely_mapped	35749
+canonical_gene	no_eligible_raw_feature	8243
+canonical_gene	eligible_rank	27506
+canonical_gene	excluded_rank	8243

@@ -1,0 +1,1 @@
+This captures installed defaults and stored object fields, not the actual historical call arguments. Retrieve executed scripts, locks and logs separately.

@@ -1,0 +1,121 @@
+endpoint	background	family	test	status	statistic	p	effect	ci_low	ci_high	joint_core_effect	joint_residual_effect	n	reason	holm_p
+original_hDRG_DPN_control	inherited	late_allcell	parent_full	COMPLETED	1.6504782342332427	0.1366666666666666	0.0233986775719144	0.0060836171976707	0.0387515837091329			12.0		1.0
+original_hDRG_DPN_control	inherited	late_allcell	parent_restricted	COMPLETED	1.6435381715560542	0.1366666666666666	0.0234770474943264	0.005906323858918	0.0390376632082915			12.0		1.0
+original_hDRG_DPN_control	inherited	late_allcell	split_joint_maxT	COMPLETED	1.797061574614793	0.15				0.0372523383582029	0.0229148545420468	12.0		1.0
+original_hDRG_DPN_control	inherited	late_allcell	core_minus_residual	COMPLETED	1.686858845369446	0.12	0.0143374838161561	0.0070354094747077	0.0208417123406641			12.0		1.0
+original_hDRG_DPN_control	inherited	late_neuron	parent_full	COMPLETED	1.5175270817271098	0.1633333333333333	0.0106760179997208	0.0019599261210857	0.0190145099415101			12.0		1.0
+original_hDRG_DPN_control	inherited	late_neuron	parent_restricted	COMPLETED	1.5640762323527415	0.16	0.0126803301267397	0.0029045215335117	0.0220455685004533			12.0		1.0
+original_hDRG_DPN_control	inherited	late_neuron	split_joint_maxT	COMPLETED	1.797061574614793	0.2466666666666666				0.0372523383582029	0.0015597190396563	12.0		1.0
+original_hDRG_DPN_control	inherited	late_neuron	core_minus_residual	COMPLETED	1.790266636468076	0.1133333333333333	0.0356926193185466	0.0189221106813669	0.0531705225451313			12.0		1.0
+original_hDRG_DPN_control	inherited	severity	parent_full	NOT_EVALUABLE									arm coverage	
+original_hDRG_DPN_control	inherited	severity	parent_restricted	NOT_EVALUABLE									arm coverage	
+original_hDRG_DPN_control	inherited	severity	split_joint_maxT	NOT_EVALUABLE									arm coverage	
+original_hDRG_DPN_control	inherited	severity	core_minus_residual	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_DPN_control	inherited	late_allcell	parent_full	COMPLETED	2.2457738045950024	0.0064935064935064	-0.035498804476937	-0.0657486144092538	-0.0124354852622421			12.0		0.2532467532467496
+original_JCI_sural_DPN_control	inherited	late_allcell	parent_restricted	COMPLETED	2.2039011147345224	0.0086580086580086	-0.0351129471915967	-0.0657992385260548	-0.011880273289811			12.0		0.32900432900432686
+original_JCI_sural_DPN_control	inherited	late_allcell	split_joint_maxT	COMPLETED	2.283162780569873	0.0519480519480519				0.0098210312954184	-0.0368904057703568	12.0		1.0
+original_JCI_sural_DPN_control	inherited	late_allcell	core_minus_residual	COMPLETED	4.297656691574766	0.0021645021645021	0.0467114370657752	0.0283119042760417	0.0662354835880556			12.0		0.086580086580084
+original_JCI_sural_DPN_control	inherited	late_neuron	parent_full	COMPLETED	2.2554315075651723	0.0584415584415584	0.0253649434435279	0.006141579498264	0.045983722957758			12.0		1.0
+original_JCI_sural_DPN_control	inherited	late_neuron	parent_restricted	COMPLETED	1.9787213881436323	0.0844155844155844	0.0224906921533922	0.00292925386015	0.0431254212971688			12.0		1.0
+original_JCI_sural_DPN_control	inherited	late_neuron	split_joint_maxT	COMPLETED	2.206109974888931	0.1082251082251082				0.0098210312954184	0.0266283726709655	12.0		1.0
+original_JCI_sural_DPN_control	inherited	late_neuron	core_minus_residual	COMPLETED	1.346271349239703	0.2272727272727272	-0.016807341375547	-0.0407934329719349	0.0051988587629649			12.0		1.0
+original_JCI_sural_DPN_control	inherited	severity	parent_full	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_DPN_control	inherited	severity	parent_restricted	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_DPN_control	inherited	severity	split_joint_maxT	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_DPN_control	inherited	severity	core_minus_residual	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_severe_moderate	inherited	late_allcell	parent_full	COMPLETED	0.3965461217827835	0.7050420168067227	0.0058620105233149	-0.0195973777658105	0.0300676869504408			17.0		1.0
+original_JCI_sural_severe_moderate	inherited	late_allcell	parent_restricted	COMPLETED	0.3829138574316589	0.711764705882353	0.005730538952723	-0.0202417618980787	0.0302744724854562			17.0		1.0
+original_JCI_sural_severe_moderate	inherited	late_allcell	split_joint_maxT	COMPLETED	0.3853803209948641	0.838655462184874				0.0021666789761081	0.0058330358954028	17.0		1.0
+original_JCI_sural_severe_moderate	inherited	late_allcell	core_minus_residual	COMPLETED	0.5885418287201422	0.6054621848739495	-0.0036663569192947	-0.0145379086489124	0.0065980165402785			17.0		1.0
+original_JCI_sural_severe_moderate	inherited	late_neuron	parent_full	COMPLETED	0.1690140191607706	0.8651260504201681	-0.0011949919535463	-0.013928071628489	0.0100640858308378			17.0		1.0
+original_JCI_sural_severe_moderate	inherited	late_neuron	parent_restricted	COMPLETED	0.0380684289985845	0.972689075630252	-0.0002903343189515	-0.0140462441217618	0.0126749236898301			17.0		1.0
+original_JCI_sural_severe_moderate	inherited	late_neuron	split_joint_maxT	COMPLETED	0.2303333742109455	0.9634453781512604				0.0021666789761081	-0.001597105379392	17.0		1.0
+original_JCI_sural_severe_moderate	inherited	late_neuron	core_minus_residual	COMPLETED	0.3601549092586819	0.7323529411764705	0.0037637843555002	-0.0152302251491998	0.0221208565370674			17.0		1.0
+original_JCI_sural_severe_moderate	inherited	severity	parent_full	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_severe_moderate	inherited	severity	parent_restricted	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_severe_moderate	inherited	severity	split_joint_maxT	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_severe_moderate	inherited	severity	core_minus_residual	NOT_EVALUABLE									arm coverage	
+GSE24290_C01	inherited	late_allcell	parent_full	COMPLETED	1.42089882599054	0.1663	-0.0070024354687841	-0.0159618953023542	0.0022131570794195			35.0		1.0
+GSE24290_C01	inherited	late_allcell	parent_restricted	COMPLETED	1.422185648314514	0.1664	-0.0070682669589734	-0.0160531319083189	0.0022024071949018			35.0		1.0
+GSE24290_C01	inherited	late_allcell	split_joint_maxT	COMPLETED	1.4396225020049438	0.2275				-0.0043372729324156	-0.0071605111076229	35.0		1.0
+GSE24290_C01	inherited	late_allcell	core_minus_residual	COMPLETED	0.8386016448371079	0.4075	0.0028232381752073	-0.0035464229389242	0.0091367806014409			35.0		1.0
+GSE24290_C01	inherited	late_neuron	parent_full	COMPLETED	0.1494543502642843	0.8869	-0.000499270564595	-0.0067944950104636	0.0059294257544838			35.0		1.0
+GSE24290_C01	inherited	late_neuron	parent_restricted	COMPLETED	0.2540432662927962	0.7981	-0.000975821654688	-0.0082253418457373	0.0062606136264817			35.0		1.0
+GSE24290_C01	inherited	late_neuron	split_joint_maxT	COMPLETED	0.735416873145804	0.6608				-0.0043372729324156	0.0005273554335506	35.0		1.0
+GSE24290_C01	inherited	late_neuron	core_minus_residual	COMPLETED	1.0810606634886382	0.2871	-0.0048646283659663	-0.0131474964289002	0.0034784233261141			35.0		1.0
+GSE24290_C01	inherited	severity	parent_full	NOT_EVALUABLE									arm coverage	
+GSE24290_C01	inherited	severity	parent_restricted	NOT_EVALUABLE									arm coverage	
+GSE24290_C01	inherited	severity	split_joint_maxT	NOT_EVALUABLE									arm coverage	
+GSE24290_C01	inherited	severity	core_minus_residual	NOT_EVALUABLE									arm coverage	
+GSE24290_C01	statfree	late_allcell	parent_full	COMPLETED	1.42089882599054	0.1663	-0.0070024354687841	-0.0159618953023542	0.0022131570794195			35.0		1.0
+GSE24290_C01	statfree	late_allcell	parent_restricted	COMPLETED	1.422185648314514	0.1664	-0.0070682669589734	-0.0160531319083189	0.0022024071949018			35.0		1.0
+GSE24290_C01	statfree	late_allcell	split_joint_maxT	COMPLETED	1.4396225020049438	0.2275				-0.0043372729324156	-0.0071605111076229	35.0		1.0
+GSE24290_C01	statfree	late_allcell	core_minus_residual	COMPLETED	0.8386016448371079	0.4075	0.0028232381752073	-0.0035464229389242	0.0091367806014409			35.0		1.0
+GSE24290_C01	statfree	late_neuron	parent_full	COMPLETED	0.1494543502642843	0.8869	-0.000499270564595	-0.0067944950104636	0.0059294257544838			35.0		1.0
+GSE24290_C01	statfree	late_neuron	parent_restricted	COMPLETED	0.2540432662927962	0.7981	-0.000975821654688	-0.0082253418457373	0.0062606136264817			35.0		1.0
+GSE24290_C01	statfree	late_neuron	split_joint_maxT	COMPLETED	0.735416873145804	0.6608				-0.0043372729324156	0.0005273554335506	35.0		1.0
+GSE24290_C01	statfree	late_neuron	core_minus_residual	COMPLETED	1.0810606634886382	0.2871	-0.0048646283659663	-0.0131474964289002	0.0034784233261141			35.0		1.0
+GSE24290_C01	statfree	severity	parent_full	NOT_EVALUABLE									arm coverage	
+GSE24290_C01	statfree	severity	parent_restricted	NOT_EVALUABLE									arm coverage	
+GSE24290_C01	statfree	severity	split_joint_maxT	NOT_EVALUABLE									arm coverage	
+GSE24290_C01	statfree	severity	core_minus_residual	NOT_EVALUABLE									arm coverage	
+GSE148059_C02	inherited	late_allcell	parent_full	COMPLETED	0.0401854039103087	0.9712	-5.809925223011857e-05	-0.00290284314944	0.0026914949243742			77.0		1.0
+GSE148059_C02	inherited	late_allcell	parent_restricted	COMPLETED	0.0497107136267967	0.9655	-7.193474335363102e-05	-0.0029114338145694	0.0026822721590101			77.0		1.0
+GSE148059_C02	inherited	late_allcell	split_joint_maxT	COMPLETED	0.8553354518322438	0.6042				-0.0015668390251847	-2.039449799851361e-05	77.0		1.0
+GSE148059_C02	inherited	late_allcell	core_minus_residual	COMPLETED	1.1559000459390958	0.2761	-0.0015464445271861	-0.0041859001254613	0.0010804344674191			77.0		1.0
+GSE148059_C02	inherited	late_neuron	parent_full	COMPLETED	0.8549671098454608	0.4653	-0.0009425507423654	-0.0033316874216227	0.0013260718769401			77.0		1.0
+GSE148059_C02	inherited	late_neuron	parent_restricted	COMPLETED	0.77469022297981	0.5103	-0.000999041806051	-0.0037289070665617	0.001560514023211			77.0		1.0
+GSE148059_C02	inherited	late_neuron	split_joint_maxT	COMPLETED	0.8553354518322438	0.6625				-0.0015668390251847	-0.0006599643447486	77.0		1.0
+GSE148059_C02	inherited	late_neuron	core_minus_residual	COMPLETED	0.5318476558987066	0.6005	-0.000906874680436	-0.0041845192383193	0.0021998189839102			77.0		1.0
+GSE148059_C02	inherited	severity	parent_full	NOT_EVALUABLE									arm coverage	
+GSE148059_C02	inherited	severity	parent_restricted	NOT_EVALUABLE									arm coverage	
+GSE148059_C02	inherited	severity	split_joint_maxT	NOT_EVALUABLE									arm coverage	
+GSE148059_C02	inherited	severity	core_minus_residual	NOT_EVALUABLE									arm coverage	
+original_hDRG_DPN_control	statfree	late_allcell	parent_full	COMPLETED	1.6476157668842597	0.1366666666666666	0.0233554988033742	0.0060308108531785	0.0387902254194265			12.0		1.0
+original_hDRG_DPN_control	statfree	late_allcell	parent_restricted	COMPLETED	1.6420753315446002	0.1366666666666666	0.0234558748784936	0.0058868819325294	0.0389659729213597			12.0		1.0
+original_hDRG_DPN_control	statfree	late_allcell	split_joint_maxT	COMPLETED	1.797587078682502	0.15				0.0372744606356522	0.0228918428128885	12.0		1.0
+original_hDRG_DPN_control	statfree	late_allcell	core_minus_residual	COMPLETED	1.6892063995174706	0.1166666666666666	0.0143826178227636	0.007079589419236	0.0209028338370518			12.0		1.0
+original_hDRG_DPN_control	statfree	late_neuron	parent_full	COMPLETED	1.516769913955072	0.1633333333333333	0.0106912703520711	0.0019637323071131	0.0190448715485975			12.0		1.0
+original_hDRG_DPN_control	statfree	late_neuron	parent_restricted	COMPLETED	1.5631342092356255	0.16	0.0126969647014662	0.0028950570964631	0.0220716286177949			12.0		1.0
+original_hDRG_DPN_control	statfree	late_neuron	split_joint_maxT	COMPLETED	1.797587078682502	0.2466666666666666				0.0372744606356522	0.0015727222915099	12.0		1.0
+original_hDRG_DPN_control	statfree	late_neuron	core_minus_residual	COMPLETED	1.7917109709308006	0.1133333333333333	0.0357017383441423	0.0189555090827693	0.0531656125666081			12.0		1.0
+original_hDRG_DPN_control	statfree	severity	parent_full	NOT_EVALUABLE									arm coverage	
+original_hDRG_DPN_control	statfree	severity	parent_restricted	NOT_EVALUABLE									arm coverage	
+original_hDRG_DPN_control	statfree	severity	split_joint_maxT	NOT_EVALUABLE									arm coverage	
+original_hDRG_DPN_control	statfree	severity	core_minus_residual	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_DPN_control	statfree	late_allcell	parent_full	COMPLETED	2.2455899189283026	0.0064935064935064	-0.0355009321050886	-0.0657560989410626	-0.0124336793805215			12.0		0.2532467532467496
+original_JCI_sural_DPN_control	statfree	late_allcell	parent_restricted	COMPLETED	2.203704720580294	0.0086580086580086	-0.035114965921695	-0.0658068428534055	-0.0118799473260062			12.0		0.32900432900432686
+original_JCI_sural_DPN_control	statfree	late_allcell	split_joint_maxT	COMPLETED	2.282981564756867	0.0519480519480519				0.0098280128728479	-0.0368927498444749	12.0		1.0
+original_JCI_sural_DPN_control	statfree	late_allcell	core_minus_residual	COMPLETED	4.298087801760021	0.0021645021645021	0.0467207627173229	0.028320614168282	0.066245514042945			12.0		0.086580086580084
+original_JCI_sural_DPN_control	statfree	late_neuron	parent_full	COMPLETED	2.2614457874069505	0.0584415584415584	0.0254459559081848	0.0061888700394568	0.0461093163567292			12.0		1.0
+original_JCI_sural_DPN_control	statfree	late_neuron	parent_restricted	COMPLETED	1.9853209325825063	0.0822510822510822	0.0225775648766008	0.0029949956497579	0.0432266504052882			12.0		1.0
+original_JCI_sural_DPN_control	statfree	late_neuron	split_joint_maxT	COMPLETED	2.2134788369570497	0.106060606060606				0.0098280128728479	0.0267471692281034	12.0		1.0
+original_JCI_sural_DPN_control	statfree	late_neuron	core_minus_residual	COMPLETED	1.3528662571201626	0.2229437229437229	-0.0169191563552555	-0.0410168284431648	0.0051288161743852			12.0		1.0
+original_JCI_sural_DPN_control	statfree	severity	parent_full	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_DPN_control	statfree	severity	parent_restricted	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_DPN_control	statfree	severity	split_joint_maxT	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_DPN_control	statfree	severity	core_minus_residual	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_severe_moderate	statfree	late_allcell	parent_full	COMPLETED	0.3969708378944137	0.7046218487394958	0.0058681003876907	-0.0195921736425192	0.0300719771213198			17.0		1.0
+original_JCI_sural_severe_moderate	statfree	late_allcell	parent_restricted	COMPLETED	0.383347599636704	0.711764705882353	0.0057368602255146	-0.0202364564746777	0.0302789515887147			17.0		1.0
+original_JCI_sural_severe_moderate	statfree	late_allcell	split_joint_maxT	COMPLETED	0.3858125105446112	0.8382352941176471				0.0021722827696514	0.0058394150049487	17.0		1.0
+original_JCI_sural_severe_moderate	statfree	late_allcell	core_minus_residual	COMPLETED	0.5887306108089171	0.6050420168067226	-0.0036671322352972	-0.0145365131159759	0.0065941940957833			17.0		1.0
+original_JCI_sural_severe_moderate	statfree	late_neuron	parent_full	COMPLETED	0.1700951383056775	0.8626050420168068	-0.0011965772211044	-0.0138743190892041	0.0099829057484901			17.0		1.0
+original_JCI_sural_severe_moderate	statfree	late_neuron	parent_restricted	COMPLETED	0.0383936777773323	0.972689075630252	-0.0002914892270248	-0.0140106002952239	0.012635516738849			17.0		1.0
+original_JCI_sural_severe_moderate	statfree	late_neuron	split_joint_maxT	COMPLETED	0.2322785354003394	0.9630252100840336				0.0021722827696514	-0.0016011955304053	17.0		1.0
+original_JCI_sural_severe_moderate	statfree	late_neuron	core_minus_residual	COMPLETED	0.3603139732328257	0.7323529411764705	0.0037734783000568	-0.0152917996102148	0.0221838964382839			17.0		1.0
+original_JCI_sural_severe_moderate	statfree	severity	parent_full	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_severe_moderate	statfree	severity	parent_restricted	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_severe_moderate	statfree	severity	split_joint_maxT	NOT_EVALUABLE									arm coverage	
+original_JCI_sural_severe_moderate	statfree	severity	core_minus_residual	NOT_EVALUABLE									arm coverage	
+GSE148059_C02	statfree	late_allcell	parent_full	COMPLETED	0.0457614443261061	0.9677	-6.596723168980986e-05	-0.0029167744928536	0.0026760566821576			77.0		1.0
+GSE148059_C02	statfree	late_allcell	parent_restricted	COMPLETED	0.0555497952295357	0.9616	-8.014699075783801e-05	-0.0029048601362005	0.00266949891194			77.0		1.0
+GSE148059_C02	statfree	late_allcell	split_joint_maxT	COMPLETED	0.8545224322772528	0.6047				-0.0015641186172901	-2.8827392333657763e-05	77.0		1.0
+GSE148059_C02	statfree	late_allcell	core_minus_residual	COMPLETED	1.148865738624263	0.2793	-0.0015352912249564	-0.004172069903224	0.0010825242295794			77.0		1.0
+GSE148059_C02	statfree	late_neuron	parent_full	COMPLETED	0.8521691058695038	0.4662	-0.0009399181623477	-0.0033286599572163	0.0013252418972062			77.0		1.0
+GSE148059_C02	statfree	late_neuron	parent_restricted	COMPLETED	0.7723229881417039	0.511	-0.0009961890356485	-0.0037253134722124	0.0015706895463037			77.0		1.0
+GSE148059_C02	statfree	late_neuron	split_joint_maxT	COMPLETED	0.8545224322772528	0.6622				-0.0015641186172901	-0.0006576252344175	77.0		1.0
+GSE148059_C02	statfree	late_neuron	core_minus_residual	COMPLETED	0.5314762842023877	0.6006	-0.0009064933828726	-0.0041873609656731	0.0022020589058428			77.0		1.0
+GSE148059_C02	statfree	severity	parent_full	NOT_EVALUABLE									arm coverage	
+GSE148059_C02	statfree	severity	parent_restricted	NOT_EVALUABLE									arm coverage	
+GSE148059_C02	statfree	severity	split_joint_maxT	NOT_EVALUABLE									arm coverage	
+GSE148059_C02	statfree	severity	core_minus_residual	NOT_EVALUABLE									arm coverage	

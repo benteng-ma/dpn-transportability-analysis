@@ -1,0 +1,10 @@
+task_id	task	status	evidence_or_reason
+C00	CodeKit verification	NOT_EVALUABLE	Only ten loose files were supplied; seal_bundle.py, tests/, smoke_fixed_region.R, docx_three_line.py and REPORTED_BASELINE.md were absent. R scripts parsed; Python helper operations executed on real adapters.
+C01	M04 feature flow and annotation cache	COMPLETED	58,174 raw rows; 35,749 unique mapped rows; 27,506 eligible rank GeneIDs. Fixed NCBI snapshot reproduces all 38,551 cache pairs; report denominator corrected, no matrix change.
+C02	M02 DMR runtime and generation audit	COMPLETED	Installed R runtime audited. Exact rerun reproduced 167 PROPGER and 660 PROPENG coordinates; maximum numeric difference <6e-16.
+C03	PROPGER fixed regions tested in PROPENG	COMPLETED	Known-results retrospective test of all 167 fixed regions in 92 participants; 167 evaluable, four nominal P<0.05, none BH q<0.10; minimum q=0.3027.
+C04	M02 ancillary audit	PARTIAL	Probe QC, M-value scale, sex-adjusted design, DMR and region-set provenance verified. Age/batch primary model, cell composition, clinical linkage and pre-existing arm/promoter analyses remain unavailable or not executed; no proxy substituted.
+C05	M03 spatial ROI closeout	COMPLETED	16 sections, 7 DRG, 6 donors; nine programs evaluable, seven q=0.04018. Real coordinates, two arms, gene contributions and LODO produced. Gradient NE because no image, scale or boundary was available.
+C06	Fixed-module deletion summary	COMPLETED	All 632 planned, evaluable deletions retained with effects, sign, coverage and remaining arm counts. No WGCNA reconstruction and no favorable-block selection.
+C07	M04 and M05 whole-gene closeout	COMPLETED	M04 primary and sex-adjusted families kept distinct; M05 AH signal not called an interaction. Pain/pathology keys unavailable and remain NE.
+C08	FinnGen and ALC/EDC access boundary	BLOCKED_ACCESS	No access agreement, email, patient key or controlled data were obtained. No form was completed, no message sent and no patient mapping guessed.

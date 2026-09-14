@@ -1,0 +1,8 @@
+package	version	available
+limma	3.68.5	TRUE
+edgeR	4.10.5	TRUE
+minfi	1.58.0	TRUE
+missMethyl	1.46.0	TRUE
+DMRcate	3.8.0	TRUE
+IlluminaHumanMethylationEPICanno.ilm10b4.hg19	0.6.0	TRUE
+IlluminaHumanMethylationEPICanno.ilm10b2.hg19	NA	FALSE

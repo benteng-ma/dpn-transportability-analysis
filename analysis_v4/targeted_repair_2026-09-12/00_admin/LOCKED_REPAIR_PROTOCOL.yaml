@@ -1,0 +1,98 @@
+lock_utc: '2026-09-12T01:22:43Z'
+timing: post_v4_audit_targeted_correction_after_known_historical_results
+historical_outputs_read_only: true
+repair_results_viewed_before_lock: false
+
+inputs:
+  repaired_members_sha256: 4a1a4a604366bab914ec04b98a06ec78863417e943b23e39fea913288308ce9c
+  ncbi_gene_info_sha256: 7a9622bda5fd16e5e4eab75ecf64d69977f4388e93066d1eb68a9d0a71ed2c8a
+  module_members_sha256: d0e509b45b23c4bed155715d1c3c31e23730b5efb1a48bc4e74f354cda05c474
+  ensembl_geneid_map_sha256: 77324123f8147f6ed7af108cca82435d7c9eedbe905cb15754e623a039b706c8
+  gse143979_counts_sha256: 535e1c581667944bd1d2a8e3ac7b51109a643ab63f6b7df0b09f6d470eb2dc9e
+  gse250152_counts_sha256: 4797e335913495d86e2585fc46ab7341addf9ddd1d2288bc84dd7df6290fcea5
+  sample_metadata_sha256: d27ef3e71f73299ded754290f0f94e8f407952c4b87e87f989060b918ba4530e
+  historical_m01_gene_contributions_sha256: 275a32add64fa99d11a85a9b8cf8debf86e8ac7fb804c7a5aa15133b1e8bc4f4
+
+canonical_symbol_resolution:
+  snapshot: archived_NCBI_Homo_sapiens_gene_info_2026_08_27
+  priority: [unique_official_exact, unique_official_casefold, unique_synonym]
+  ambiguous_official_symbols: exclude
+  ambiguous_synonyms: exclude
+  unresolved_symbols: exclude
+  no_outcome_based_resolution: true
+
+expression_background:
+  finite_across_all_analysis_libraries: true
+  all_zero_rows: exclude
+  duplicate_geneid_aggregation: median
+  rank_method: within_sample_average_percentile_over_complete_eligible_background
+  program_score: mean_up_percentile_minus_mean_down_percentile
+  minimum_measured_genes_per_arm: 10
+  p9_rna_gate_unchanged: true
+  raw_feature_count_is_not_eligible_background_count: true
+
+M04:
+  mapping_audit_before_repair: true
+  mapping_requires_one_to_one_ensembl_to_geneid: true
+  reanalysis_trigger: violation_of_locked_background_or_mapping_rule
+  primary_contrast: Morton_minus_control
+  primary_permutation: fixed_labels_two_sided_exact_if_feasible_else_9999_plus_one
+  bootstrap_draws: 2000
+  full_score_family: all_eligible_programs
+  arm_family: all_eligible_programs_times_two_arms
+  sex_stratified_sensitivity: true
+  anatomy_diagnosis_source_confounding: complete
+
+M05:
+  raw_non_rna_columns: [name, length]
+  expected_rna_libraries: 15
+  ranking_background_must_include_non_program_genes: true
+  primary_contrasts: [AH_DPN_minus_MNC, MG_DPN_minus_MNC]
+  paired_contrast: diagnosis_difference_of_AH_minus_MG
+  primary_permutation: fixed_labels_two_sided_exact_if_feasible_else_9999_plus_one
+  bootstrap_draws: 2000
+  full_score_family: joint_AH_MG_all_eligible_programs
+  arm_family: joint_AH_MG_all_eligible_programs_times_two_arms
+  paired_full_family: all_eligible_programs
+  paired_arm_family: all_eligible_programs_times_two_arms
+
+network_blocks:
+  source: frozen_Batch02_MODULE_MEMBERS.tsv
+  expected_columns: {gene_symbol: gene, module: module}
+  resolve_symbols_with_same_canonical_snapshot: true
+  exclude_grey_as_network_block: true
+  no_first_or_last_column_fallback: true
+  no_wgcna_rebuild: true
+  deletion_preserves_original_rank_universe: true
+  deletion_recomputes_arm_means_from_gene_level_rank_deltas: true
+  minimum_remaining_genes_per_arm: 10
+
+M03_count_display:
+  count_unit: distinct_Sample_ID_per_DRG
+  expected_total_sections: 16
+  expected_distinct_DRGs: 7
+  expected_distinct_donors: 6
+
+whole_gene_DE:
+  timing: post_fixed_score_known_results_exploratory_continuation
+  engine: edgeR_TMM_limma_voom
+  filter: edgeR_filterByExpr_using_declared_design
+  gene_mapping: same_canonical_resolver_as_expression_background
+  duplicate_geneid_aggregation: sum_for_count_preservation
+  pre_result_amendment_utc: '2026-09-12T01:32:00Z'
+  pre_result_amendment_reason: score-background matrices use the strict median rule, but count-engine DE must sum independently mapped count rows to preserve library counts; no DE statistic was viewed before this amendment
+  M04_primary_design: intercept_plus_Morton_group
+  M04_sensitivity_design: intercept_plus_sex_plus_Morton_group
+  M05_design: muscle_by_diagnosis_cell_means_with_donor_block_duplicateCorrelation
+  M05_primary_contrasts: [AH_DPN_minus_AH_MNC, MG_DPN_minus_MG_MNC]
+  M05_interaction: [AH_DPN_minus_AH_MNC_minus_MG_DPN_plus_MG_MNC]
+  tests: two_sided
+  fdr: BH_per_declared_primary_family
+  report_all_finite_genes: true
+  no_program_or_outcome_based_gene_filtering: true
+
+cross_module_multiplicity:
+  preserve_historical_table: true
+  update_same_133_test_scope_only_for_repaired_records: true
+  role: sensitivity_only
+  no_favorable_family_selection: true

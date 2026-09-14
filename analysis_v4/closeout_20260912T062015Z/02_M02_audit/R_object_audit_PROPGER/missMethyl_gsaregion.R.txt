@@ -1,0 +1,52 @@
+PACKAGE missMethyl VERSION 1.46.0
+FORMALS
+as.pairlist(alist(regions = , all.cpg = NULL, collection = , array.type = c("450K", 
+    "EPIC", "EPIC_V2"), plot.bias = FALSE, prior.prob = TRUE, anno = NULL, equiv.cpg = TRUE, fract.counts = TRUE, genomic.features = c("ALL", 
+    "TSS200", "TSS1500", "Body", "1stExon", "3'UTR", "5'UTR", 
+    "ExonBnd"), sig.genes = FALSE))
+BODY
+{
+    array.type <- match.arg(toupper(array.type), c("450K", "EPIC", 
+        "EPIC_V2"))
+    genomic.features <- match.arg(genomic.features, c("ALL", 
+        "TSS200", "TSS1500", "Body", "1stExon", "3'UTR", "5'UTR", 
+        "ExonBnd"), several.ok = TRUE)
+    if (length(genomic.features) > 1 & any(grepl("ALL", genomic.features))) {
+        message("All input CpGs are used for testing.")
+        genomic.features <- "ALL"
+    }
+    if (array.type == "450K" & any(grepl("ExonBnd", genomic.features))) {
+        stop("'ExonBnd' is not an annotated feature on 450K arrays,\n           please remove it from your genomic.feature parameter\n           specification.")
+    }
+    if (array.type == "EPIC_V2" & any(grepl("ExonBnd", genomic.features))) {
+        stop("'ExonBnd' is not an annotated feature on EPIC_V2 arrays,\n\n           please remove it from your genomic.feature parameter\n\n           specification.")
+    }
+    if (is.null(anno)) {
+        if (array.type == "450K") {
+            anno <- minfi::getAnnotation(IlluminaHumanMethylation450kanno.ilmn12.hg19::IlluminaHumanMethylation450kanno.ilmn12.hg19)
+        }
+        else if (array.type == "EPIC_V2") {
+            anno <- minfi::getAnnotation(IlluminaHumanMethylationEPICv2anno.20a1.hg38::IlluminaHumanMethylationEPICv2anno.20a1.hg38)
+        }
+        else {
+            anno <- minfi::getAnnotation(IlluminaHumanMethylationEPICanno.ilm10b4.hg19::IlluminaHumanMethylationEPICanno.ilm10b4.hg19)
+        }
+    }
+    if (!is.null(all.cpg)) {
+        if (array.type == "EPIC_V2") {
+            anno <- anno[rownames(anno) %in% all.cpg, ]
+        }
+        else {
+            anno <- anno[all.cpg, ]
+        }
+    }
+    cpgs <- GenomicRanges::GRanges(seqnames = anno$chr, ranges = IRanges::IRanges(start = anno$pos, 
+        end = anno$pos), strand = anno$strand, name = anno$Name)
+    overlaps <- GenomicRanges::findOverlaps(cpgs, regions)
+    sig.cpg <- cpgs$name[from(overlaps)]
+    result <- gsameth(sig.cpg = sig.cpg, all.cpg = all.cpg, collection = collection, 
+        array.type = array.type, plot.bias = plot.bias, prior.prob = prior.prob, 
+        anno = anno, equiv.cpg = equiv.cpg, fract.counts = fract.counts, 
+        genomic.features = genomic.features, sig.genes = sig.genes)
+    result
+}

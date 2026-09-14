@@ -1,30 +1,29 @@
 {
-  "title": "DPN transportability analysis: code and frozen reproducibility archive",
+  "title": "DPN sensory-program transportability analysis",
   "upload_type": "software",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "access_right": "open",
   "license": "mit",
   "language": "eng",
   "creators": [
     {
       "name": "Ma, Benteng",
-      "affiliation": "Department of Ophthalmology, The Second Xiangya Hospital, Central South University; Hunan Clinical Research Centre of Ophthalmic Disease"
+      "affiliation": "Department of Ophthalmology, The Second Xiangya Hospital, Central South University"
     },
     {
       "name": "Chen, Baihua",
-      "affiliation": "Department of Ophthalmology, The Second Xiangya Hospital, Central South University; Hunan Clinical Research Centre of Ophthalmic Disease"
+      "affiliation": "Department of Ophthalmology, The Second Xiangya Hospital, Central South University"
     }
   ],
-  "description": "Frozen analysis code, environment specification, sample metadata, selected processed derivatives, numerical result tables, figures, and traceability audits for a source-frozen, non-pooled study of human sensory-ganglion transcriptomic-program transportability in diabetic neuropathy. Third-party raw data are not redistributed.",
+  "description": "Version-matched code, corrected canonical program definitions, compact numerical results, environment records and provenance for Anatomical context reshapes sensory ganglion transcriptomic programs in diabetic peripheral neuropathy. This post-result correction and public-data extension preserves positive, negative and not-evaluable findings. Third-party source data are not redistributed.",
   "keywords": [
     "diabetic peripheral neuropathy",
-    "dorsal root ganglion",
+    "sensory ganglion",
     "sural nerve",
-    "trigeminal ganglion",
-    "diabetic cornea",
+    "spatial transcriptomics",
     "transcriptomics",
     "transportability",
-    "cross-species analysis",
+    "anatomical context",
     "reproducible research"
   ]
 }

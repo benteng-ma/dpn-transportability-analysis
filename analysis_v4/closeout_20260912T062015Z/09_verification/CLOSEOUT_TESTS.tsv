@@ -1,0 +1,37 @@
+test	passed	detail
+python_ast_01_closeout_adapters.py	True	parsed
+python_ast_03_m03_closeout.py	True	parsed
+python_ast_05_build_closeout_documents.py	True	parsed
+python_ast_06_closeout_admin.py	True	parsed
+python_ast_07_build_report.py	True	parsed
+python_ast_08_verify_closeout.py	True	parsed
+python_ast_dpn_closeout.py	True	parsed
+M04_raw_partition	True	{'all': 58174, 'unique_mapping': 35749, 'ambiguous_or_unmapped': 22425, 'all_zero_before_mapping_filter': 15430, 'eligible_preaggregate': 27506, 'excluded_preaggregate': 30668, 'all_uniquely_mapped': 35749, 'no_eligible_raw_feature': 8243, 'eligible_rank': 27506, 'excluded_rank': 8243}
+M04_eligible_geneids	True	27506
+M04_annotation_cache_exact	True	{'both': 38551}
+DMR_coordinates_exact	True	[{'cohort': 'PROPGER', 'n_input': 840040, 'n_q05': 0, 'n_regions': 167, 'coordinates_exact': True, 'max_numeric_abs_difference': 4.16333634234434e-16}, {'cohort': 'PROPENG', 'n_input': 839953, 'n_q05': 0, 'n_regions': 660, 'coordinates_exact': True, 'max_numeric_abs_difference': 5.55111512312578e-17}]
+DMR_numeric_tolerance	True	4.16333634234434e-16
+fixed_region_family_167	True	167
+fixed_region_all_evaluable	True	{'COMPLETED': 167}
+fixed_region_no_q10	True	0.302727537641367
+spatial_algebra	True	effect=up-down
+spatial_donors	True	6
+spatial_P9_NE	True	six donor placeholders
+spatial_16_sections	True	16
+spatial_gene_contributions_nonempty	True	129537
+block_632	True	632
+block_nine_fixed_colors	True	['black', 'blue', 'brown', 'green', 'magenta', 'pink', 'red', 'turquoise', 'yellow']
+block_rank_universe_unchanged	True	verified from targeted repair score caches
+claim_files_exist	True	[]
+DPN_Closeout_Author_Review_Manuscript.docx_no_header	True	[]
+DPN_Closeout_Author_Review_Manuscript.docx_three_line_table_container	True	[]
+manuscript_abstract_le_200	True	185
+manuscript_keywords_le_6	True	6
+manuscript_display_items	True	(7, 1)
+DPN_Closeout_Combined_Supplementary_Information.docx_no_header	True	[]
+DPN_Closeout_Combined_Supplementary_Information.docx_three_line_table_container	True	[]
+DPN_Closeout_Cover_Letter_Draft.docx_no_header	True	[]
+DPN_Closeout_Cover_Letter_Draft.docx_three_line_table_container	True	[]
+DPN_Closeout_Author_Review_Manuscript.pdf_pages	True	35
+DPN_Closeout_Combined_Supplementary_Information.pdf_pages	True	55
+review_report_pages	True	5

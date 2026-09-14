@@ -1,0 +1,9 @@
+{
+  "lock_utc": "2026-09-10T12:53:50.845772+00:00",
+  "nature": "Known-results retrospective correction, not preregistration",
+  "rules_sha256": "6c3d541bfb374bb175d79c73e302b852cbfeb050c7b22e3a6f4c1c25e78391fb",
+  "members_sha256": "4a1a4a604366bab914ec04b98a06ec78863417e943b23e39fea913288308ce9c",
+  "partitions_sha256": "651625491d029918846b670959bab0a9c5d0fe31dd35148075257f77877a4363",
+  "manifest_sha256": "befdffb7cd5075eeedfb190ed8c168c1228f57368626a86e813fa8b7cda300d0",
+  "corrected_associations_viewed": false
+}

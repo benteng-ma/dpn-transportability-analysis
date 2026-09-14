@@ -1,0 +1,99 @@
+{
+  "task": "DPN v4 targeted closeout",
+  "version": "2026-09-12_closeout1",
+  "status": "TEMPLATE_NOT_LOCALLY_LOCKED",
+  "actual_lock_utc": null,
+  "project": {
+    "required_root_name": "phase0_6_human_dpn_stage_projection",
+    "actual_root": null,
+    "current_targeted_repair_directory": null,
+    "baseline_replacement_manifest": null,
+    "members_sha256_reported_for_audit": "4a1a4a604366bab914ec04b98a06ec78863417e943b23e39fea913288308ce9c",
+    "new_output_directory": null
+  },
+  "permissions": {
+    "public_metadata_read": true,
+    "local_analysis": true,
+    "new_review_manuscript": true,
+    "overwrite_history": false,
+    "change_program_members": false,
+    "send_email": false,
+    "accept_agreements": false,
+    "publish_repository_or_DOI": false,
+    "submit_manuscript": false,
+    "controlled_data_without_explicit_approval": false
+  },
+  "bindings": {
+    "M04_raw_matrix": null,
+    "M04_feature_disposition": null,
+    "M04_gene_disposition": null,
+    "M02_executed_script": null,
+    "M02_executed_lock": null,
+    "M02_CpGannotated_PROPGER": null,
+    "M02_CpGannotated_PROPENG": null,
+    "M02_DMR_PROPGER": null,
+    "M02_DMR_PROPENG": null,
+    "M02_probe_annotation": null,
+    "M02_metadata": null,
+    "M02_beta": null,
+    "M03_tar": null,
+    "M03_current_donor_effects": null,
+    "M03_current_roi_dictionary": null,
+    "current_BLOCK_INFLUENCE_files": []
+  },
+  "M02": {
+    "audit_before_region_followup": true,
+    "discovery": "PROPGER",
+    "test": "PROPENG",
+    "both_cohort_results_known": true,
+    "actual_model_scale": null,
+    "actual_what": null,
+    "actual_cpg_fdr": null,
+    "actual_pcutoff": null,
+    "actual_lambda": null,
+    "actual_C": null,
+    "actual_min_cpgs": null,
+    "actual_post_extract_filter": null,
+    "actual_all_cpg_background": null,
+    "age_batch_model_status": "BLOCKED_UNTIL_REAL_METADATA",
+    "fixed_region_model_policy": "reuse_existing_explicit_lock_else_document_new_mean_M_patient_level_followup",
+    "retest_two_sided": true,
+    "retest_BH_denominator": "all_accepted_PROPGER_discovery_regions_including_NE",
+    "no_significant_CpG_action": "NO_SELECTED_FEATURES_NOT_RELAX_THRESHOLD"
+  },
+  "M03": {
+    "original_statistic_to_verify": null,
+    "reported_sections": 16,
+    "reported_DRGs": 7,
+    "reported_donors": 6,
+    "rna_min_per_arm": 10,
+    "rna_min_fraction": 0.2,
+    "min_spots_each_section_roi": 5,
+    "min_paired_donors": 3,
+    "all_programs_in_display": true,
+    "P9_RNA": "NOT_EVALUABLE",
+    "bootstrap_draws_for_independent_audit": 2000,
+    "audit_seed": 20260912,
+    "unknown_scale_action": "NOT_EVALUABLE_FOR_GRADIENT_DO_NOT_BLOCK_ROI",
+    "scan_full_tar_for_assets": true
+  },
+  "blocks": {
+    "fixed_non_grey_modules_only": true,
+    "near_zero_display_tolerance": 1e-10,
+    "new_P_screen_for_each_deletion": false,
+    "reported_n_tasks_for_audit": 632
+  },
+  "publication": {
+    "target": "existing_DPN_target_to_verify_before_formatting",
+    "strict_three_line_tables": true,
+    "combined_supplementary_document": true,
+    "author_confirmation_form": false,
+    "all_huge_raw_rows_printed_claim": false,
+    "no_automatic_journal_upgrade": true
+  },
+  "code_validation": {
+    "python_synthetic_tests": "see verification/PYTHON_TEST_LOG.txt",
+    "R_runtime_here": "NOT_EXECUTED_NO_RSCRIPT_IN_AUTHORING_ENVIRONMENT",
+    "real_patient_analysis_here": "NOT_EXECUTED"
+  }
+}

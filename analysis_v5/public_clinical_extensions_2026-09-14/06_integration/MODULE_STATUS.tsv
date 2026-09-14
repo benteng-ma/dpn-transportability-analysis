@@ -1,0 +1,7 @@
+module	status	completed	boundary
+M01	COMPLETED	104 participants; baseline, longitudinal and randomized interaction families completed	P5/P9 NE from fixed coverage
+M02	COMPLETED_WITH_NE	315 public samples audited; 231 DPN analyzed; batch sensitivity and fixed burden completed	cell-composition sensitivity NE
+M03	COMPLETED_WITH_NE	53 RRBS samples and corrected RNA results compared at group level	patient pairing blocked; methylation program enrichment NE
+M04	COMPLETED_AUDIT_ONLY	28 public supplements audited	continuous/composition/paired pathology NE
+M05	COMPLETED	16 sections, 7 DRGs, 6 donors; burden, arm, marker proxy and topological summaries completed	P9 NE; no corrected burden association
+M06	COMPLETED	program-by-question evidence matrix and bounded draft completed	no P-value pooling or evidence score

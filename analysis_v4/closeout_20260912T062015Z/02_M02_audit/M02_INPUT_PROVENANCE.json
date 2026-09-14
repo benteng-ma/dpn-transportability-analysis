@@ -1,0 +1,10 @@
+{
+  "beta_file": "E:\\1 Codex project\\00_Cross_Project_Integration\\osfu_redesign_preflight_2026-08-25\\phase0_6_human_dpn_stage_projection\\analysis_v4\\targeted_repair_2026-09-12\\07_resource_recovery\\downloads\\GSE286347_MatrixBetaVal.csv.gz",
+  "beta_sha256": "6c3b6a7f4481463d5cb9c7f320734582c2c284917e10e5a54ec8e7eb7dd5f0f4",
+  "annotation_file": "E:\\1 Codex project\\00_Cross_Project_Integration\\osfu_redesign_preflight_2026-08-25\\phase0_6_human_dpn_stage_projection\\analysis_v4\\targeted_repair_2026-09-12\\01_inputs\\EPIC_V1_HG19_ANNOTATION.tsv.gz",
+  "annotation_sha256": "9bd484465e17f0f3c448856216cc5c0b84d57f46f95f30603203616c0bfb917c",
+  "discovery_dmr_file": "E:\\1 Codex project\\00_Cross_Project_Integration\\osfu_redesign_preflight_2026-08-25\\phase0_6_human_dpn_stage_projection\\analysis_v4\\targeted_repair_2026-09-12\\07_resource_recovery\\M02_results\\M02_PROPGER_DMR_ALL.tsv",
+  "discovery_dmr_sha256": "3fb5646e3db11d3cd315b3db367b7e919509464955f4dbb6d7b30e2c0cbd1390",
+  "metadata_file": "E:\\1 Codex project\\00_Cross_Project_Integration\\osfu_redesign_preflight_2026-08-25\\phase0_6_human_dpn_stage_projection\\analysis_v4\\targeted_repair_2026-09-12\\07_resource_recovery\\M02_results\\M02_SAMPLE_QC.tsv",
+  "metadata_sha256": "c8bc3e8fcb00ba6cde562ae5ef35e84078e73d282c13e9cd6175d30249954974"
+}

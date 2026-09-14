@@ -1,0 +1,134 @@
+module	endpoint	program	test	p	q_BH_cross_module_sensitivity
+M01	original_hDRG_DPN_control	late_allcell_residual	U arm	0.25	0.6785714285714286
+M01	original_hDRG_DPN_control	late_allcell_residual	D arm	0.0666666666666666	0.3764568764568765
+M01	original_hDRG_DPN_control	late_neuron_residual	U arm	0.11	0.4571875
+M01	original_hDRG_DPN_control	late_neuron_residual	D arm	0.0466666666666666	0.372549019607843
+M01	original_hDRG_DPN_control	late_shared_concordant_neuronal_core	U arm	0.06	0.3764568764568765
+M01	original_hDRG_DPN_control	late_shared_concordant_neuronal_core	D arm	0.0766666666666666	0.377654320987654
+M01	original_hDRG_DPN_control	original_early_allcell	U arm	0.51	0.8499878968800824
+M01	original_hDRG_DPN_control	original_early_allcell	D arm	0.3333333333333333	0.7836769230769232
+M01	original_hDRG_DPN_control	original_late_allcell	U arm	0.2066666666666666	0.6392248062015502
+M01	original_hDRG_DPN_control	original_late_allcell	D arm	0.0666666666666666	0.3764568764568765
+M01	original_hDRG_DPN_control	original_late_neuron	U arm	0.07	0.3764568764568765
+M01	original_hDRG_DPN_control	original_late_neuron	D arm	0.9633333333333334	0.97
+M01	original_hDRG_DPN_control	original_severity	U arm	0.5566666666666666	0.8499878968800824
+M01	original_hDRG_DPN_control	original_severity	D arm	0.0733333333333333	0.3764568764568765
+M01	original_hDRG_DPN_control	original_xenium	U arm	0.97	0.97
+M01	original_hDRG_DPN_control	original_xenium	D arm	0.3633333333333333	0.7836769230769232
+M01	original_hDRG_DPN_control	severity_neuron_residual	U arm	0.8566666666666667	0.9126653707701272
+M01	original_hDRG_DPN_control	severity_neuron_residual	D arm	0.09	0.4127586206896552
+M01	original_JCI_sural_DPN_control	late_allcell_residual	U arm	0.0021645021645021	0.0575757575757558
+M01	original_JCI_sural_DPN_control	late_allcell_residual	D arm	0.0108225108225108	0.2056277056277052
+M01	original_JCI_sural_DPN_control	late_neuron_residual	U arm	0.1601731601731601	0.5667846153846153
+M01	original_JCI_sural_DPN_control	late_neuron_residual	D arm	0.0281385281385281	0.3446078431372547
+M01	original_JCI_sural_DPN_control	late_shared_concordant_neuronal_core	U arm	0.0541125541125541	0.3764568764568765
+M01	original_JCI_sural_DPN_control	late_shared_concordant_neuronal_core	D arm	0.4307359307359307	0.8302521008403362
+M01	original_JCI_sural_DPN_control	original_early_allcell	U arm	0.1341991341991342	0.50995670995671
+M01	original_JCI_sural_DPN_control	original_early_allcell	D arm	0.0021645021645021	0.0575757575757558
+M01	original_JCI_sural_DPN_control	original_late_allcell	U arm	0.0021645021645021	0.0575757575757558
+M01	original_JCI_sural_DPN_control	original_late_allcell	D arm	0.0108225108225108	0.2056277056277052
+M01	original_JCI_sural_DPN_control	original_late_neuron	U arm	0.0584415584415584	0.3764568764568765
+M01	original_JCI_sural_DPN_control	original_late_neuron	D arm	0.0735930735930736	0.3764568764568765
+M01	original_JCI_sural_DPN_control	original_severity	U arm	0.1255411255411255	0.4910873440285204
+M01	original_JCI_sural_DPN_control	original_severity	D arm	0.0476190476190476	0.372549019607843
+M01	original_JCI_sural_DPN_control	original_xenium	U arm	0.0129870129870129	0.2159090909090894
+M01	original_JCI_sural_DPN_control	original_xenium	D arm	0.0021645021645021	0.0575757575757558
+M01	original_JCI_sural_DPN_control	severity_neuron_residual	U arm	0.2337662337662337	0.648375
+M01	original_JCI_sural_DPN_control	severity_neuron_residual	D arm	0.0411255411255411	0.372549019607843
+M01	original_JCI_sural_severe_moderate	late_allcell_residual	U arm	0.6953781512605042	0.88718125
+M01	original_JCI_sural_severe_moderate	late_allcell_residual	D arm	0.8378151260504202	0.9126653707701272
+M01	original_JCI_sural_severe_moderate	late_neuron_residual	U arm	0.4369747899159664	0.8302521008403362
+M01	original_JCI_sural_severe_moderate	late_neuron_residual	D arm	0.5546218487394958	0.8499878968800824
+M01	original_JCI_sural_severe_moderate	late_shared_concordant_neuronal_core	U arm	0.884453781512605	0.9190027573529412
+M01	original_JCI_sural_severe_moderate	late_shared_concordant_neuronal_core	D arm	0.6197478991596639	0.8574272133095662
+M01	original_JCI_sural_severe_moderate	original_early_allcell	U arm	0.7718487394957984	0.8926598465473146
+M01	original_JCI_sural_severe_moderate	original_early_allcell	D arm	0.0310924369747899	0.3446078431372547
+M01	original_JCI_sural_severe_moderate	original_late_allcell	U arm	0.6966386554621848	0.88718125
+M01	original_JCI_sural_severe_moderate	original_late_allcell	D arm	0.819327731092437	0.9126653707701272
+M01	original_JCI_sural_severe_moderate	original_late_neuron	U arm	0.6121848739495799	0.8574272133095662
+M01	original_JCI_sural_severe_moderate	original_late_neuron	D arm	0.638235294117647	0.8574272133095662
+M01	original_JCI_sural_severe_moderate	original_severity	U arm	0.7214285714285714	0.88718125
+M01	original_JCI_sural_severe_moderate	original_severity	D arm	0.3642857142857142	0.7836769230769232
+M01	original_JCI_sural_severe_moderate	original_xenium	U arm	0.7058823529411765	0.88718125
+M01	original_JCI_sural_severe_moderate	original_xenium	D arm	0.5579831932773109	0.8499878968800824
+M01	original_JCI_sural_severe_moderate	severity_neuron_residual	U arm	0.8373949579831933	0.9126653707701272
+M01	original_JCI_sural_severe_moderate	severity_neuron_residual	D arm	0.4369747899159664	0.8302521008403362
+M01	GSE148059_C02	late_allcell_residual	U arm	0.7186	0.88718125
+M01	GSE148059_C02	late_allcell_residual	D arm	0.492	0.8499878968800824
+M01	GSE148059_C02	late_neuron_residual	U arm	0.5707	0.8499878968800824
+M01	GSE148059_C02	late_neuron_residual	D arm	0.8375	0.9126653707701272
+M01	GSE148059_C02	late_shared_concordant_neuronal_core	U arm	0.383	0.7836769230769232
+M01	GSE148059_C02	late_shared_concordant_neuronal_core	D arm	0.7002	0.88718125
+M01	GSE148059_C02	original_early_allcell	U arm	0.1643	0.5667846153846153
+M01	GSE148059_C02	original_early_allcell	D arm	0.3118	0.7836769230769232
+M01	GSE148059_C02	original_late_allcell	U arm	0.7589	0.8873658411671235
+M01	GSE148059_C02	original_late_allcell	D arm	0.4985	0.8499878968800824
+M01	GSE148059_C02	original_late_neuron	U arm	0.3721	0.7836769230769232
+M01	GSE148059_C02	original_late_neuron	D arm	0.7471	0.88718125
+M01	GSE148059_C02	original_severity	U arm	0.2892	0.7692720000000001
+M01	GSE148059_C02	original_severity	D arm	0.9099	0.9282442748091604
+M01	GSE148059_C02	original_xenium	U arm	0.6376	0.8574272133095662
+M01	GSE148059_C02	original_xenium	D arm	0.5268	0.8499878968800824
+M01	GSE148059_C02	severity_neuron_residual	U arm	0.3786	0.7836769230769232
+M01	GSE148059_C02	severity_neuron_residual	D arm	0.8661	0.9126653707701272
+M01	GSE24290_C01	late_allcell_residual	U arm	0.0949	0.4207233333333333
+M01	GSE24290_C01	late_allcell_residual	D arm	0.3485	0.7836769230769232
+M01	GSE24290_C01	late_neuron_residual	U arm	0.742	0.88718125
+M01	GSE24290_C01	late_neuron_residual	D arm	0.475	0.8499878968800824
+M01	GSE24290_C01	late_shared_concordant_neuronal_core	U arm	0.5437	0.8499878968800824
+M01	GSE24290_C01	late_shared_concordant_neuronal_core	D arm	0.4591	0.8499878968800824
+M01	GSE24290_C01	original_early_allcell	U arm	0.5691	0.8499878968800824
+M01	GSE24290_C01	original_early_allcell	D arm	0.6283	0.8574272133095662
+M01	GSE24290_C01	original_late_allcell	U arm	0.1022	0.4384709677419355
+M01	GSE24290_C01	original_late_allcell	D arm	0.3418	0.7836769230769232
+M01	GSE24290_C01	original_late_neuron	U arm	0.5965	0.8574272133095662
+M01	GSE24290_C01	original_late_neuron	D arm	0.5524	0.8499878968800824
+M01	GSE24290_C01	original_severity	U arm	0.1662	0.5667846153846153
+M01	GSE24290_C01	original_severity	D arm	0.234	0.648375
+M01	GSE24290_C01	original_xenium	U arm	0.4059	0.8057417910447761
+M01	GSE24290_C01	original_xenium	D arm	0.8503	0.9126653707701272
+M01	GSE24290_C01	severity_neuron_residual	U arm	0.1756	0.58387
+M01	GSE24290_C01	severity_neuron_residual	D arm	0.2193	0.648375
+M04	Morton minus control	late_allcell_residual	full score	0.1224	0.4910873440285204
+M04	Morton minus control	late_neuron_residual	full score	0.5192	0.8499878968800824
+M04	Morton minus control	late_shared_concordant_neuronal_core	full score	0.0002	0.0266
+M04	Morton minus control	original_early_allcell	full score	0.8025	0.9126653707701272
+M04	Morton minus control	original_late_allcell	full score	0.0804	0.3819
+M04	Morton minus control	original_late_neuron	full score	0.2285	0.648375
+M04	Morton minus control	original_severity	full score	0.0522	0.3764568764568765
+M04	Morton minus control	original_xenium	full score	0.0367	0.372549019607843
+M04	Morton minus control	severity_neuron_residual	full score	0.0466	0.372549019607843
+M05	AH DPN minus MNC	late_allcell_residual	full score	0.7142857142857143	0.88718125
+M05	AH DPN minus MNC	late_neuron_residual	full score	0.3714285714285714	0.7836769230769232
+M05	AH DPN minus MNC	late_shared_concordant_neuronal_core	full score	0.6285714285714286	0.8574272133095662
+M05	AH DPN minus MNC	original_early_allcell	full score	0.5714285714285714	0.8499878968800824
+M05	AH DPN minus MNC	original_late_allcell	full score	0.7428571428571429	0.88718125
+M05	AH DPN minus MNC	original_late_neuron	full score	0.3714285714285714	0.7836769230769232
+M05	AH DPN minus MNC	original_severity	full score	0.3428571428571428	0.7836769230769232
+M05	AH DPN minus MNC	original_xenium	full score	0.0285714285714285	0.3446078431372547
+M05	AH DPN minus MNC	severity_neuron_residual	full score	0.3428571428571428	0.7836769230769232
+M05	MG DPN minus MNC	late_allcell_residual	full score	0.2	0.6333333333333334
+M05	MG DPN minus MNC	late_neuron_residual	full score	0.1428571428571428	0.5277777777777776
+M05	MG DPN minus MNC	late_shared_concordant_neuronal_core	full score	0.9142857142857144	0.9282442748091604
+M05	MG DPN minus MNC	original_early_allcell	full score	0.4	0.8057417910447761
+M05	MG DPN minus MNC	original_late_allcell	full score	0.2	0.6333333333333334
+M05	MG DPN minus MNC	original_late_neuron	full score	0.3428571428571428	0.7836769230769232
+M05	MG DPN minus MNC	original_severity	full score	0.6285714285714286	0.8574272133095662
+M05	MG DPN minus MNC	original_xenium	full score	0.0285714285714285	0.3446078431372547
+M05	MG DPN minus MNC	severity_neuron_residual	full score	0.6857142857142857	0.88718125
+M06	molecular ANCOVA	late_allcell_residual	joint treatment	0.5751797798436648	0.8499878968800824
+M06	molecular ANCOVA	late_neuron_residual	joint treatment	0.760599292428963	0.8873658411671235
+M06	molecular ANCOVA	late_shared_concordant_neuronal_core	joint treatment	0.8923625338031903	0.9200326898901108
+M06	molecular ANCOVA	original_early_allcell	joint treatment	0.7414811794600721	0.88718125
+M06	molecular ANCOVA	original_late_allcell	joint treatment	0.5827439469646372	0.8517026917175466
+M06	molecular ANCOVA	original_late_neuron	joint treatment	0.6513236136895193	0.8662604062070607
+M06	molecular ANCOVA	original_severity	joint treatment	0.8714924969007981	0.9126653707701272
+M06	molecular ANCOVA	severity_neuron_residual	joint treatment	0.8336847263412706	0.9126653707701272
+M06	NPSI interaction	late_allcell_residual	joint interaction	0.4707268409697599	0.8499878968800824
+M06	NPSI interaction	late_neuron_residual	joint interaction	0.5557058650089306	0.8499878968800824
+M06	NPSI interaction	late_shared_concordant_neuronal_core	joint interaction	0.865759658916093	0.9126653707701272
+M06	NPSI interaction	original_early_allcell	joint interaction	0.5372217552525063	0.8499878968800824
+M06	NPSI interaction	original_late_allcell	joint interaction	0.5019230016574019	0.8499878968800824
+M06	NPSI interaction	original_late_neuron	joint interaction	0.8355426121336217	0.9126653707701272
+M06	NPSI interaction	original_severity	joint interaction	0.3435718288576281	0.7836769230769232
+M06	NPSI interaction	severity_neuron_residual	joint interaction	0.2334187750397327	0.648375

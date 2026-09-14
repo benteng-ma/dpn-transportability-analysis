@@ -1,0 +1,8 @@
+source	n_people_or_donors	key_basis	within_source_relation	cross_source_boundary
+GSE302658	104	participant_id	within-study baseline/follow-up direct key	independent of other sources unknown
+GSE286347_PROPGER	139	GEO sample/public cohort key	distinct discovery cohort	not merged with PROPENG
+GSE286347_PROPENG	92	GEO sample/public cohort key	distinct held-out cohort	not merged with PROPGER
+GSE148059_RNA	77	GEO sample key	group-level	overlap with RRBS unknown
+GSE148060_RRBS	53	GEO sample key	group-level	no RNA pairing
+JCI184075_sural	12	documented sample label	historical corrected cohort	same participants for case and some morphology analyses
+GSE295206	6	documented donor hierarchy	16 sections/7 DRGs collapsed to donors	DPN diagnosis not asserted

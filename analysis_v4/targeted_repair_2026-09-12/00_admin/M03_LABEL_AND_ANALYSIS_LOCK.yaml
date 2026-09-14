@@ -1,0 +1,39 @@
+task: M03 public processed spatial continuation
+recorded_utc: 2026-09-12T02:31:00Z
+timing: locked_after_archive_and_label_audit_before_program_scores
+source: GSE295206
+diagnosis_boundary: diabetes_history_only_no_explicit_DPN_diagnosis
+independence_from_program_discovery: UNKNOWN_no_public_donor_crosswalk
+roi_dictionary:
+  nageotte: normalized_label_starts_with_nageotte_nodule
+  neuronal: normalized_label_matches_neuron_or_neurons_near_nageotte
+  excluded_mixed: normalized_label_contains_also_touching
+  normalization: lowercase_trim_and_collapse_whitespace
+minimum_spots_per_section_per_roi: 5
+score:
+  mapping: strict_NCBI_symbol_to_unique_GeneID
+  duplicate_GeneID_counts: sum
+  background: all_mapped_nonzero_GeneIDs_in_each_section
+  transform: average_percentile_rank_within_spot
+  formula: mean_source_up_rank_minus_mean_source_down_rank
+  minimum_measured_members_per_arm: 10
+inference:
+  unit: donor
+  aggregation: spot_to_section_then_DRG_then_equal_weight_donor
+  contrast: nageotte_minus_neuronal_ROI
+  test: exact_two_sided_sign_flip_of_donor_differences
+  confidence_interval: donor_bootstrap_2000_seed_20260912
+  multiplicity: BH_over_all_evaluable_program_full_scores
+gradient:
+  status: NOT_EVALUABLE_UNDER_LOCK
+  reason: processed_selection_and_coordinate_files_do_not_supply_a_verified_spot_diameter_calibration
+claims_forbidden:
+  - independent_DPN_validation
+  - causal_pathology_mechanism
+  - spot_level_n_inflation
+implementation_amendment:
+  recorded_utc: 2026-09-12T02:36:00Z
+  timing: after_first_run_quality_review_not_selected_by_effect_or_significance
+  issue: initial_literal_substring_classifier_failed_to_include_plural_neurons_labels_despite_the_locked_neuronal_ROI_intent
+  correction: use_regex_neurons_question_mark_near_nageotte_and_rerun_all_M03_outputs
+  superseded_first_run: retained_in_console_log_but_not_used_as_final_result

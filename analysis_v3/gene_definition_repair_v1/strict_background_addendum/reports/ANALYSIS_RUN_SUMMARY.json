@@ -1,0 +1,8 @@
+{
+  "association_rows": 40,
+  "benchmark_rows": 48,
+  "random_splits": 7992,
+  "gates": 12,
+  "legacy_b4_scores_sha256": "62e8650c8bf9918ae7f294c35d0f747d93408f82e560d99183c8b611268e2214",
+  "note": "Old/new association P uses the same new retrospective test. Historical P/q remains in protected outputs and separate dependency register."
+}

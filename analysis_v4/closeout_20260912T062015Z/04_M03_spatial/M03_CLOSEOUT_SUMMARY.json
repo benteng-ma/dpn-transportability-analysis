@@ -1,0 +1,11 @@
+{
+  "donors": 6,
+  "sections": 16,
+  "programs_evaluable": 9,
+  "two_arm_tests": 18,
+  "gene_contribution_rows": 129537,
+  "representative_section_rule": "lexicographically first section among sections with valid author ROI coordinates; not selected by effect",
+  "representative_section": "GSM8943583",
+  "distance_gradient": "NOT_EVALUABLE: no histology image, scalefactors_json, verified spot diameter or lesion boundary among 80 tar members",
+  "diagnosis_boundary": "donors have diabetes history; explicit DPN diagnosis unavailable"
+}
