@@ -85,4 +85,4 @@ This repository supports computational audit and bounded reanalysis. It does not
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`. A new version-specific Zenodo DOI will be added after the v2.0.0 GitHub release is archived. Until then, do not substitute the historical v1 DOI for this corrected version.
+Citation metadata are provided in `CITATION.cff`. Cite the version-specific v2.0.0 Zenodo archive at [10.5281/zenodo.22761152](https://doi.org/10.5281/zenodo.22761152). The v1 DOI remains a historical record and should not be substituted for the corrected manuscript-matched release.
