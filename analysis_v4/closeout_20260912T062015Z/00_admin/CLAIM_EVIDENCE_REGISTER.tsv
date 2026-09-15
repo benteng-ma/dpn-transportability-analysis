@@ -1,0 +1,11 @@
+claim_id	claim	result_file	record_scope	display	boundary
+M04 denominator	GSE250152 contains 58,174 raw features, 35,749 uniquely mapped rows and 27,506 eligible canonical GeneIDs.	01_M04_flow/helper_flow_validation_retry/COUNT_FLOW.tsv	all rows	Supplementary Fig. S11; Table S17	report correction only
+M04 cache	The mapping cache is a general annotation product from the fixed NCBI GeneInfo snapshot, not a blood-selected expression universe.	01_M04_flow/ANNOTATION_CACHE_VS_FIXED_SNAPSHOT.tsv	all 38,551 pairs	Table S17	no score or DE rerun required
+M02 DMR provenance	The installed workflow exactly reproduced 167 PROPGER and 660 PROPENG DMR coordinates.	02_M02_audit/DMR_exact_reproduction_v2/DMR_REPRODUCTION_AUDIT.tsv	PROPGER and PROPENG	Supplementary Table S18	computational reproduction, not validation
+M02 fixed regions	No one of 167 fixed PROPGER regions met BH q<0.10 in PROPENG.	03_M02_fixed_regions/PROPENG_retest_v2/FIXED_REGION_RETEST_ALL.tsv	all 167 regions	Supplementary Fig. S10; Table S18	known-results retrospective average-region test
+M03 ROI	Seven of nine evaluable programs differed between author Nageotte and neuronal ROIs at q=0.04018.	04_M03_spatial/helper_spatial_oracle/SPATIAL_AUDIT.tsv	P1-P10 including P9 NE	Figure 7; Table S19	diabetes history, not explicit DPN diagnosis
+M03 arms	The two score arms contributed differently across programs.	04_M03_spatial/M03_TWO_ARM_TESTS.tsv	all 18 eligible tests	Figure 7; Table S20	separate family; not independent validation
+M03 coordinates	Displayed coordinates are real array coordinates with author ROI labels.	04_M03_spatial/M03_REAL_COORDINATES_WITH_AUTHOR_ROI.tsv.gz	all 16 sections	Figure 7; Supplementary Fig. S13	not a histology image; distance gradient NE
+Block deletion	632 fixed-module deletions were evaluable; sign preservation varies by endpoint and program.	05_block_summary/helper_block_summary/BLOCK_SUMMARY.tsv	all rows	Supplementary Fig. S12; Table S21	evaluability is not robustness
+M05 DE	AH had 1,288 q<0.05 genes, MG and diagnosis-by-muscle interaction had none.	06_remaining_status/M05_DE_SUMMARY.tsv	all planned contrasts	Table S22	AH significance does not establish interaction
+Access boundary	FinnGen and ALC/EDC tasks have no authorized data result.	00_admin/CLOSEOUT_STATUS.tsv	C08	Table S23	blocked access, not biological negative

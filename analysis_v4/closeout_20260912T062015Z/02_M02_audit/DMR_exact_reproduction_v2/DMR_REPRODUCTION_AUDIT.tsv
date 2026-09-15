@@ -1,0 +1,3 @@
+cohort	n_input	n_q05	n_regions	coordinates_exact	max_numeric_abs_difference
+PROPGER	840040	0	167	TRUE	4.16333634234434e-16
+PROPENG	839953	0	660	TRUE	5.55111512312578e-17

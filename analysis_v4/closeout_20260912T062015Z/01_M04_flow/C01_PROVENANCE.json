@@ -1,0 +1,9 @@
+{
+  "raw_audit": "E:\\1 Codex project\\00_Cross_Project_Integration\\osfu_redesign_preflight_2026-08-25\\phase0_6_human_dpn_stage_projection\\analysis_v4\\targeted_repair_2026-09-12\\01_inputs\\M04_ENSEMBL_ROW_MAPPING_AUDIT.tsv.gz",
+  "raw_audit_sha256": "d3f10b24bb2c86f75d8545ee927f222c86062582adb66776b24ec40218b2d312",
+  "mapping_cache": "E:\\1 Codex project\\00_Cross_Project_Integration\\osfu_redesign_preflight_2026-08-25\\phase0_6_human_dpn_stage_projection\\results\\tables\\GSE302658_ensembl_to_ncbi_gene_mapping_2026-08-27.tsv.gz",
+  "mapping_cache_sha256": "77324123f8147f6ed7af108cca82435d7c9eedbe905cb15754e623a039b706c8",
+  "fixed_gene_info": "E:\\1 Codex project\\00_Cross_Project_Integration\\osfu_redesign_preflight_2026-08-25\\phase0_6_human_dpn_stage_projection\\data\\raw\\NCBI_orthology_2026-08-27\\Homo_sapiens.gene_info.gz",
+  "fixed_gene_info_sha256": "7a9622bda5fd16e5e4eab75ecf64d69977f4388e93066d1eb68a9d0a71ed2c8a",
+  "conclusion": "The cache is annotation-derived. Matrix correction is required only if pair comparison identifies substantive mismatch."
+}

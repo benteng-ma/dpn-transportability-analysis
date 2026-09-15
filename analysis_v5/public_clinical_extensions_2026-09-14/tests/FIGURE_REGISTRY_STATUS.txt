@@ -1,0 +1,5 @@
+figure_count=20
+formal_figure_count=19
+diagnostic_figure_count=1
+all_sources_exist=True
+contact_sheet=logs/FIGURE_CONTACT_SHEET_FINAL.png

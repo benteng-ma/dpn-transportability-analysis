@@ -1,0 +1,9 @@
+module	scope	result	interpretation_boundary
+M05 corrected score	two within-muscle comparisons	0 full-score q<0.05	P5 nominal P=0.0286 in each muscle; joint q=0.257; no interaction support
+M04 corrected score	Morton source versus control source	P6 q=0.0009; P5 q=0.0288	diagnosis, anatomy and surgery completely confounded
+M04 whole-gene DE	16702 genes	3959 q<0.05	source-comparison signal, not disease-specific DE
+M05 whole-gene DE	AH, MG and interaction	AH 1288; MG 0; interaction 0 q<0.05	small observational donor groups; AH-only pattern
+M02 EWAS	PROPGER and PROPENG	0 probe q<0.10 in each	simplified sex-adjusted beta branch; primary age/batch model blocked
+M02 DMR	167 and 660 DMRs	3 overlaps; 0 direction-concordant	no cross-cohort directional regional support
+M02 fixed region sets	ten programs per cohort	PROPENG P2/P8 supported; PROPGER none	held-out-only enrichment is not replication
+M03 ROI localization	six donors; nine programs	7 program q<0.05	pathology localization; explicit DPN diagnosis and discovery independence unavailable

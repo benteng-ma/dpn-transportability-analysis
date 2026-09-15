@@ -1,0 +1,7 @@
+analysis_family	program_count	symptom_count	intended_tests	evaluable_tests	BH_denominator	primary_or_sensitivity	interpretation_boundary
+baseline_HC3	8	8	64	64	64	primary	post hoc exploratory
+baseline_Spearman	8	8	64	64	64	sensitivity	post hoc exploratory
+longitudinal_HC3	8	8	64	64	64	primary	post hoc exploratory
+longitudinal_Spearman	8	8	64	64	64	sensitivity	post hoc exploratory
+interaction_omnibus	8	8	64	64	64	primary	post hoc exploratory
+interaction_pairwise	8	8	128	128	128	sensitivity	post hoc exploratory

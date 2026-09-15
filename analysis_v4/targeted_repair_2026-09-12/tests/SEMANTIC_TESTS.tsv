@@ -1,0 +1,18 @@
+check	pass	observed	expected
+M05_has_15_RNA_libraries	True	15	15
+M05_length_not_counted_as_library	True	False	False
+M05_background_contains_nonprogram_genes	True	25380	>0
+M05_background_exceeds_program_gene_count	True	29373 vs 3993	background > program genes
+M05_background_all_finite	True	True	True
+M05_background_no_all_zero_GeneIDs	True	0	0
+M05_unique_GeneID_rows	True	0	0
+M05_P9_remains_ineligible	True	False	False
+M05_sample_score_independent_recalculation	True	0.0	<1e-12
+M05_joint_full_score_BH_recomputed	True	0.0	0
+module_schema_exact	True	['gene', 'module']	['gene', 'module']
+module_non_grey_GeneID_mapping_nonempty	True	4368	>0
+block_deletion_has_evaluable_results	True	632	>0
+M03_sections_reconcile	True	16	16
+M03_DRGs_reconcile	True	7	7
+M03_donors_reconcile	True	6	6
+cross_module_family_size_preserved	True	133	133

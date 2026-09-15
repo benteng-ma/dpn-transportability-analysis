@@ -1,0 +1,4 @@
+module	contrast	tested_genes	q_lt_005	q_lt_010	duplicate_correlation
+M05	AH_DPN_minus_MNC	15870	1288	2777	0.391785419958937
+M05	MG_DPN_minus_MNC	15870	0	0	0.391785419958937
+M05	diagnosis_by_muscle	15870	0	0	0.391785419958937

@@ -1,0 +1,14 @@
+source_id	data_type	role	public_location	redistributed	boundary
+GSE24290	peripheral nerve expression	pathology and progression context	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE24290	no	Public processed source; donor is the inference unit.
+GSE148059	peripheral nerve RNA	group-level RNA context	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148059	no	RNA and RRBS patient pairing was not inferred.
+GSE148060	peripheral nerve RRBS	group-level methylation context	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148060	no	Deposited CpG methylation was analysed at the declared scale.
+GSE148061	ALC parent series	cohort lineage audit	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148061	no	Two assay products are not independent cohorts.
+JCI184075	human DRG and sural supplements	source programs and nerve validation	https://www.jci.org/articles/view/184075	no	Public categorical pathology is distinct from unavailable continuous endpoints.
+GSE285983	human nerve single-cell reference	cell-expression context	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE285983	no	Only two DPN cases; not independent DPN validation.
+GSE168243	human DRG single-cell reference	cell-expression context	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168243	no	hDRG3 and hDRG5 belong to one donor.
+GSE285984	targeted spatial panel	coverage audit	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE285984	no	Insufficient program coverage is not failed replication.
+GSE286347	whole-blood EPIC methylation	painful versus painless DPN	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE286347	no	PROPGER and PROPENG retained as separate source cohorts.
+GSE250152	peripheral nerve expression	non-diabetic injury context	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250152	no	Diagnosis, anatomy and surgical source are confounded.
+GSE143979	skeletal-muscle expression	remote tissue context	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143979	no	AH-only DE does not establish a diagnosis-by-muscle interaction.
+GSE295206	human DRG Visium	pathological ROI and burden context	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE295206	no	Six donors with diabetes history; not explicit independent DPN diagnosis.
+GSE302658	whole-blood RNA and public trial metadata	baseline, longitudinal and treatment-interaction analyses	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE302658	no	Secondary analysis of NCT01201317; concurrent associations are not prediction.

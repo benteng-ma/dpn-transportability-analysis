@@ -1,0 +1,3 @@
+annotation	genes	spearman_rho	correlation_P	same_direction_n	same_direction_fraction	inverse_direction_n	inverse_direction_fraction	directional_heuristic	patient_pairing	P_pooling	status
+promoter	16211	-0.0031784673769987806	NOT_COMPUTED_GENES_NOT_INDEPENDENT	4222	0.2604404416754056	11989	0.7395595583245944	inverse expected only for promoter; descriptive, non-causal	NOT_USED_NO_VERIFIED_KEY	NONE	DESCRIPTIVE_GROUP_LEVEL
+gene_body	13038	-0.00810551649713375	NOT_COMPUTED_GENES_NOT_INDEPENDENT	6124	0.4697039423224421	6914	0.5302960576775579	inverse expected only for promoter; descriptive, non-causal	NOT_USED_NO_VERIFIED_KEY	NONE	DESCRIPTIVE_GROUP_LEVEL

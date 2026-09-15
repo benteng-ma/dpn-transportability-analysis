@@ -1,0 +1,8 @@
+module	accession	public_input	availability	boundary	denominator
+M01	GSE302658	public processed transcript counts and GEO metadata	REUSED_LOCAL	no FASTQ download	104 participants; 205 visits
+M02	GSE286347	public beta matrix, GEO metadata and IDAT filename metadata	REUSED_LOCAL	IDAT files not downloaded for cell estimation	315 samples; 231 DPN
+M03	GSE148059	public processed rlog RNA and metadata	REUSED_LOCAL	no RNA-RRBS pairing	77 RNA samples
+M03	GSE148060	53 public processed CpG-percent files	REUSED_LOCAL	hg19; no RNA pairing	53 RRBS samples
+M03	GSE148061	parent-series public lineage metadata	AUDITED	no patient crosswalk inferred	parent accession
+M04	JCI184075	all locally retained public supplements/source values	REUSED_LOCAL	continuous pathology absent	28 files; 13 XLSX
+M05	GSE295206	public processed spatial H5 and author ROI annotations	REUSED_LOCAL	controlled sequencing not accessed	16 sections; 7 DRGs; 6 donors

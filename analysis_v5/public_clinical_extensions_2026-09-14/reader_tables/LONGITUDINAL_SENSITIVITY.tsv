@@ -1,0 +1,13 @@
+Program	Symptom	Primary beta / q	LOO beta range	Spearman rho / q	Baseline-program-adjusted beta / q
+P1	npsi_total	0.253 / 0.059	0.228 to 0.288	0.166 / 0.712	0.206 / 0.734
+P1	burning_superficial	0.277 / 0.023	0.254 to 0.304	0.228 / 0.548	0.239 / 0.734
+P1	pressing_deep	0.284 / 0.023	0.255 to 0.306	0.151 / 0.712	0.218 / 0.734
+P1	paresthesia_dysesthesia	0.238 / 0.059	0.209 to 0.276	0.151 / 0.712	0.188 / 0.734
+P4	npsi_total	0.247 / 0.059	0.226 to 0.28	0.188 / 0.548	0.149 / 0.734
+P4	burning_superficial	0.284 / 0.023	0.266 to 0.322	0.244 / 0.545	0.217 / 0.734
+P4	pressing_deep	0.26 / 0.035	0.236 to 0.294	0.161 / 0.712	0.147 / 0.734
+P4	paresthesia_dysesthesia	0.273 / 0.023	0.247 to 0.303	0.216 / 0.548	0.17 / 0.734
+P10	npsi_total	0.235 / 0.059	0.212 to 0.266	0.19 / 0.548	0.189 / 0.734
+P10	burning_superficial	0.275 / 0.023	0.254 to 0.31	0.246 / 0.545	0.248 / 0.734
+P10	pressing_deep	0.252 / 0.035	0.224 to 0.281	0.151 / 0.712	0.18 / 0.734
+P10	paresthesia_dysesthesia	0.248 / 0.035	0.223 to 0.276	0.201 / 0.548	0.176 / 0.734

@@ -1,0 +1,7 @@
+{
+  "independent_checks": 30,
+  "all_pass": true,
+  "max_abs_P_diff": 3.1086244689504383e-15,
+  "LOO_results": 12,
+  "all_LOO_sign_preservation_min": 1.0
+}

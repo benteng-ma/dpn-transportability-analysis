@@ -1,0 +1,16 @@
+[
+  {
+    "manifest": "MANIFEST_SHA256.tsv",
+    "records": 18,
+    "bad": [],
+    "pass": true
+  },
+  {
+    "manifest": "reuse_gse302658_codekit\\MANIFEST_SHA256.tsv",
+    "records": 8,
+    "bad": [
+      "scripts/__pycache__/00_validate_canonical_input.cpython-313.pyc"
+    ],
+    "pass": false
+  }
+]

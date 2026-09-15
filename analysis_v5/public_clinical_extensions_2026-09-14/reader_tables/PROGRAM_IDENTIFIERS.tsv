@@ -1,0 +1,11 @@
+Code	Program	Canonical source ID
+P1	Early all cell	original early allcell
+P2	Late all cell	original late allcell
+P3	Late neuronal	original late neuron
+P4	Severity parent	original severity
+P5	Spatial parent	original xenium
+P6	Late core	late shared concordant neuronal core
+P7	Neuron residual	late neuron residual
+P8	All cell residual	late allcell residual
+P9	Severity core	severity neuron shared concordant core
+P10	Severity residual	severity neuron residual

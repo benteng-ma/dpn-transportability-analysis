@@ -1,0 +1,16 @@
+{
+  "project": "phase0_6_human_dpn_stage_projection",
+  "closeout_root": "E:\\1 Codex project\\00_Cross_Project_Integration\\osfu_redesign_preflight_2026-08-25\\phase0_6_human_dpn_stage_projection\\analysis_v4\\closeout_20260912T062015Z",
+  "locked_utc": "2026-09-12T06:46:15.499249+00:00",
+  "baseline": "E:\\1 Codex project\\00_Cross_Project_Integration\\osfu_redesign_preflight_2026-08-25\\phase0_6_human_dpn_stage_projection\\analysis_v4\\targeted_repair_2026-09-12",
+  "strict_members": "E:\\1 Codex project\\00_Cross_Project_Integration\\osfu_redesign_preflight_2026-08-25\\phase0_6_human_dpn_stage_projection\\analysis_v3\\gene_definition_repair_v1\\strict_background_addendum\\inputs\\REPAIRED_MEMBERS.tsv",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "scientific_boundaries": {
+    "no_new_selection": true,
+    "P9_full_RNA": "NOT_EVALUABLE",
+    "fixed_region_role": "RETROSPECTIVE_FIXED_REGION_RETEST",
+    "controlled_access": "NOT_AUTHORIZED",
+    "public_release": "NOT_AUTHORIZED"
+  }
+}

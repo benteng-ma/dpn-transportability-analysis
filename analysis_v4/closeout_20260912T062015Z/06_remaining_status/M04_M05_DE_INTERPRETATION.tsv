@@ -1,0 +1,3 @@
+comparison	primary_tested	secondary_tested	primary_q05	secondary_q05	q05_overlap	primary_only_q05	secondary_only_q05	interpretation
+M04 primary vs sex-adjusted	16702	17321	3959	2456	2338	1621	118	Different design matrices can change edgeR filterByExpr eligibility; the sex-adjusted branch is a distinct sensitivity family.
+M05 diagnosis by muscle	see source	see source	AH=1288; MG=0	interaction=0	NA	NA	NA	AH differential expression does not establish a diagnosis-by-muscle interaction; MG and interaction families had no q<0.05 genes.

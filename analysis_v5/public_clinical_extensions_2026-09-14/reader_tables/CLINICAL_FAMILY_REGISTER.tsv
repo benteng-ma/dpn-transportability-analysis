@@ -1,0 +1,7 @@
+Family	Intended	Evaluable	BH denominator	Role	Boundary
+baseline_HC3	64	64	64	primary	post hoc exploratory
+baseline_Spearman	64	64	64	sensitivity	post hoc exploratory
+longitudinal_HC3	64	64	64	primary	post hoc exploratory
+longitudinal_Spearman	64	64	64	sensitivity	post hoc exploratory
+interaction_omnibus	64	64	64	primary	post hoc exploratory
+interaction_pairwise	128	128	128	sensitivity	post hoc exploratory

@@ -1,0 +1,5 @@
+stat
+rawpval
+diff
+ind.fdr
+is.sig

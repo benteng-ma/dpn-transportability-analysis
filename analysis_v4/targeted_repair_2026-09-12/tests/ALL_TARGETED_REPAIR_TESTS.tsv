@@ -1,0 +1,35 @@
+check	pass	observed	expected
+M05_has_15_RNA_libraries	True	15	15
+M05_length_not_counted_as_library	True	False	False
+M05_background_contains_nonprogram_genes	True	25380	>0
+M05_background_exceeds_program_gene_count	True	29373 vs 3993	background > program genes
+M05_background_all_finite	True	True	True
+M05_background_no_all_zero_GeneIDs	True	0	0
+M05_unique_GeneID_rows	True	0	0
+M05_P9_remains_ineligible	True	False	False
+M05_sample_score_independent_recalculation	True	0.0	<1e-12
+M05_joint_full_score_BH_recomputed	True	0.0	0
+module_schema_exact	True	['gene', 'module']	['gene', 'module']
+module_non_grey_GeneID_mapping_nonempty	True	4368	>0
+block_deletion_has_evaluable_results	True	632	>0
+M03_sections_reconcile	True	16	16
+M03_DRGs_reconcile	True	7	7
+M03_donors_reconcile	True	6	6
+cross_module_family_size_preserved	True	133	133
+historical_v4_manifest_all_unchanged	False	161	162
+historical_v4_scientific_entries_unchanged_excluding_post_manifest_packaging_log	True	161	161
+R_smoke_test	True	PASS	PASS
+M04_whole_gene_full_results	True	34023	>0
+M05_whole_gene_full_results	True	47610	>0
+M02_beta_exact_bytes	True	2699597157	2699597157
+M02_beta_SHA256	True	6c3b6a7f4481463d5cb9c7f320734582c2c284917e10e5a54ec8e7eb7dd5f0f4	6c3b...5f0f4
+M02_all_DPN_samples_QC_pass	True	231	231
+M02_primary_model_remains_blocked	True	BLOCKED_COVARIATES	BLOCKED_COVARIATES
+M02_no_threshold_relaxation_for_CpG_sets	True	q<0.05 seed retained	q<0.05
+M03_tar_exact_bytes	True	9698846720	9698846720
+M03_tar_SHA256	True	1216d4d0fdfa0b26d8522ea8292793a9bc5fe5c5a97f50272773bbeb52c108c5	1216...108c5
+M03_selected_files_complete	True	48	48
+M03_inference_unit_donor	True	6	6
+M03_sections_DRGs_donors	True	16/7/6	16/7/6
+M03_gradient_not_silently_approximated	True	NOT_EVALUABLE_NO_VERIFIED_SPOT_DIAMETER_CALIBRATION	NOT_EVALUABLE
+no_publication_or_submission_side_effect	True	none	none

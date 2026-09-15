@@ -1,0 +1,13 @@
+Program	Symptom	n	Standardized beta	95% CI	P	BH q	Partial R2
+P1	npsi_total	95	0.2526	0.061 to 0.444	0.0102	0.0592	0.0681
+P1	burning_superficial	95	0.2765	0.108 to 0.445	0.0016	0.0231	0.1037
+P1	pressing_deep	95	0.2841	0.12 to 0.448	8.87e-04	0.0231	0.1085
+P1	paresthesia_dysesthesia	95	0.2378	0.058 to 0.418	0.0102	0.0592	0.063
+P4	npsi_total	95	0.2467	0.061 to 0.432	0.0097	0.0592	0.0676
+P4	burning_superficial	95	0.2842	0.115 to 0.453	0.0012	0.0231	0.1134
+P4	pressing_deep	95	0.2605	0.087 to 0.434	0.0037	0.0349	0.0948
+P4	paresthesia_dysesthesia	95	0.2726	0.104 to 0.441	0.0018	0.0231	0.0861
+P10	npsi_total	95	0.2346	0.055 to 0.414	0.0111	0.0592	0.0612
+P10	burning_superficial	95	0.2745	0.11 to 0.439	0.0014	0.0231	0.1061
+P10	pressing_deep	95	0.2516	0.081 to 0.422	0.0044	0.0349	0.0884
+P10	paresthesia_dysesthesia	95	0.2483	0.081 to 0.415	0.004	0.0349	0.0712

@@ -1,0 +1,13 @@
+family	tests	adjustment	scope
+M01_baseline	64	BH	8 programs x 8 baseline domains
+M01_longitudinal	64	BH	8 programs x 8 change domains
+M01_interaction	64	BH	8 programs x 8 omnibus interactions
+M02_PROPGER_sex_batch	840040	BH	all eligible CpGs
+M02_PROPENG_sex_batch	839953	BH	all eligible CpGs
+M02_PROPENG_fixed_regions_batch	167	BH	all frozen regions
+M02_program_burden	2	BH	only P2/P8 meeting >=5 regions; global separate
+M03_RRBS_extreme	1261118	BH	all finite eligible CpGs
+M03_RRBS_ordered	1446560	BH	all finite eligible CpGs
+M03_program_methylation	0	NE	bias-corrected method unavailable
+M05_burden_each_outcome	9	BH	separate family for whole/adjacent/contrast
+M05_arms	18	BH	all eligible fixed arms

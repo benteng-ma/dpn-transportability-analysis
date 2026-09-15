@@ -1,0 +1,3 @@
+Formal class 'CpGannotated' [package "DMRcate"] with 2 slots
+  ..@ ranges:Formal class 'GRanges' [package "GenomicRanges"] with 7 slots
+  ..@ betas : num[0 , 0 ] 
